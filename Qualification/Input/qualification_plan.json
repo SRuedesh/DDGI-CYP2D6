@@ -183,11 +183,11 @@
     },
     {
       "Id": "Clomiphene-DGI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clomiphene-Model/main/Clomiphene-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clomiphene-Model/main/(E)-clomiphene-DGI-Model.json"
     },
     {
       "Id": "Atomoxetine-DGI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Atomoxetine-Model/main/Atomoxetine-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Atomoxetine-Model/main/Atomoxetine-model.json"
     },
     {
       "Id": "Desipramine-DGI",
@@ -195,7 +195,7 @@
     },
     {
       "Id": "Dextromethorphan-DGI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Dextromethorphan-Model/main/dextromethorphan_aggregated_simulations.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Dextromethorphan-Model/main/Dextromethorphan-model.json"
     },
     {
       "Id": "Metoprolol-DGI",
@@ -207,11 +207,11 @@
     },
     {
       "Id": "Paroxetine-DGI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Paroxetine-Model/main/Paroxetine-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Paroxetine-Model/main/paroxetine-model.json"
     },
     {
       "Id": "Risperidone-DGI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Risperidone-Model/main/Risperidone-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Risperidone-Model/main/Risperidone-model.json"
     }
   ],
   "ObservedDataSets": [
