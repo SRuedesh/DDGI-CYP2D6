@@ -399,9 +399,9 @@
         "OutputMappings": [
           {
             "Project": "Quinidine-Digoxin-DDI",
-            "Simulation": "Steiness (1980) - digoxin, iv bolus, 15 mcg/kg, n=6",
+            "Simulation": "Steiness (1980) - digoxin, iv bolus, 15 µg/kg, n=6",
             "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Steiness (1980) - digoxin, iv bolus, 15 mcg/kg, n=6",
+            "ObservedData": "Steiness (1980) - digoxin, iv bolus, 15 µg/kg, n=6",
             "StartTime": 0,
             "TimeUnit": "h",
             "Color": "#941C1C",
@@ -410,9 +410,9 @@
           },
           {
             "Project": "Quinidine-Digoxin-DDI",
-            "Simulation": "Steiness (1980) - DDI - quinidine-digoxin, po/iv bolus, 200 mg/10 mcg/kg, n=6",
+            "Simulation": "Steiness (1980) - DDI - quinidine-digoxin, po/iv bolus, 200 mg/10 µg/kg, n=6",
             "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Steiness (1980) - DDI - quinidine-digoxin, po/iv bolus, 200 mg/10 mcg/kg, n=6, digoxin",
+            "ObservedData": "Steiness (1980) - DDI - quinidine-digoxin, po/iv bolus, 200 mg/10 µg/kg, n=6, digoxin",
             "StartTime": 192,
             "TimeUnit": "h",
             "Color": "#DE5050",
@@ -4197,14 +4197,14 @@
                 "ObservedDataRecordId": 16946,
                 "SimulationControl": {
                   "Project": "Quinidine-Digoxin-DDI",
-                  "Simulation": "Steiness (1980) - digoxin, iv bolus, 15 mcg/kg, n=6",
+                  "Simulation": "Steiness (1980) - digoxin, iv bolus, 15 µg/kg, n=6",
                   "StartTime": 0,
                   "EndTime": 80,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Quinidine-Digoxin-DDI",
-                  "Simulation": "Steiness (1980) - DDI - quinidine-digoxin, po/iv bolus, 200 mg/10 mcg/kg, n=6",
+                  "Simulation": "Steiness (1980) - DDI - quinidine-digoxin, po/iv bolus, 200 mg/10 µg/kg, n=6",
                   "StartTime": 192,
                   "EndTime": 272,
                   "TimeUnit": "h"
