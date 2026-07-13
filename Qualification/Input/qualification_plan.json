@@ -9,7 +9,7 @@
     },
     {
       "Id": "Quinidine-Digoxin-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Quinidine-Digoxin-DDI/main/Quinidine-Digoxin-DDI.json",
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Quinidine-Digoxin-DDI/60368a8137280bbb495c257874445f1fea102b8b/Quinidine-Digoxin-DDI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
@@ -99,13 +99,13 @@
     },
     {
       "Id": "Paroxetine-Desipramine-DDGI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Paroxetine-Desipramine-DDGI/main/Paroxetine-Desipramine-DDGI.json",
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Paroxetine-Desipramine-DDGI/09a7393f648fbe8634f0ce7ef0310696c00f8cee/Paroxetine-Desipramine-DDGI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Quinidine-Desipramine-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Quinidine-Desipramine-DDI/main/Quinidine-Desipramine-DDI.json",
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Quinidine-Desipramine-DDI/c2643acb37a70be0bdfa9ee9a26f6a926fc5d075/Quinidine-Desipramine-DDI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
@@ -183,11 +183,11 @@
     },
     {
       "Id": "Clomiphene-DGI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clomiphene-Model/main/(E)-clomiphene-DGI-Model.json"
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Clomiphene-Model/be0a5e57e74eb1dc1602be7e0c89226b3282afcc/Clomiphene-Model.json"
     },
     {
       "Id": "Atomoxetine-DGI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Atomoxetine-Model/main/Atomoxetine-model.json"
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Atomoxetine-Model/1046d6af4d190ece74dfc463bd9cd759ff8008d0/Atomoxetine-model.json"
     },
     {
       "Id": "Desipramine-DGI",
@@ -199,11 +199,11 @@
     },
     {
       "Id": "Metoprolol-DGI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Metoprolol-Model/main/Metoprolol-Model.json"
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Metoprolol-Model/ad2a8b70e40d102f540af845e5f42aa909c3708c/Metoprolol-Model.json"
     },
     {
       "Id": "Mexiletine-DGI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Mexiletine-Model/main/Mexiletine-Model.json"
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Mexiletine-Model/23d4d2b1d71b3cdabe72b40dc12f90b05dcbd31c/Mexiletine-Model.json"
     },
     {
       "Id": "Paroxetine-DGI",
@@ -211,7 +211,7 @@
     },
     {
       "Id": "Risperidone-DGI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Risperidone-Model/main/Risperidone-model.json"
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Risperidone-Model/d83a72dd77921c57e7af4d8674bc390d00ec4d99/Risperidone-model.json"
     }
   ],
   "ObservedDataSets": [
@@ -399,9 +399,9 @@
         "OutputMappings": [
           {
             "Project": "Quinidine-Digoxin-DDI",
-            "Simulation": "Steiness (1980) - digoxin, iv bolus, 15 µg/kg, n=6",
+            "Simulation": "Steiness (1980) - digoxin, iv bolus, 15 mcg/kg, n=6",
             "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Steiness (1980) - digoxin, iv bolus, 15 µg/kg, n=6",
+            "ObservedData": "Steiness (1980) - digoxin, iv bolus, 15 mcg/kg, n=6",
             "StartTime": 0,
             "TimeUnit": "h",
             "Color": "#941C1C",
@@ -410,9 +410,9 @@
           },
           {
             "Project": "Quinidine-Digoxin-DDI",
-            "Simulation": "Steiness (1980) - DDI - quinidine-digoxin, po/iv bolus, 200 mg/10 µg/kg, n=6",
+            "Simulation": "Steiness (1980) - DDI - quinidine-digoxin, po/iv bolus, 200 mg/10 mcg/kg, n=6",
             "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Steiness (1980) - DDI - quinidine-digoxin, po/iv bolus, 200 mg/10 µg/kg, n=6, digoxin",
+            "ObservedData": "Steiness (1980) - DDI - quinidine-digoxin, po/iv bolus, 200 mg/10 mcg/kg, n=6, digoxin",
             "StartTime": 192,
             "TimeUnit": "h",
             "Color": "#DE5050",
@@ -4197,14 +4197,14 @@
                 "ObservedDataRecordId": 16946,
                 "SimulationControl": {
                   "Project": "Quinidine-Digoxin-DDI",
-                  "Simulation": "Steiness (1980) - digoxin, iv bolus, 15 µg/kg, n=6",
+                  "Simulation": "Steiness (1980) - digoxin, iv bolus, 15 mcg/kg, n=6",
                   "StartTime": 0,
                   "EndTime": 80,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Quinidine-Digoxin-DDI",
-                  "Simulation": "Steiness (1980) - DDI - quinidine-digoxin, po/iv bolus, 200 mg/10 µg/kg, n=6",
+                  "Simulation": "Steiness (1980) - DDI - quinidine-digoxin, po/iv bolus, 200 mg/10 mcg/kg, n=6",
                   "StartTime": 192,
                   "EndTime": 272,
                   "TimeUnit": "h"
@@ -8133,14 +8133,14 @@
                 "ObservedDataRecordId": 900045,
                 "SimulationControl": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Storelli 2018 NM, 5 mg dextromethorphan base (capsule/solution), n=17, AS=2",
+                  "Simulation": "Storelli2018_NM_5mg_DexBase_AS=2",
                   "StartTime": 0,
                   "EndTime": 24.0,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Storelli 2018 IM, 5 mg dextromethorphan base (capsule/solution), n=16",
+                  "Simulation": "Storelli2018_IM_5mg_DexBase",
                   "StartTime": 0,
                   "EndTime": 24.0,
                   "TimeUnit": "h"
@@ -8152,14 +8152,14 @@
                 "ObservedDataRecordId": 900047,
                 "SimulationControl": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Qiu 2016 NM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2",
+                  "Simulation": "Qiu2016_NM_15mg_DexHBr_AS=2",
                   "StartTime": 0,
                   "EndTime": 24.0,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Qiu 2016 IM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=0.5",
+                  "Simulation": "Qiu2016_IM_15mg_DexHBR_AS=0.5",
                   "StartTime": 0,
                   "EndTime": 24.0,
                   "TimeUnit": "h"
@@ -8171,14 +8171,14 @@
                 "ObservedDataRecordId": 900048,
                 "SimulationControl": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Qiu 2016 NM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2",
+                  "Simulation": "Qiu2016_NM_15mg_DexHBr_AS=2",
                   "StartTime": 0,
                   "EndTime": 24.0,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Qiu 2016 NM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=1.25",
+                  "Simulation": "Qiu2016_NM_15mg_DexHBr_AS=1.25",
                   "StartTime": 0,
                   "EndTime": 24.0,
                   "TimeUnit": "h"
@@ -8190,14 +8190,14 @@
                 "ObservedDataRecordId": 900049,
                 "SimulationControl": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Yamazaki 2017 NM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=11, AS=2",
+                  "Simulation": "Yamazaki2017_NM_30mg_DexHBr_AS=2",
                   "StartTime": 0,
                   "EndTime": 24.0,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Yamazaki 2017 IM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=12, AS=0.5",
+                  "Simulation": "Yamazaki2017_IM_30mg_DexHBr_AS=0.5",
                   "StartTime": 0,
                   "EndTime": 24.0,
                   "TimeUnit": "h"
@@ -8209,14 +8209,14 @@
                 "ObservedDataRecordId": 900050,
                 "SimulationControl": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Capon 1996 EM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=6",
+                  "Simulation": "Capon1996_EM_30mg_DexHBr",
                   "StartTime": 0,
                   "EndTime": 168.0,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Capon 1996 PM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=6",
+                  "Simulation": "Capon1996_PM_30mg_DexHBr",
                   "StartTime": 0,
                   "EndTime": 168.0,
                   "TimeUnit": "h"
@@ -8228,14 +8228,14 @@
                 "ObservedDataRecordId": 900051,
                 "SimulationControl": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Gorski 2004 EM, 30 mg dextromethorphan hydromide (capsule/solution), n=11",
+                  "Simulation": "Gorski2004_EM_30mg_DexHBr",
                   "StartTime": 0,
                   "EndTime": 12.0,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Gorski 2004 PM, 30 mg dextromethorphan hydromide (capsule/solution), n=1",
+                  "Simulation": "Gorski2004_PM_30mg_DexHBr",
                   "StartTime": 0,
                   "EndTime": 12.0,
                   "TimeUnit": "h"
@@ -8254,14 +8254,14 @@
                 "ObservedDataRecordId": 900046,
                 "SimulationControl": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Storelli 2018 NM, 5 mg dextromethorphan base (capsule/solution), n=17, AS=2",
+                  "Simulation": "Storelli2018_NM_5mg_DexBase_AS=2",
                   "StartTime": 0,
                   "EndTime": 24.0,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Storelli 2018 IM, 5 mg dextromethorphan base (capsule/solution), n=16",
+                  "Simulation": "Storelli2018_IM_5mg_DexBase",
                   "StartTime": 0,
                   "EndTime": 24.0,
                   "TimeUnit": "h"
