@@ -1,0 +1,3 @@
+The Mexiletine DGI evaluation uses the `Mexiletine-Model` parent model source. The available DGI ratio mapping compares extensive and poor metabolizer predictions for the Labbe 2000 study after mexiletine 100 mg twice daily. The concentration-time profile compares the no-quinidine extensive and poor metabolizer groups from Abolfathi 1993 after mexiletine 200 mg.
+
+The scientific check is the direction and magnitude of the extensive-metabolizer versus poor-metabolizer exposure ratio. This mapping represents a single-subject prediction comparison and is therefore interpreted as mechanistic support rather than as a population-level estimate of activity-score effects.

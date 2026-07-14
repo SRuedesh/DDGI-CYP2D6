@@ -1,6 +1,6 @@
-The Clomiphene DGI evaluation uses the local `Clomiphene-Model` parent repository as source. The parent repository documents a CYP2D6 activity-score panel after oral single-dose clomiphene citrate administration in healthy adult premenopausal women and links the dataset to Kovar et al. 2022 and the supporting CYP2D6 clomiphene metabolism publication by Murdter et al. 2012.
+The Clomiphene DGI evaluation uses the `Clomiphene-Model` parent model source. It documents a CYP2D6 activity-score panel after oral single-dose clomiphene citrate administration in healthy adult premenopausal women and links the dataset to Kovar et al. 2022 and the supporting CYP2D6 clomiphene metabolism publication by Murdter et al. 2012.
 
-The DGI simulations compare plasma concentration-time profiles for (E)-clomiphene, (E)-4-hydroxyclomiphene, (E)-N-desethylclomiphene and (E)-4-hydroxy-N-desethylclomiphene across CYP2D6 activity-score groups. No perpetrator drug is present in these simulations.
+The DGI simulations compare plasma concentration-time profiles for (E)-clomiphene, (E)-4-hydroxyclomiphene, (E)-N-desethylclomiphene and (E)-4-hydroxy-N-desethylclomiphene across CYP2D6 activity-score groups.
 
 | CYP2D6 activity score | Study size | Dose |
 | --- | ---: | --- |

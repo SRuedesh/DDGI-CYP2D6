@@ -36,7 +36,7 @@ The following victim and/or perpetrator PBPK models were applied:
 - **Ketoconazole**
   Model snapshot: https://github.com/Open-Systems-Pharmacology/Ketoconazole-Model/blob/main/Ketoconazole-Model.json
 - **Metoprolol**
-  Model file: https://github.com/Open-Systems-Pharmacology/Metoprolol-Model/blob/main/Metoprolol-Model.pksim5
+  Model snapshot: https://github.com/SRuedesh/Metoprolol-Model/blob/ad2a8b70e40d102f540af845e5f42aa909c3708c/Metoprolol-Model.json
 - **Mexiletine** 
   Model snapshot: https://github.com/Open-Systems-Pharmacology/Mexiletine-Model/blob/main/Mexiletine-Model.json
 - **Omeprazole**

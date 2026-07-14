@@ -1,4 +1,4 @@
-The Atomoxetine DGI evaluation uses the local `Atomoxetine-Model` parent repository as source. The parent repository documents CYP2D6 activity-score-dependent atomoxetine clearance and links the activity-score framework to Ruedesheim et al. 2022.
+The Atomoxetine DGI evaluation uses the `Atomoxetine-Model` parent model source. It documents CYP2D6 activity-score-dependent atomoxetine clearance and links the activity-score framework to Ruedesheim et al. 2022.
 
 Two activity-score datasets are included as separate DGI plot groups to avoid cross-study pooling:
 

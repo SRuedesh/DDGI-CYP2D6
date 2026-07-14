@@ -195,7 +195,7 @@
     },
     {
       "Id": "Dextromethorphan-DGI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Dextromethorphan-Model/main/Dextromethorphan-model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Dextromethorphan-Model/main/dextromethorphan_aggregated_simulations.json"
     },
     {
       "Id": "Metoprolol-DGI",
@@ -4119,6 +4119,756 @@
             "Symbol": "Diamond"
           }
         ]
+      },
+      {
+        "SectionReference": "dextromethorphan-dgi-timeprofile",
+        "Title": "Dextromethorphan DGI - Dextromethorphan",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Dextromethorphan-DGI",
+            "Simulation": "Storelli 2018 NM, 5 mg dextromethorphan base (capsule/solution), n=17, AS=2",
+            "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Storelli 2018 NM, dextromethorphan, 5 mg dextromethorphan base (capsule/solution), n=17, AS=2",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Storelli 2018 NM, AS=2, n=17",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Dextromethorphan-DGI",
+            "Simulation": "Storelli 2018 IM, 5 mg dextromethorphan base (capsule/solution), n=16",
+            "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Storelli 2018 IM, dextromethorphan, 5 mg dextromethorphan base (capsule/solution), n=16",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Storelli 2018 IM, IM, n=16",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "dextromethorphan-dgi-timeprofile",
+        "Title": "Dextromethorphan DGI - Dextromethorphan",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Dextromethorphan-DGI",
+            "Simulation": "Qiu 2016 NM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2",
+            "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Qiu 2016 NM, dextromethorphan, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Qiu 2016 NM, AS=2, n=6",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Dextromethorphan-DGI",
+            "Simulation": "Qiu 2016 IM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=0.5",
+            "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Qiu 2016 IM, dextromethorphan, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=0.5",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Qiu 2016 IM, AS=0.5, n=6",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "dextromethorphan-dgi-timeprofile",
+        "Title": "Dextromethorphan DGI - Dextromethorphan",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Dextromethorphan-DGI",
+            "Simulation": "Qiu 2016 NM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2",
+            "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Qiu 2016 NM, dextromethorphan, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Qiu 2016 NM, AS=2, n=6",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Dextromethorphan-DGI",
+            "Simulation": "Qiu 2016 NM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=1.25",
+            "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Qiu 2016 NM, dextromethorphan, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=1.25",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Qiu 2016 NM, AS=1.25, n=6",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "dextromethorphan-dgi-timeprofile",
+        "Title": "Dextromethorphan DGI - Dextromethorphan",
+        "SimulationDuration": 168,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Dextromethorphan-DGI",
+            "Simulation": "Capon 1996 EM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=6",
+            "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Capon 1996 EM, dextromethorphan, 30 mg dextromethorphan hydrobromide (capsule/solution), n=6",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Capon 1996 EM, NM, n=6",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Dextromethorphan-DGI",
+            "Simulation": "Capon 1996 PM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=6",
+            "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Capon 1996 PM, dextromethorphan, 30 mg dextromethorphan hydrobromide (capsule/solution), n=6",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Capon 1996 PM, PM, n=6",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "dextromethorphan-dgi-timeprofile",
+        "Title": "Dextromethorphan DGI - Dextromethorphan",
+        "SimulationDuration": 12,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Dextromethorphan-DGI",
+            "Simulation": "Gorski 2004 EM, 30 mg dextromethorphan hydromide (capsule/solution), n=11",
+            "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Gorski 2004 EM, dextromethorphan, 30 mg dextromethorphan hydromide (capsule/solution), n=11",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Gorski 2004 EM, NM, n=11",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Dextromethorphan-DGI",
+            "Simulation": "Gorski 2004 PM, 30 mg dextromethorphan hydromide (capsule/solution), n=1",
+            "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Gorski 2004 PM, dextromethorphan, 30 mg dextromethorphan hydromide (capsule/solution), n=1",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Gorski 2004 PM, PM, n=1",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "dextromethorphan-dgi-timeprofile",
+        "Title": "Dextromethorphan DGI - Dextrorphan",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Dextromethorphan-DGI",
+            "Simulation": "Storelli 2018 NM, 5 mg dextromethorphan base (capsule/solution), n=17, AS=2",
+            "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Storelli 2018 NM, dextrorphan, 5 mg dextromethorphan base (capsule/solution), n=17, AS=2",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Storelli 2018 NM, AS=2, n=17",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Dextromethorphan-DGI",
+            "Simulation": "Storelli 2018 IM, 5 mg dextromethorphan base (capsule/solution), n=16",
+            "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Storelli 2018 IM, dextrorphan, 5 mg dextromethorphan base (capsule/solution), n=16",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Storelli 2018 IM, IM, n=16",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "metoprolol-dgi-timeprofile",
+        "Title": "Metoprolol DGI - Metoprolol racemate",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Bae 2014 NM, 100 mg tartrate IR, n=4, AS=2",
+            "Output": "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
+            "ObservedData": "Bae 2014 NM, metoprolol, 100 mg tartrate IR, n=4, AS=2",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Bae 2014 NM, AS=2, n=4",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Bae 2014 IM, 100 mg tartrate IR, n=3, AS=0.5",
+            "Output": "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
+            "ObservedData": "Bae 2014 IM, metoprolol, 100 mg tartrate IR, n=3, AS=0.5",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Bae 2014 IM, AS=0.5, n=3",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "metoprolol-dgi-timeprofile",
+        "Title": "Metoprolol DGI - Metoprolol racemate",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Jin 2008 NM, 100 mg tartrate IR, n=6, AS=2",
+            "Output": "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
+            "ObservedData": "Jin 2008 NM, metoprolol, 100 mg tartrate IR, n=6, AS=2",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Jin 2008 NM, AS=2, n=6",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Jin 2008 IM, 100 mg tartrate IR, n=5, AS=0.5",
+            "Output": "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
+            "ObservedData": "Jin 2008 IM, metoprolol, 100 mg tartrate IR, n=5, AS=0.5",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Jin 2008 IM, AS=0.5, n=5",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "metoprolol-dgi-timeprofile",
+        "Title": "Metoprolol DGI - Metoprolol racemate",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Jin 2008 NM, 100 mg tartrate IR, n=6, AS=2",
+            "Output": "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
+            "ObservedData": "Jin 2008 NM, metoprolol, 100 mg tartrate IR, n=6, AS=2",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Jin 2008 NM, AS=2, n=6",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Jin 2008 NM, 100 mg tartrate IR, n=7, AS=1.25",
+            "Output": "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
+            "ObservedData": "Jin 2008 NM, metoprolol, 100 mg tartrate IR, n=7, AS=1.25",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Jin 2008 NM, AS=1.25, n=7",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "metoprolol-dgi-timeprofile",
+        "Title": "Metoprolol DGI - Metoprolol racemate",
+        "SimulationDuration": 48,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Hamelin 2000 NM, 100 mg tartrate IR, n=10",
+            "Output": "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
+            "ObservedData": "Hamelin 2000 NM, metoprolol, 100 mg tartrate IR, n=10",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Hamelin 2000 NM, NM, n=10",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Hamelin 2000 PM, 100 mg tartrate IR, n=6",
+            "Output": "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
+            "ObservedData": "Hamelin 2000 PM, metoprolol, 100 mg tartrate IR, n=6",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Hamelin 2000 PM, PM, n=6",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "metoprolol-dgi-timeprofile",
+        "Title": "Metoprolol DGI - Metoprolol racemate",
+        "SimulationDuration": 48,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Sharma 2005 NM, 100 mg tartrate, n=20, AS=1.5",
+            "Output": "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
+            "ObservedData": "Sharma 2005 NM, metoprolol, 100 mg tartrate, n=20, AS=1.5",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Sharma 2005 NM, AS=1.5, n=20",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Sharma 2005 PM, 100 mg tartrate, n=20, AS=0",
+            "Output": "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
+            "ObservedData": "Sharma 2005 PM, metoprolol, 100 mg tartrate, n=20, AS=0",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Sharma 2005 PM, AS=0, n=20",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "metoprolol-dgi-timeprofile",
+        "Title": "Metoprolol DGI - alpha-Hydroxymetoprolol",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Bae 2014 NM, 100 mg tartrate IR, n=4, AS=2",
+            "Output": "Organism|PeripheralVenousBlood|alpha-Hydroxymetoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Bae 2014 NM, alpha-hydroxymetoprolol, 100 mg tartrate IR, n=4, AS=2",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Bae 2014 NM, AS=2, n=4",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Bae 2014 IM, 100 mg tartrate IR, n=3, AS=0.5",
+            "Output": "Organism|PeripheralVenousBlood|alpha-Hydroxymetoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Bae 2014 IM, alpha-hydroxymetoprolol, 100 mg tartrate IR, n=3, AS=0.5",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Bae 2014 IM, AS=0.5, n=3",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "metoprolol-dgi-timeprofile",
+        "Title": "Metoprolol DGI - alpha-Hydroxymetoprolol",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Jin 2008 NM, 100 mg tartrate IR, n=6, AS=2",
+            "Output": "Organism|PeripheralVenousBlood|alpha-Hydroxymetoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Jin 2008 NM, alpha-hydroxymetoprolol, 100 mg tartrate IR, n=6, AS=2",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Jin 2008 NM, AS=2, n=6",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Jin 2008 IM, 100 mg tartrate IR, n=5, AS=0.5",
+            "Output": "Organism|PeripheralVenousBlood|alpha-Hydroxymetoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Jin 2008 IM, alpha-hydroxymetoprolol, 100 mg tartrate IR, n=5, AS=0.5",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Jin 2008 IM, AS=0.5, n=5",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "metoprolol-dgi-timeprofile",
+        "Title": "Metoprolol DGI - alpha-Hydroxymetoprolol",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Jin 2008 NM, 100 mg tartrate IR, n=6, AS=2",
+            "Output": "Organism|PeripheralVenousBlood|alpha-Hydroxymetoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Jin 2008 NM, alpha-hydroxymetoprolol, 100 mg tartrate IR, n=6, AS=2",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Jin 2008 NM, AS=2, n=6",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Jin 2008 NM, 100 mg tartrate IR, n=7, AS=1.25",
+            "Output": "Organism|PeripheralVenousBlood|alpha-Hydroxymetoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Jin 2008 NM, alpha-hydroxymetoprolol, 100 mg tartrate IR, n=7, AS=1.25",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Jin 2008 NM, AS=1.25, n=7",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "metoprolol-dgi-timeprofile",
+        "Title": "Metoprolol DGI - R-Metoprolol",
+        "SimulationDuration": 48,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Sharma 2005 NM, 100 mg tartrate, n=20, AS=1.5",
+            "Output": "Organism|PeripheralVenousBlood|R-Metoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Sharma 2005 NM, (R)-metoprolol, 100 mg tartrate, n=20, AS=1.5",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Sharma 2005 NM, AS=1.5, n=20",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Sharma 2005 PM, 100 mg tartrate, n=20, AS=0",
+            "Output": "Organism|PeripheralVenousBlood|R-Metoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Sharma 2005 PM, (R)-metoprolol, 100 mg tartrate, n=20, AS=0",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Sharma 2005 PM, AS=0, n=20",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "metoprolol-dgi-timeprofile",
+        "Title": "Metoprolol DGI - R-Metoprolol",
+        "SimulationDuration": 12,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Huang 1999 NM, 100 mg tartrate IR, n=16, AS=2",
+            "Output": "Organism|PeripheralVenousBlood|R-Metoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Huang 1999 NM, (R)-metoprolol, 100 mg tartrate IR, n=16, AS=2",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Huang 1999 NM, AS=2, n=16",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Huang 1999 IM, 100 mg tartrate IR, n=12, AS=0.5",
+            "Output": "Organism|PeripheralVenousBlood|R-Metoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Huang 1999 IM, (R)-metoprolol, 100 mg tartrate IR, n=12, AS=0.5",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Huang 1999 IM, AS=0.5, n=12",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "metoprolol-dgi-timeprofile",
+        "Title": "Metoprolol DGI - R-Metoprolol",
+        "SimulationDuration": 12,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Huang 1999 NM, 100 mg tartrate IR, n=16, AS=2",
+            "Output": "Organism|PeripheralVenousBlood|R-Metoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Huang 1999 NM, (R)-metoprolol, 100 mg tartrate IR, n=16, AS=2",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Huang 1999 NM, AS=2, n=16",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Huang 1999 NM, 100 mg tartrate IR, n=12, AS=1.25",
+            "Output": "Organism|PeripheralVenousBlood|R-Metoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Huang 1999 NM, (R)-metoprolol, 100 mg tartrate IR, n=12, AS=1.25",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Huang 1999 NM, AS=1.25, n=12",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "metoprolol-dgi-timeprofile",
+        "Title": "Metoprolol DGI - R-Metoprolol",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Kirchheiner/Seeringer 2008 NM, 100 mg tartrate IR, n=13, AS=2",
+            "Output": "Organism|PeripheralVenousBlood|R-Metoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Seeringer 2008 NM, (R)-metoprolol, 100 mg tartrate IR, n=13, AS=2",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Kirchheiner/Seeringer 2008 NM, AS=2, n=13",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Kirchheiner/Seeringer 2008 PM, 100 mg tartrate IR, n=4, AS=0",
+            "Output": "Organism|PeripheralVenousBlood|R-Metoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Seeringer 2008 PM, (R)-metoprolol, 100 mg tartrate IR, n=4, AS=0",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Kirchheiner/Seeringer 2008 PM, AS=0, n=4",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "metoprolol-dgi-timeprofile",
+        "Title": "Metoprolol DGI - R-Metoprolol",
+        "SimulationDuration": 10,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Kirchheiner/Seeringer 2008 NM, 100 mg tartrate IR, n=13, AS=2",
+            "Output": "Organism|PeripheralVenousBlood|R-Metoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Seeringer 2008 NM, (R)-metoprolol, 100 mg tartrate IR, n=13, AS=2",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Kirchheiner/Seeringer 2008 NM, AS=2, n=13",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Kirchheiner/Seeringer 2008 UM, 100 mg tartrate IR, n=12, AS=3",
+            "Output": "Organism|PeripheralVenousBlood|R-Metoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Seeringer 2008 UM, (R)-metoprolol, 100 mg tartrate IR, n=12, AS=3",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Kirchheiner/Seeringer 2008 UM, AS=3, n=12",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "metoprolol-dgi-timeprofile",
+        "Title": "Metoprolol DGI - S-Metoprolol",
+        "SimulationDuration": 48,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Sharma 2005 NM, 100 mg tartrate, n=20, AS=1.5",
+            "Output": "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Sharma 2005 NM, (S)-metoprolol, 100 mg tartrate, n=20, AS=1.5",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Sharma 2005 NM, AS=1.5, n=20",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Sharma 2005 PM, 100 mg tartrate, n=20, AS=0",
+            "Output": "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Sharma 2005 PM, (S)-metoprolol, 100 mg tartrate, n=20, AS=0",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Sharma 2005 PM, AS=0, n=20",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "metoprolol-dgi-timeprofile",
+        "Title": "Metoprolol DGI - S-Metoprolol",
+        "SimulationDuration": 12,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Huang 1999 NM, 100 mg tartrate IR, n=16, AS=2",
+            "Output": "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Huang 1999 NM, (S)-metoprolol, 100 mg tartrate IR, n=16, AS=2",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Huang 1999 NM, AS=2, n=16",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Huang 1999 IM, 100 mg tartrate IR, n=12, AS=0.5",
+            "Output": "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Huang 1999 IM, (S)-metoprolol, 100 mg tartrate IR, n=12, AS=0.5",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Huang 1999 IM, AS=0.5, n=12",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "metoprolol-dgi-timeprofile",
+        "Title": "Metoprolol DGI - S-Metoprolol",
+        "SimulationDuration": 12,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Huang 1999 NM, 100 mg tartrate IR, n=16, AS=2",
+            "Output": "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Huang 1999 NM, (S)-metoprolol, 100 mg tartrate IR, n=16, AS=2",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Huang 1999 NM, AS=2, n=16",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Huang 1999 NM, 100 mg tartrate IR, n=12, AS=1.25",
+            "Output": "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Huang 1999 NM, (S)-metoprolol, 100 mg tartrate IR, n=12, AS=1.25",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Huang 1999 NM, AS=1.25, n=12",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "metoprolol-dgi-timeprofile",
+        "Title": "Metoprolol DGI - S-Metoprolol",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Kirchheiner/Seeringer 2008 NM, 100 mg tartrate IR, n=13, AS=2",
+            "Output": "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Seeringer 2008 NM, (S)-metoprolol, 100 mg tartrate IR, n=13, AS=2",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Kirchheiner/Seeringer 2008 NM, AS=2, n=13",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Kirchheiner/Seeringer 2008 PM, 100 mg tartrate IR, n=4, AS=0",
+            "Output": "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Seeringer 2008 PM, (S)-metoprolol, 100 mg tartrate IR, n=4, AS=0",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Kirchheiner/Seeringer 2008 PM, AS=0, n=4",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "metoprolol-dgi-timeprofile",
+        "Title": "Metoprolol DGI - S-Metoprolol",
+        "SimulationDuration": 10,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Kirchheiner/Seeringer 2008 NM, 100 mg tartrate IR, n=13, AS=2",
+            "Output": "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Seeringer 2008 NM, (S)-metoprolol, 100 mg tartrate IR, n=13, AS=2",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Kirchheiner/Seeringer 2008 NM, AS=2, n=13",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Metoprolol-DGI",
+            "Simulation": "Kirchheiner/Seeringer 2008 UM, 100 mg tartrate IR, n=12, AS=3",
+            "Output": "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Seeringer 2008 UM, (S)-metoprolol, 100 mg tartrate IR, n=12, AS=3",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Kirchheiner/Seeringer 2008 UM, AS=3, n=12",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "mexiletine-dgi-timeprofile",
+        "Title": "Mexiletine DGI - Mexiletine",
+        "SimulationDuration": 48,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Quinidine-Mexiletine-DDGI",
+            "Simulation": "Abolfathi (1993) - mexiletine hydrochloride, 200 mg, po, n=10 (EM)",
+            "Output": "Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Abolfathi (1993) - mexiletine hydrochloride, 200 mg, po, n=10 (EM), mexiletine",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#0072B2",
+            "Caption": "Abolfathi 1993 EM, n=10",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Quinidine-Mexiletine-DDGI",
+            "Simulation": "Abolfathi (1993) - mexiletine hydrochloride, 200 mg, po, n=4 (PM)",
+            "Output": "Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Abolfathi (1993) - mexiletine hydrochloride, 200 mg, po, n=4 (PM), mexiletine",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#D55E00",
+            "Caption": "Abolfathi 1993 PM, n=4",
+            "Symbol": "Triangle"
+          }
+        ]
       }
     ],
     "DDIRatioPlots": [
@@ -4127,6 +4877,7 @@
         "Title": "CYP2D6 DDIs",
         "PKParameter": "AUC|CMAX",
         "PlotType": "predictedVsObserved|residualsVsObserved",
+        "GuestDelta": 1.25,
         "Artifacts": [
           "Plot",
           "GMFE",
@@ -5415,6 +6166,7 @@
         "Title": "CYP2D6 DDGIs",
         "PKParameter": "AUC|CMAX",
         "PlotType": "predictedVsObserved|residualsVsObserved",
+        "GuestDelta": 1.25,
         "Artifacts": [
           "Plot",
           "GMFE",
@@ -7197,6 +7949,7 @@
         "Title": "CYP2D6 DGIs",
         "PKParameter": "AUC|CMAX",
         "PlotType": "predictedVsObserved|residualsVsObserved",
+        "GuestDelta": 1.25,
         "Artifacts": [
           "Plot",
           "GMFE",
@@ -7682,14 +8435,14 @@
                   "Project": "Paroxetine-Atomoxetine-DDGI",
                   "Simulation": "Jung 2020 WT_WT - Atomoxetine - po, 20 mg, sd n=10",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Paroxetine-Atomoxetine-DDGI",
                   "Simulation": "Jung 2020 10_10 - Atomoxetine - po, 20 mg, sd n=7",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 }
               },
@@ -7701,14 +8454,14 @@
                   "Project": "Paroxetine-Atomoxetine-DDGI",
                   "Simulation": "Jung 2020 WT_WT - Atomoxetine - po, 20 mg, sd n=10",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Paroxetine-Atomoxetine-DDGI",
                   "Simulation": "Jung 2020 WT_10 - Atomoxetine - po, 20 mg, sd n=9",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 }
               },
@@ -7720,14 +8473,14 @@
                   "Project": "Atomoxetine-DGI",
                   "Simulation": "Sauer (2003) - atomoxetine, 20 mg b.i.d., po, n=4 (EM)",
                   "StartTime": 0,
-                  "EndTime": 216.0,
+                  "EndTime": 216,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Atomoxetine-DGI",
                   "Simulation": "Sauer (2003) - atomoxetine, 20 mg b.i.d., po, n=3 (PM)",
                   "StartTime": 0,
-                  "EndTime": 216.0,
+                  "EndTime": 216,
                   "TimeUnit": "h"
                 }
               },
@@ -7739,14 +8492,14 @@
                   "Project": "Atomoxetine-DGI",
                   "Simulation": "Todor (2016) - atomoxetine, 25 mg, po, n=18 (NM)",
                   "StartTime": 0,
-                  "EndTime": 48.0,
+                  "EndTime": 48,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Atomoxetine-DGI",
                   "Simulation": "Todor (2016) - atomoxetine, 25 mg, po, n=2 (PM)",
                   "StartTime": 0,
-                  "EndTime": 48.0,
+                  "EndTime": 48,
                   "TimeUnit": "h"
                 }
               }
@@ -7822,14 +8575,14 @@
                   "Project": "Risperidone-DGI",
                   "Simulation": "Bondolfi (2002) - risperidone, 2 mg, po, md, n=8 (EM)",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Risperidone-DGI",
                   "Simulation": "Bondolfi (2002) - risperidone, 2 mg, po, md, n=2 (PM)",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 }
               }
@@ -7912,14 +8665,14 @@
                   "Project": "Desipramine-DGI",
                   "Simulation": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (EM)",
                   "StartTime": 0,
-                  "EndTime": 432.0,
+                  "EndTime": 432,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Desipramine-DGI",
                   "Simulation": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=3 (PM)",
                   "StartTime": 0,
-                  "EndTime": 432.0,
+                  "EndTime": 432,
                   "TimeUnit": "h"
                 }
               },
@@ -7931,14 +8684,14 @@
                   "Project": "Desipramine-DGI",
                   "Simulation": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (EM)",
                   "StartTime": 0,
-                  "EndTime": 72.0,
+                  "EndTime": 72,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Desipramine-DGI",
                   "Simulation": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (fast EM)",
                   "StartTime": 0,
-                  "EndTime": 72.0,
+                  "EndTime": 72,
                   "TimeUnit": "h"
                 }
               },
@@ -7950,14 +8703,14 @@
                   "Project": "Desipramine-DGI",
                   "Simulation": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM)",
                   "StartTime": 0,
-                  "EndTime": 96.0,
+                  "EndTime": 96,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Desipramine-DGI",
                   "Simulation": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=6 (PM)",
                   "StartTime": 0,
-                  "EndTime": 96.0,
+                  "EndTime": 96,
                   "TimeUnit": "h"
                 }
               },
@@ -7969,14 +8722,14 @@
                   "Project": "Paroxetine-Desipramine-DDGI",
                   "Simulation": "Brosen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM)",
                   "StartTime": 0,
-                  "EndTime": 240.0,
+                  "EndTime": 240,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Paroxetine-Desipramine-DDGI",
                   "Simulation": "Brosen (1993) - desipramine hydrochloride, po, 100 mg, n=8 (PM)",
                   "StartTime": 0,
-                  "EndTime": 240.0,
+                  "EndTime": 240,
                   "TimeUnit": "h"
                 }
               },
@@ -7988,14 +8741,14 @@
                   "Project": "Paroxetine-Desipramine-DDGI",
                   "Simulation": "Brosen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM)",
                   "StartTime": 0,
-                  "EndTime": 48.0,
+                  "EndTime": 48,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Paroxetine-Desipramine-DDGI",
                   "Simulation": "Brosen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM)",
                   "StartTime": 0,
-                  "EndTime": 48.0,
+                  "EndTime": 48,
                   "TimeUnit": "h"
                 }
               },
@@ -8007,14 +8760,14 @@
                   "Project": "Desipramine-DGI",
                   "Simulation": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2)",
                   "StartTime": 0,
-                  "EndTime": 14.0,
+                  "EndTime": 14,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Desipramine-DGI",
                   "Simulation": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2.5)",
                   "StartTime": 0,
-                  "EndTime": 14.0,
+                  "EndTime": 14,
                   "TimeUnit": "h"
                 }
               },
@@ -8026,14 +8779,14 @@
                   "Project": "Desipramine-DGI",
                   "Simulation": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM)",
                   "StartTime": 0,
-                  "EndTime": 408.0,
+                  "EndTime": 408,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Desipramine-DGI",
                   "Simulation": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (PM)",
                   "StartTime": 0,
-                  "EndTime": 408.0,
+                  "EndTime": 408,
                   "TimeUnit": "h"
                 }
               },
@@ -8045,14 +8798,14 @@
                   "Project": "Desipramine-DGI",
                   "Simulation": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM)",
                   "StartTime": 0,
-                  "EndTime": 72.0,
+                  "EndTime": 72,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Desipramine-DGI",
                   "Simulation": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM)",
                   "StartTime": 0,
-                  "EndTime": 72.0,
+                  "EndTime": 72,
                   "TimeUnit": "h"
                 }
               }
@@ -8071,14 +8824,14 @@
                   "Project": "Paroxetine-Desipramine-DDGI",
                   "Simulation": "Brosen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM)",
                   "StartTime": 0,
-                  "EndTime": 72.0,
+                  "EndTime": 72,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Paroxetine-Desipramine-DDGI",
                   "Simulation": "Brosen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM)",
                   "StartTime": 0,
-                  "EndTime": 72.0,
+                  "EndTime": 72,
                   "TimeUnit": "h"
                 }
               },
@@ -8090,14 +8843,14 @@
                   "Project": "Desipramine-DGI",
                   "Simulation": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2)",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Desipramine-DGI",
                   "Simulation": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2.5)",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 }
               },
@@ -8109,14 +8862,14 @@
                   "Project": "Desipramine-DGI",
                   "Simulation": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM)",
                   "StartTime": 0,
-                  "EndTime": 48.0,
+                  "EndTime": 48,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Desipramine-DGI",
                   "Simulation": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM)",
                   "StartTime": 0,
-                  "EndTime": 48.0,
+                  "EndTime": 48,
                   "TimeUnit": "h"
                 }
               }
@@ -8133,16 +8886,16 @@
                 "ObservedDataRecordId": 900045,
                 "SimulationControl": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Storelli2018_NM_5mg_DexBase_AS=2",
+                  "Simulation": "Storelli 2018 NM, 5 mg dextromethorphan base (capsule/solution), n=17, AS=2",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Storelli2018_IM_5mg_DexBase",
+                  "Simulation": "Storelli 2018 IM, 5 mg dextromethorphan base (capsule/solution), n=16",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 }
               },
@@ -8152,16 +8905,16 @@
                 "ObservedDataRecordId": 900047,
                 "SimulationControl": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Qiu2016_NM_15mg_DexHBr_AS=2",
+                  "Simulation": "Qiu 2016 NM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Qiu2016_IM_15mg_DexHBR_AS=0.5",
+                  "Simulation": "Qiu 2016 IM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=0.5",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 }
               },
@@ -8171,16 +8924,16 @@
                 "ObservedDataRecordId": 900048,
                 "SimulationControl": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Qiu2016_NM_15mg_DexHBr_AS=2",
+                  "Simulation": "Qiu 2016 NM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Qiu2016_NM_15mg_DexHBr_AS=1.25",
+                  "Simulation": "Qiu 2016 NM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=1.25",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 }
               },
@@ -8190,16 +8943,16 @@
                 "ObservedDataRecordId": 900049,
                 "SimulationControl": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Yamazaki2017_NM_30mg_DexHBr_AS=2",
+                  "Simulation": "Yamazaki 2017 NM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=11, AS=2",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Yamazaki2017_IM_30mg_DexHBr_AS=0.5",
+                  "Simulation": "Yamazaki 2017 IM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=12, AS=0.5",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 }
               },
@@ -8209,16 +8962,16 @@
                 "ObservedDataRecordId": 900050,
                 "SimulationControl": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Capon1996_EM_30mg_DexHBr",
+                  "Simulation": "Capon 1996 EM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=6",
                   "StartTime": 0,
-                  "EndTime": 168.0,
+                  "EndTime": 168,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Capon1996_PM_30mg_DexHBr",
+                  "Simulation": "Capon 1996 PM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=6",
                   "StartTime": 0,
-                  "EndTime": 168.0,
+                  "EndTime": 168,
                   "TimeUnit": "h"
                 }
               },
@@ -8228,16 +8981,16 @@
                 "ObservedDataRecordId": 900051,
                 "SimulationControl": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Gorski2004_EM_30mg_DexHBr",
+                  "Simulation": "Gorski 2004 EM, 30 mg dextromethorphan hydromide (capsule/solution), n=11",
                   "StartTime": 0,
-                  "EndTime": 12.0,
+                  "EndTime": 12,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Gorski2004_PM_30mg_DexHBr",
+                  "Simulation": "Gorski 2004 PM, 30 mg dextromethorphan hydromide (capsule/solution), n=1",
                   "StartTime": 0,
-                  "EndTime": 12.0,
+                  "EndTime": 12,
                   "TimeUnit": "h"
                 }
               }
@@ -8254,16 +9007,16 @@
                 "ObservedDataRecordId": 900046,
                 "SimulationControl": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Storelli2018_NM_5mg_DexBase_AS=2",
+                  "Simulation": "Storelli 2018 NM, 5 mg dextromethorphan base (capsule/solution), n=17, AS=2",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Storelli2018_IM_5mg_DexBase",
+                  "Simulation": "Storelli 2018 IM, 5 mg dextromethorphan base (capsule/solution), n=16",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 }
               }
@@ -8282,14 +9035,14 @@
                   "Project": "Quinidine-Metoprolol-DDGI",
                   "Simulation": "Leemann (1993) - metoprolol tartrate 20 mg, iv, n=4 (EM)",
                   "StartTime": 0,
-                  "EndTime": 8.0,
+                  "EndTime": 8,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Quinidine-Metoprolol-DDGI",
                   "Simulation": "Leemann (1993) - metoprolol tartrate 20 mg, iv, n=3 (PM)",
                   "StartTime": 0,
-                  "EndTime": 8.0,
+                  "EndTime": 8,
                   "TimeUnit": "h"
                 }
               },
@@ -8301,14 +9054,14 @@
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Bae 2014 NM, 100 mg tartrate IR, n=4, AS=2",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Bae 2014 IM, 100 mg tartrate IR, n=3, AS=0.5",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 }
               },
@@ -8320,14 +9073,14 @@
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Jin 2008 NM, 100 mg tartrate IR, n=6, AS=2",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Jin 2008 IM, 100 mg tartrate IR, n=5, AS=0.5",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 }
               },
@@ -8339,14 +9092,14 @@
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Jin 2008 NM, 100 mg tartrate IR, n=6, AS=2",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Jin 2008 NM, 100 mg tartrate IR, n=7, AS=1.25",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 }
               },
@@ -8358,14 +9111,14 @@
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Hamelin 2000 NM, 100 mg tartrate IR, n=10",
                   "StartTime": 0,
-                  "EndTime": 48.0,
+                  "EndTime": 48,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Hamelin 2000 PM, 100 mg tartrate IR, n=6",
                   "StartTime": 0,
-                  "EndTime": 48.0,
+                  "EndTime": 48,
                   "TimeUnit": "h"
                 }
               },
@@ -8377,14 +9130,14 @@
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Sharma 2005 NM, 100 mg tartrate, n=20, AS=1.5",
                   "StartTime": 0,
-                  "EndTime": 48.0,
+                  "EndTime": 48,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Sharma 2005 PM, 100 mg tartrate, n=20, AS=0",
                   "StartTime": 0,
-                  "EndTime": 48.0,
+                  "EndTime": 48,
                   "TimeUnit": "h"
                 }
               }
@@ -8403,14 +9156,14 @@
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Bae 2014 NM, 100 mg tartrate IR, n=4, AS=2",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Bae 2014 IM, 100 mg tartrate IR, n=3, AS=0.5",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 }
               },
@@ -8422,14 +9175,14 @@
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Jin 2008 NM, 100 mg tartrate IR, n=6, AS=2",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Jin 2008 IM, 100 mg tartrate IR, n=5, AS=0.5",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 }
               },
@@ -8441,14 +9194,14 @@
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Jin 2008 NM, 100 mg tartrate IR, n=6, AS=2",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Jin 2008 NM, 100 mg tartrate IR, n=7, AS=1.25",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 }
               }
@@ -8467,14 +9220,14 @@
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Sharma 2005 NM, 100 mg tartrate, n=20, AS=1.5",
                   "StartTime": 0,
-                  "EndTime": 48.0,
+                  "EndTime": 48,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Sharma 2005 PM, 100 mg tartrate, n=20, AS=0",
                   "StartTime": 0,
-                  "EndTime": 48.0,
+                  "EndTime": 48,
                   "TimeUnit": "h"
                 }
               },
@@ -8486,14 +9239,14 @@
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Huang 1999 NM, 100 mg tartrate IR, n=16, AS=2",
                   "StartTime": 0,
-                  "EndTime": 12.0,
+                  "EndTime": 12,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Huang 1999 IM, 100 mg tartrate IR, n=12, AS=0.5",
                   "StartTime": 0,
-                  "EndTime": 12.0,
+                  "EndTime": 12,
                   "TimeUnit": "h"
                 }
               },
@@ -8505,14 +9258,14 @@
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Huang 1999 NM, 100 mg tartrate IR, n=16, AS=2",
                   "StartTime": 0,
-                  "EndTime": 12.0,
+                  "EndTime": 12,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Huang 1999 NM, 100 mg tartrate IR, n=12, AS=1.25",
                   "StartTime": 0,
-                  "EndTime": 12.0,
+                  "EndTime": 12,
                   "TimeUnit": "h"
                 }
               },
@@ -8524,14 +9277,14 @@
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Kirchheiner/Seeringer 2008 NM, 100 mg tartrate IR, n=13, AS=2",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Kirchheiner/Seeringer 2008 PM, 100 mg tartrate IR, n=4, AS=0",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 }
               },
@@ -8543,14 +9296,14 @@
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Kirchheiner/Seeringer 2008 NM, 100 mg tartrate IR, n=13, AS=2",
                   "StartTime": 0,
-                  "EndTime": 10.0,
+                  "EndTime": 10,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Kirchheiner/Seeringer 2008 UM, 100 mg tartrate IR, n=12, AS=3",
                   "StartTime": 0,
-                  "EndTime": 10.0,
+                  "EndTime": 10,
                   "TimeUnit": "h"
                 }
               }
@@ -8569,14 +9322,14 @@
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Sharma 2005 NM, 100 mg tartrate, n=20, AS=1.5",
                   "StartTime": 0,
-                  "EndTime": 48.0,
+                  "EndTime": 48,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Sharma 2005 PM, 100 mg tartrate, n=20, AS=0",
                   "StartTime": 0,
-                  "EndTime": 48.0,
+                  "EndTime": 48,
                   "TimeUnit": "h"
                 }
               },
@@ -8588,14 +9341,14 @@
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Huang 1999 NM, 100 mg tartrate IR, n=16, AS=2",
                   "StartTime": 0,
-                  "EndTime": 12.0,
+                  "EndTime": 12,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Huang 1999 IM, 100 mg tartrate IR, n=12, AS=0.5",
                   "StartTime": 0,
-                  "EndTime": 12.0,
+                  "EndTime": 12,
                   "TimeUnit": "h"
                 }
               },
@@ -8607,14 +9360,14 @@
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Huang 1999 NM, 100 mg tartrate IR, n=16, AS=2",
                   "StartTime": 0,
-                  "EndTime": 12.0,
+                  "EndTime": 12,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Huang 1999 NM, 100 mg tartrate IR, n=12, AS=1.25",
                   "StartTime": 0,
-                  "EndTime": 12.0,
+                  "EndTime": 12,
                   "TimeUnit": "h"
                 }
               },
@@ -8626,14 +9379,14 @@
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Kirchheiner/Seeringer 2008 NM, 100 mg tartrate IR, n=13, AS=2",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Kirchheiner/Seeringer 2008 PM, 100 mg tartrate IR, n=4, AS=0",
                   "StartTime": 0,
-                  "EndTime": 24.0,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 }
               },
@@ -8645,14 +9398,14 @@
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Kirchheiner/Seeringer 2008 NM, 100 mg tartrate IR, n=13, AS=2",
                   "StartTime": 0,
-                  "EndTime": 10.0,
+                  "EndTime": 10,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Metoprolol-DGI",
                   "Simulation": "Kirchheiner/Seeringer 2008 UM, 100 mg tartrate IR, n=12, AS=3",
                   "StartTime": 0,
-                  "EndTime": 10.0,
+                  "EndTime": 10,
                   "TimeUnit": "h"
                 }
               }
@@ -8671,14 +9424,14 @@
                   "Project": "Mexiletine-DGI",
                   "Simulation": "Labbé (2000) - mexiletine, 100 mg b.i.d. po, n=1 (EM) prediction",
                   "StartTime": 0,
-                  "EndTime": 12.0,
+                  "EndTime": 12,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Mexiletine-DGI",
                   "Simulation": "Labbé (2000) - mexiletine, 100 mg b.i.d. po, n=1 (PM) prediction",
                   "StartTime": 0,
-                  "EndTime": 12.0,
+                  "EndTime": 12,
                   "TimeUnit": "h"
                 }
               },
@@ -8690,14 +9443,14 @@
                   "Project": "Quinidine-Mexiletine-DDGI",
                   "Simulation": "Abolfathi (1993) - mexiletine hydrochloride, 200 mg, po, n=10 (EM)",
                   "StartTime": 0,
-                  "EndTime": 48.0,
+                  "EndTime": 48,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Quinidine-Mexiletine-DDGI",
                   "Simulation": "Abolfathi (1993) - mexiletine hydrochloride, 200 mg, po, n=4 (PM)",
                   "StartTime": 0,
-                  "EndTime": 48.0,
+                  "EndTime": 48,
                   "TimeUnit": "h"
                 }
               }
@@ -8716,14 +9469,14 @@
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Chen (2015) - paroxetine hydrochloride, 25 mg, po, n=4 (AS=2)",
                   "StartTime": 0,
-                  "EndTime": 96.0,
+                  "EndTime": 96,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Chen (2015) - paroxetine hydrochloride, 25 mg, po, n=4 (AS=0.5)",
                   "StartTime": 0,
-                  "EndTime": 96.0,
+                  "EndTime": 96,
                   "TimeUnit": "h"
                 }
               },
@@ -8735,14 +9488,14 @@
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Chen (2015) - paroxetine hydrochloride, 25 mg, po, n=4 (AS=2)",
                   "StartTime": 0,
-                  "EndTime": 72.0,
+                  "EndTime": 72,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Chen (2015) - paroxetine hydrochloride, 25 mg, po, n=11 (AS=1)",
                   "StartTime": 0,
-                  "EndTime": 72.0,
+                  "EndTime": 72,
                   "TimeUnit": "h"
                 }
               },
@@ -8754,14 +9507,14 @@
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Chen (2015) - paroxetine hydrochloride, 25 mg, po, n=4 (AS=2)",
                   "StartTime": 0,
-                  "EndTime": 72.0,
+                  "EndTime": 72,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Chen (2015) - paroxetine hydrochloride, 25 mg, po, n=5 (AS=1.5)",
                   "StartTime": 0,
-                  "EndTime": 72.0,
+                  "EndTime": 72,
                   "TimeUnit": "h"
                 }
               },
@@ -8773,14 +9526,14 @@
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Sindrup (1992) - paroxetine hydrochloride, 30 mg, po, md, n=9 (EM)",
                   "StartTime": 0,
-                  "EndTime": 96.0,
+                  "EndTime": 96,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Sindrup (1992) - paroxetine hydrochloride, 30 mg, po, md, n=8 (PM)",
                   "StartTime": 0,
-                  "EndTime": 96.0,
+                  "EndTime": 96,
                   "TimeUnit": "h"
                 }
               },
@@ -8792,14 +9545,14 @@
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Mürdter (2016) - paroxetine hydrochloride, 40 mg, po, md, n=3 (AS=2)",
                   "StartTime": 0,
-                  "EndTime": 144.0,
+                  "EndTime": 144,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Mürdter (2016) - paroxetine hydrochloride, 40 mg, po, md, n=3 (AS=0)",
                   "StartTime": 0,
-                  "EndTime": 144.0,
+                  "EndTime": 144,
                   "TimeUnit": "h"
                 }
               },
@@ -8811,14 +9564,14 @@
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Mürdter (2016) - paroxetine hydrochloride, 40 mg, po, md, n=3 (AS=2)",
                   "StartTime": 0,
-                  "EndTime": 144.0,
+                  "EndTime": 144,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Mürdter (2016) - paroxetine hydrochloride, 40 mg, po, md, n=4 (AS=0.5)",
                   "StartTime": 0,
-                  "EndTime": 144.0,
+                  "EndTime": 144,
                   "TimeUnit": "h"
                 }
               },
@@ -8830,14 +9583,14 @@
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Mürdter (2016) - paroxetine hydrochloride, 40 mg, po, md, n=3 (AS=2)",
                   "StartTime": 0,
-                  "EndTime": 144.0,
+                  "EndTime": 144,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Mürdter (2016) - paroxetine hydrochloride, 40 mg, po, md, n=1 (AS=0.75)",
                   "StartTime": 0,
-                  "EndTime": 144.0,
+                  "EndTime": 144,
                   "TimeUnit": "h"
                 }
               },
@@ -8849,14 +9602,14 @@
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Mürdter (2016) - paroxetine hydrochloride, 40 mg, po, md, n=3 (AS=2)",
                   "StartTime": 0,
-                  "EndTime": 144.0,
+                  "EndTime": 144,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Mürdter (2016) - paroxetine hydrochloride, 40 mg, po, md, n=2 (AS=1)",
                   "StartTime": 0,
-                  "EndTime": 144.0,
+                  "EndTime": 144,
                   "TimeUnit": "h"
                 }
               },
@@ -8868,14 +9621,14 @@
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Mürdter (2016) - paroxetine hydrochloride, 40 mg, po, md, n=3 (AS=2)",
                   "StartTime": 0,
-                  "EndTime": 144.0,
+                  "EndTime": 144,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Mürdter (2016) - paroxetine hydrochloride, 40 mg, po, md, n=3 (AS=3)",
                   "StartTime": 0,
-                  "EndTime": 144.0,
+                  "EndTime": 144,
                   "TimeUnit": "h"
                 }
               },
@@ -8887,14 +9640,14 @@
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Yoon (2000) - paroxetine hydrochloride, 40 mg, po, n=6 (AS=2)",
                   "StartTime": 0,
-                  "EndTime": 240.0,
+                  "EndTime": 240,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Yoon (2000) - paroxetine hydrochloride, 40 mg, po, n=1 (AS=0)",
                   "StartTime": 0,
-                  "EndTime": 240.0,
+                  "EndTime": 240,
                   "TimeUnit": "h"
                 }
               },
@@ -8906,14 +9659,14 @@
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Yoon (2000) - paroxetine hydrochloride, 40 mg, po, n=6 (AS=2)",
                   "StartTime": 0,
-                  "EndTime": 192.0,
+                  "EndTime": 192,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Yoon (2000) - paroxetine hydrochloride, 40 mg, po, n=3 (AS=0.5)",
                   "StartTime": 0,
-                  "EndTime": 192.0,
+                  "EndTime": 192,
                   "TimeUnit": "h"
                 }
               },
@@ -8925,14 +9678,14 @@
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Yoon (2000) - paroxetine hydrochloride, 40 mg, po, n=6 (AS=2)",
                   "StartTime": 0,
-                  "EndTime": 96.0,
+                  "EndTime": 96,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Paroxetine-DGI",
                   "Simulation": "Yoon (2000) - paroxetine hydrochloride, 40 mg, po, n=6 (AS=1.25)",
                   "StartTime": 0,
-                  "EndTime": 96.0,
+                  "EndTime": 96,
                   "TimeUnit": "h"
                 }
               }
@@ -9206,6 +9959,21 @@
               "Reference": "risperidone-dgi",
               "Title": "Risperidone DGI",
               "Content": "Content/Risperidone-DGI.md"
+            },
+            {
+              "Reference": "dextromethorphan-dgi",
+              "Title": "Dextromethorphan DGI",
+              "Content": "Content/Dextromethorphan-DGI.md"
+            },
+            {
+              "Reference": "metoprolol-dgi",
+              "Title": "Metoprolol DGI",
+              "Content": "Content/Metoprolol-DGI.md"
+            },
+            {
+              "Reference": "mexiletine-dgi",
+              "Title": "Mexiletine DGI",
+              "Content": "Content/Mexiletine-DGI.md"
             }
           ]
         },
@@ -9230,6 +9998,18 @@
             {
               "Reference": "risperidone-dgi-timeprofile",
               "Title": "Risperidone DGI"
+            },
+            {
+              "Reference": "dextromethorphan-dgi-timeprofile",
+              "Title": "Dextromethorphan DGI"
+            },
+            {
+              "Reference": "metoprolol-dgi-timeprofile",
+              "Title": "Metoprolol DGI"
+            },
+            {
+              "Reference": "mexiletine-dgi-timeprofile",
+              "Title": "Mexiletine DGI"
             }
           ]
         }
