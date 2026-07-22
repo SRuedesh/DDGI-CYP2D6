@@ -195,7 +195,7 @@
     },
     {
       "Id": "Dextromethorphan-DGI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Dextromethorphan-Model/main/dextromethorphan_aggregated_simulations.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Dextromethorphan-Model/main/Dextromethorphan-model.json"
     },
     {
       "Id": "Metoprolol-DGI",
@@ -4128,9 +4128,9 @@
         "OutputMappings": [
           {
             "Project": "Dextromethorphan-DGI",
-            "Simulation": "Storelli 2018 NM, 5 mg dextromethorphan base (capsule/solution), n=17, AS=2",
+            "Simulation": "Storelli2018_NM_5mg_DexBase_AS=2",
             "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Storelli 2018 NM, dextromethorphan, 5 mg dextromethorphan base (capsule/solution), n=17, AS=2",
+            "ObservedData": "Storelli2018_NM_5mg_DexBase_AS=2",
             "StartTime": 0,
             "TimeUnit": "h",
             "Color": "#0072B2",
@@ -4139,9 +4139,9 @@
           },
           {
             "Project": "Dextromethorphan-DGI",
-            "Simulation": "Storelli 2018 IM, 5 mg dextromethorphan base (capsule/solution), n=16",
+            "Simulation": "Storelli2018_IM_5mg_DexBase",
             "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Storelli 2018 IM, dextromethorphan, 5 mg dextromethorphan base (capsule/solution), n=16",
+            "ObservedData": "Storelli2018_IM_5mg_DexBase",
             "StartTime": 0,
             "TimeUnit": "h",
             "Color": "#D55E00",
@@ -4158,9 +4158,9 @@
         "OutputMappings": [
           {
             "Project": "Dextromethorphan-DGI",
-            "Simulation": "Qiu 2016 NM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2",
+            "Simulation": "Qiu2016_NM_15mg_DexHBr_AS=2",
             "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Qiu 2016 NM, dextromethorphan, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2",
+            "ObservedData": "Qiu2016_NM_15mg_DexHBr_AS=2",
             "StartTime": 0,
             "TimeUnit": "h",
             "Color": "#0072B2",
@@ -4169,9 +4169,9 @@
           },
           {
             "Project": "Dextromethorphan-DGI",
-            "Simulation": "Qiu 2016 IM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=0.5",
+            "Simulation": "Qiu2016_IM_15mg_DexHBR_AS=0.5",
             "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Qiu 2016 IM, dextromethorphan, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=0.5",
+            "ObservedData": "Qiu2016_IM_15mg_DexHBR_AS=0.5",
             "StartTime": 0,
             "TimeUnit": "h",
             "Color": "#D55E00",
@@ -4188,9 +4188,9 @@
         "OutputMappings": [
           {
             "Project": "Dextromethorphan-DGI",
-            "Simulation": "Qiu 2016 NM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2",
+            "Simulation": "Qiu2016_NM_15mg_DexHBr_AS=2",
             "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Qiu 2016 NM, dextromethorphan, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2",
+            "ObservedData": "Qiu2016_NM_15mg_DexHBr_AS=2",
             "StartTime": 0,
             "TimeUnit": "h",
             "Color": "#0072B2",
@@ -4199,9 +4199,9 @@
           },
           {
             "Project": "Dextromethorphan-DGI",
-            "Simulation": "Qiu 2016 NM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=1.25",
+            "Simulation": "Qiu2016_NM_15mg_DexHBr_AS=1.25",
             "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Qiu 2016 NM, dextromethorphan, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=1.25",
+            "ObservedData": "Qiu2016_NM_15mg_DexHBr_AS=1.25",
             "StartTime": 0,
             "TimeUnit": "h",
             "Color": "#D55E00",
@@ -4218,9 +4218,9 @@
         "OutputMappings": [
           {
             "Project": "Dextromethorphan-DGI",
-            "Simulation": "Capon 1996 EM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=6",
+            "Simulation": "Capon1996_EM_30mg_DexHBr",
             "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Capon 1996 EM, dextromethorphan, 30 mg dextromethorphan hydrobromide (capsule/solution), n=6",
+            "ObservedData": "Capon1996_EM_30mg_DexHBr",
             "StartTime": 0,
             "TimeUnit": "h",
             "Color": "#0072B2",
@@ -4229,9 +4229,9 @@
           },
           {
             "Project": "Dextromethorphan-DGI",
-            "Simulation": "Capon 1996 PM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=6",
+            "Simulation": "Capon1996_PM_30mg_DexHBr",
             "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Capon 1996 PM, dextromethorphan, 30 mg dextromethorphan hydrobromide (capsule/solution), n=6",
+            "ObservedData": "Capon1996_PM_30mg_DexHBr",
             "StartTime": 0,
             "TimeUnit": "h",
             "Color": "#D55E00",
@@ -4248,9 +4248,9 @@
         "OutputMappings": [
           {
             "Project": "Dextromethorphan-DGI",
-            "Simulation": "Gorski 2004 EM, 30 mg dextromethorphan hydromide (capsule/solution), n=11",
+            "Simulation": "Gorski2004_EM_30mg_DexHBr",
             "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Gorski 2004 EM, dextromethorphan, 30 mg dextromethorphan hydromide (capsule/solution), n=11",
+            "ObservedData": "Gorski2004_EM_30mg_DexHBr",
             "StartTime": 0,
             "TimeUnit": "h",
             "Color": "#0072B2",
@@ -4259,9 +4259,9 @@
           },
           {
             "Project": "Dextromethorphan-DGI",
-            "Simulation": "Gorski 2004 PM, 30 mg dextromethorphan hydromide (capsule/solution), n=1",
+            "Simulation": "Gorski2004_PM_30mg_DexHBr",
             "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Gorski 2004 PM, dextromethorphan, 30 mg dextromethorphan hydromide (capsule/solution), n=1",
+            "ObservedData": "Gorski2004_PM_30mg_DexHBr",
             "StartTime": 0,
             "TimeUnit": "h",
             "Color": "#D55E00",
@@ -4278,9 +4278,9 @@
         "OutputMappings": [
           {
             "Project": "Dextromethorphan-DGI",
-            "Simulation": "Storelli 2018 NM, 5 mg dextromethorphan base (capsule/solution), n=17, AS=2",
+            "Simulation": "Storelli2018_NM_5mg_DexBase_AS=2",
             "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Storelli 2018 NM, dextrorphan, 5 mg dextromethorphan base (capsule/solution), n=17, AS=2",
+            "ObservedData": "Storelli2018_NM_5mg_DexBase_AS=2-dextrorphan",
             "StartTime": 0,
             "TimeUnit": "h",
             "Color": "#0072B2",
@@ -4289,9 +4289,9 @@
           },
           {
             "Project": "Dextromethorphan-DGI",
-            "Simulation": "Storelli 2018 IM, 5 mg dextromethorphan base (capsule/solution), n=16",
+            "Simulation": "Storelli2018_IM_5mg_DexBase",
             "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Storelli 2018 IM, dextrorphan, 5 mg dextromethorphan base (capsule/solution), n=16",
+            "ObservedData": "Storelli2018_IM_5mg_DexBase-dextrorphan",
             "StartTime": 0,
             "TimeUnit": "h",
             "Color": "#D55E00",
@@ -8886,14 +8886,14 @@
                 "ObservedDataRecordId": 900045,
                 "SimulationControl": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Storelli 2018 NM, 5 mg dextromethorphan base (capsule/solution), n=17, AS=2",
+                  "Simulation": "Storelli2018_NM_5mg_DexBase_AS=2",
                   "StartTime": 0,
                   "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Storelli 2018 IM, 5 mg dextromethorphan base (capsule/solution), n=16",
+                  "Simulation": "Storelli2018_IM_5mg_DexBase",
                   "StartTime": 0,
                   "EndTime": 24,
                   "TimeUnit": "h"
@@ -8905,14 +8905,14 @@
                 "ObservedDataRecordId": 900047,
                 "SimulationControl": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Qiu 2016 NM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2",
+                  "Simulation": "Qiu2016_NM_15mg_DexHBr_AS=2",
                   "StartTime": 0,
                   "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Qiu 2016 IM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=0.5",
+                  "Simulation": "Qiu2016_IM_15mg_DexHBR_AS=0.5",
                   "StartTime": 0,
                   "EndTime": 24,
                   "TimeUnit": "h"
@@ -8924,14 +8924,14 @@
                 "ObservedDataRecordId": 900048,
                 "SimulationControl": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Qiu 2016 NM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2",
+                  "Simulation": "Qiu2016_NM_15mg_DexHBr_AS=2",
                   "StartTime": 0,
                   "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Qiu 2016 NM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=1.25",
+                  "Simulation": "Qiu2016_NM_15mg_DexHBr_AS=1.25",
                   "StartTime": 0,
                   "EndTime": 24,
                   "TimeUnit": "h"
@@ -8943,14 +8943,14 @@
                 "ObservedDataRecordId": 900049,
                 "SimulationControl": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Yamazaki 2017 NM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=11, AS=2",
+                  "Simulation": "Yamazaki2017_NM_30mg_DexHBr_AS=2",
                   "StartTime": 0,
                   "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Yamazaki 2017 IM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=12, AS=0.5",
+                  "Simulation": "Yamazaki2017_IM_30mg_DexHBr_AS=0.5",
                   "StartTime": 0,
                   "EndTime": 24,
                   "TimeUnit": "h"
@@ -8962,14 +8962,14 @@
                 "ObservedDataRecordId": 900050,
                 "SimulationControl": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Capon 1996 EM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=6",
+                  "Simulation": "Capon1996_EM_30mg_DexHBr",
                   "StartTime": 0,
                   "EndTime": 168,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Capon 1996 PM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=6",
+                  "Simulation": "Capon1996_PM_30mg_DexHBr",
                   "StartTime": 0,
                   "EndTime": 168,
                   "TimeUnit": "h"
@@ -8981,14 +8981,14 @@
                 "ObservedDataRecordId": 900051,
                 "SimulationControl": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Gorski 2004 EM, 30 mg dextromethorphan hydromide (capsule/solution), n=11",
+                  "Simulation": "Gorski2004_EM_30mg_DexHBr",
                   "StartTime": 0,
                   "EndTime": 12,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Gorski 2004 PM, 30 mg dextromethorphan hydromide (capsule/solution), n=1",
+                  "Simulation": "Gorski2004_PM_30mg_DexHBr",
                   "StartTime": 0,
                   "EndTime": 12,
                   "TimeUnit": "h"
@@ -9007,14 +9007,14 @@
                 "ObservedDataRecordId": 900046,
                 "SimulationControl": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Storelli 2018 NM, 5 mg dextromethorphan base (capsule/solution), n=17, AS=2",
+                  "Simulation": "Storelli2018_NM_5mg_DexBase_AS=2",
                   "StartTime": 0,
                   "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Dextromethorphan-DGI",
-                  "Simulation": "Storelli 2018 IM, 5 mg dextromethorphan base (capsule/solution), n=16",
+                  "Simulation": "Storelli2018_IM_5mg_DexBase",
                   "StartTime": 0,
                   "EndTime": 24,
                   "TimeUnit": "h"
