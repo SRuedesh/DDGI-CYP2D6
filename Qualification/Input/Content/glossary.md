@@ -11,7 +11,7 @@
 | CLA     | clarithromycin                                                  |
 | CLO     | (E)-clomiphene                                                  |
 | Cmax    | maximum plasma concentration                                    |
-| CmaxR   | Cmax ratio                                                      |
+| C<sub>max</sub>R | C<sub>max</sub> ratio                                  |
 | CYP     | cytochrome P450                                                 |
 | DDI     | drug-drug interaction                                           |
 | DDGI    | Drug-drug-gene interaction                                      |

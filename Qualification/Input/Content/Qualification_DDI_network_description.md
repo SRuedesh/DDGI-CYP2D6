@@ -1,8 +1,9 @@
-**Figure 1** shows the developed CYP2D6 DDGI network of interacting perpetrator and victim drugs. (a) Schematic illustration of the modeled interactions of CYP2D6 perpetrator and victim drugs. Black arrows indicate metabolism or transport, green arrows indicate induction, red solid lines indicate competitive inhibition, red dashed lines down-regulation (bupropion), noncompetitive inhibition (verapamil P-gp inhibition) or mechanism-based inactivation (others). (b-c) Drug-drug-(gene) interaction matrix for modeled interactions mediated by (a) CYP2D6 and (b) CYP3A4 and P-gp. Colors indicate categories according to the FDA Examples of Drugs that Interact with CYP Enzymes and Transporter Systems.42 Height of the grey ribbons indicates the number of clinical studies for the respective interaction covered by the network, numbers in brackets indicate the number of clinical interaction studies for the corresponding compound. CYP: cytochrome P450, P-gp: P-glycoprotein.
+**Figure 1-1** shows the developed CYP2D6 DDGI network of interacting perpetrator and victim drugs. (a) Schematic illustration of the modeled interactions of CYP2D6 perpetrator and victim drugs. Black arrows indicate metabolism or transport, green arrows indicate induction, red solid lines indicate competitive inhibition, and red dashed lines indicate down-regulation (bupropion), noncompetitive inhibition (verapamil P-gp inhibition), or mechanism-based inactivation (other compounds). (b-c) Drug-drug-(gene) interaction matrices for modeled interactions mediated by (b) CYP2D6 and (c) CYP3A4 and P-gp. Colors indicate categories according to the [U.S. Food and Drug Administration](#references) examples of drugs that interact with CYP enzymes and transporter systems. The height of the grey ribbons indicates the number of clinical studies for the respective interaction covered by the network. Numbers in brackets indicate the number of clinical interaction studies for the corresponding compound. CYP: cytochrome P450, P-gp: P-glycoprotein.
 
 
-**Figure** **1: CYP2D6 DDGI modeling network**
-![CYP2D6 DDGI network](images/Figure_1_DDGI_Network.pdf)
+![CYP2D6 DDGI modeling network](images/Figure_1_DDGI_Network.png)
+
+**Figure 1-1: CYP2D6 DDGI modeling network**
 
 
 The following victim and/or perpetrator PBPK models were applied: 

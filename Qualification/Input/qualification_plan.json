@@ -9705,6 +9705,11 @@
           "Reference": "objective",
           "Title": "Objective",
           "Content": "Content/Qualification_objective.md"
+        },
+        {
+          "Reference": "cyp2d6-ddgi-network",
+          "Title": "CYP2D6 DDGI Network",
+          "Content": "Content/Qualification_DDI_network_description.md"
         }
       ]
     },
@@ -9714,9 +9719,8 @@
       "Content": "Content/Intro_evaluation_DDI_network.md",
       "Sections": [
         {
-          "Reference": "ddi-network-evaluations",
-          "Title": "DDI Network Evaluations",
-          "Content": "Content/Qualification_DDI_network_description.md",
+          "Reference": "ddi-study-evaluations",
+          "Title": "DDI Study Evaluations",
           "Sections": [
             {
               "Reference": "paroxetine-alprazolam-ddi",
@@ -10021,9 +10025,8 @@
       "Content": "Content/Intro_evaluation_DDI_network.md",
       "Sections": [
         {
-          "Reference": "ddgi-network-evaluations",
-          "Title": "DDGI Network Evaluations",
-          "Content": "Content/Qualification_DDI_network_description.md",
+          "Reference": "ddgi-study-evaluations",
+          "Title": "DDGI Study Evaluations",
           "Sections": [
             {
               "Reference": "paroxetine-atomoxetine-ddgi",

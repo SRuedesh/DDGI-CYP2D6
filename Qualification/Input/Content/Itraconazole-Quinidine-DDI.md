@@ -1,4 +1,4 @@
-The itraconazole-quinidine interaction was evaluated using clinical DDI studies listed in [Table 26](#table-26).
+The itraconazole-quinidine interaction was evaluated using clinical DDI studies listed in [Table 2-21](#table-2-21).
 
 | **Source**                      | **Route** | **Schedule**  | **Pop.** | **Sex** | **N** | **Perpetrator**           |
 | ------------------------------- | --------- | ------------- | -------- | ------- | ----- | ------------------------- |
@@ -6,5 +6,5 @@ The itraconazole-quinidine interaction was evaluated using clinical DDI studies 
 | [Damkier 1999b](#references)  | po        | 200 mg s.d.   | European | m       | 6     | +/- ITR, 100 mg q.d. po   |
 
 
-**Table 26:**<a name="table-26"></a> f: female, ITR: itraconazole, m: male, N: number of study participants, po: oral, pop.: population used in simulations, q.d.: once daily, s.d.: single dose. If perpetrator or victim drugs were applied in form of salts, the respective dose of base was calculated and incorporated in simulations.
+**Table 2-21: Clinical studies included for itraconazole-quinidine DDI**<a id="table-2-21"></a> f: female, ITR: itraconazole, m: male, N: number of study participants, po: oral, pop.: population used in simulations, q.d.: once daily, s.d.: single dose. If perpetrator or victim drugs were applied in form of salts, the respective dose of base was calculated and incorporated in simulations.
 

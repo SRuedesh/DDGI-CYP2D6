@@ -1,4 +1,4 @@
-The rifampicin-risperidone interaction was evaluated using clinical DDI studies listed in [Table 31](#table-31).
+The rifampicin-risperidone interaction was evaluated using clinical DDI studies listed in [Table 2-26](#table-2-26).
 
 | **Source**                            | **Route** | **Schedule**  | **Pop.** | **Sex** | **N** | **Perpetrator**           |
 | ------------------------------------- | --------- | ------------- | -------- | ------- | ----- | ------------------------- |
@@ -6,5 +6,5 @@ The rifampicin-risperidone interaction was evaluated using clinical DDI studies 
 | [Mahatthanatrakul 2007](#references)| po        | 4 mg s.d.     | Asian    | m       | 10    | +/- RIF, 600 mg q.d. po   |
 
 
-**Table 31:**<a name="table-31"></a> m: male, N: number of study participants, po: oral, pop.: population used in simulations, q.d.: once daily, RIF: rifampicin, s.d.: single dose. If perpetrator or victim drugs were applied in form of salts, the respective dose of base was calculated and incorporated in simulations.
+**Table 2-26: Clinical studies included for rifampicin-risperidone DDI**<a id="table-2-26"></a> m: male, N: number of study participants, po: oral, pop.: population used in simulations, q.d.: once daily, RIF: rifampicin, s.d.: single dose. If perpetrator or victim drugs were applied in form of salts, the respective dose of base was calculated and incorporated in simulations.
 
