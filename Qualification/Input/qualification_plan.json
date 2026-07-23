@@ -7168,14 +7168,7 @@
                   "EndTime": 272,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "Digoxin + Quinidine",
-            "Color": "#0072B2",
-            "Symbol": "Circle",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -7298,14 +7291,7 @@
                   "EndTime": 249,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "Quinidine + Cimetidine",
-            "Color": "#0072B2",
-            "Symbol": "Circle",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -7506,14 +7492,7 @@
                   "EndTime": 84.5,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "Quinidine + Verapamil",
-            "Color": "#0072B2",
-            "Symbol": "Circle",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -7662,14 +7641,7 @@
                   "EndTime": 181,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "Metoprolol racemate + Cimetidine",
-            "Color": "#D55E00",
-            "Symbol": "Circle",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
                 "ObservedData": "DDI Ratios",
@@ -7688,14 +7660,7 @@
                   "EndTime": 360,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "Metoprolol racemate + Cimetidine",
-            "Color": "#D55E00",
-            "Symbol": "Circle",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
                 "ObservedData": "DDI Ratios",
@@ -7714,14 +7679,7 @@
                   "EndTime": 360,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "Metoprolol racemate + Cimetidine",
-            "Color": "#D55E00",
-            "Symbol": "Circle",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
                 "ObservedData": "DDI Ratios",
@@ -7766,14 +7724,7 @@
                   "EndTime": 192,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "Metoprolol racemate + Paroxetine",
-            "Color": "#009E73",
-            "Symbol": "Circle",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
                 "ObservedData": "DDI Ratios",
@@ -7818,40 +7769,7 @@
                   "EndTime": 168,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "S-Metoprolol + Paroxetine",
-            "Color": "#CC79A7",
-            "Symbol": "Circle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17122,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Metoprolol-DDI",
-                  "Simulation": "Parker 2011 - Metoprolol, po, 100 mg, sd (ER) CYP3A4",
-                  "StartTime": 0,
-                  "EndTime": 24,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Metoprolol-DDI",
-                  "Simulation": "Parker 2011 - DDI - Paroxetine/Metoprolol, 20/100 mg, qd/sd (ER) CYP3A4",
-                  "StartTime": 144,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "R-Metoprolol + Paroxetine",
-            "Color": "#009E73",
-            "Symbol": "Circle",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|R-Metoprolol|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -7870,40 +7788,7 @@
                   "EndTime": 168,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "S-Metoprolol + Paroxetine",
-            "Color": "#CC79A7",
-            "Symbol": "Circle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17126,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Metoprolol-DDI",
-                  "Simulation": "Parker 2011 - Metoprolol, po, 100 mg, bid (IR) CYP3A4",
-                  "StartTime": 0,
-                  "EndTime": 24,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Metoprolol-DDI",
-                  "Simulation": "Parker 2011 - DDI - Paroxetine/Metoprolol, 20/100 mg, bid/qd (IR) CYP3A4",
-                  "StartTime": 144,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "R-Metoprolol + Paroxetine",
-            "Color": "#009E73",
-            "Symbol": "Circle",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|R-Metoprolol|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -7922,40 +7807,7 @@
                   "EndTime": 168,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "S-Metoprolol + Paroxetine",
-            "Color": "#CC79A7",
-            "Symbol": "Circle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17130,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Metoprolol-DDI",
-                  "Simulation": "Parker 2011 - Metoprolol, po, 200 mg, sd (ER) CYP3A4",
-                  "StartTime": 0,
-                  "EndTime": 24,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Metoprolol-DDI",
-                  "Simulation": "Parker 2011 - DDI - Paroxetine/Metoprolol, 20/200 mg, qd/sd (ER) CYP3A4",
-                  "StartTime": 144,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "R-Metoprolol + Paroxetine",
-            "Color": "#009E73",
-            "Symbol": "Circle",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|R-Metoprolol|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -7982,6 +7834,63 @@
             "Color": "#CC79A7",
             "Symbol": "Circle",
             "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17122,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Metoprolol-DDI",
+                  "Simulation": "Parker 2011 - Metoprolol, po, 100 mg, sd (ER) CYP3A4",
+                  "StartTime": 0,
+                  "EndTime": 24,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Metoprolol-DDI",
+                  "Simulation": "Parker 2011 - DDI - Paroxetine/Metoprolol, 20/100 mg, qd/sd (ER) CYP3A4",
+                  "StartTime": 144,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17126,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Metoprolol-DDI",
+                  "Simulation": "Parker 2011 - Metoprolol, po, 100 mg, bid (IR) CYP3A4",
+                  "StartTime": 0,
+                  "EndTime": 24,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Metoprolol-DDI",
+                  "Simulation": "Parker 2011 - DDI - Paroxetine/Metoprolol, 20/100 mg, bid/qd (IR) CYP3A4",
+                  "StartTime": 144,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17130,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Metoprolol-DDI",
+                  "Simulation": "Parker 2011 - Metoprolol, po, 200 mg, sd (ER) CYP3A4",
+                  "StartTime": 0,
+                  "EndTime": 24,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Metoprolol-DDI",
+                  "Simulation": "Parker 2011 - DDI - Paroxetine/Metoprolol, 20/200 mg, qd/sd (ER) CYP3A4",
+                  "StartTime": 144,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                }
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -8052,14 +7961,7 @@
                   "EndTime": 128,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "Midazolam + Atomoxetine",
-            "Color": "#D55E00",
-            "Symbol": "Circle",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -8156,14 +8058,7 @@
                   "EndTime": 97,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "Quinidine + Itraconazole",
-            "Color": "#CC79A7",
-            "Symbol": "Circle",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -8260,6 +8155,25 @@
                   "EndTime": 139,
                   "TimeUnit": "h"
                 }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Risperidone|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17174,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Risperidone-DDI",
+                  "Simulation": "Mahatthanatrakul 2007 - Risperidone, po, 4 mg, sd",
+                  "StartTime": 0,
+                  "EndTime": 48,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Risperidone-DDI",
+                  "Simulation": "Mahatthanatrakul 2007 - DDI - Rifampicin/Risperidone, po, 600/4 mg",
+                  "StartTime": 120,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                }
               }
             ]
           },
@@ -8284,32 +8198,6 @@
                   "Simulation": "Kim 2018 - DDI - Rifampicin/Risperidone, po, 600/1 mg",
                   "StartTime": 109,
                   "EndTime": 139,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "Risperidone + Rifampicin",
-            "Color": "#0072B2",
-            "Symbol": "Circle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|Risperidone|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17174,
-                "SimulationControl": {
-                  "Project": "Rifampicin-Risperidone-DDI",
-                  "Simulation": "Mahatthanatrakul 2007 - Risperidone, po, 4 mg, sd",
-                  "StartTime": 0,
-                  "EndTime": 48,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Rifampicin-Risperidone-DDI",
-                  "Simulation": "Mahatthanatrakul 2007 - DDI - Rifampicin/Risperidone, po, 600/4 mg",
-                  "StartTime": 120,
-                  "EndTime": 168,
                   "TimeUnit": "h"
                 }
               }
@@ -8405,14 +8293,7 @@
                   "EndTime": 96,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "Mexiletine + Quinidine",
-            "Color": "#0072B2",
-            "Symbol": "Circle",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -8457,14 +8338,7 @@
                   "EndTime": 168,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "Atomoxetine + Paroxetine",
-            "Color": "#D55E00",
-            "Symbol": "Circle",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|Atomoxetine|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -8483,14 +8357,7 @@
                   "EndTime": 168,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "Atomoxetine + Paroxetine",
-            "Color": "#D55E00",
-            "Symbol": "Circle",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|Atomoxetine|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -8509,14 +8376,7 @@
                   "EndTime": 168,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "Atomoxetine + Paroxetine",
-            "Color": "#D55E00",
-            "Symbol": "Circle",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|Atomoxetine|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -8535,14 +8395,7 @@
                   "EndTime": 168,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "Atomoxetine + Paroxetine",
-            "Color": "#D55E00",
-            "Symbol": "Circle",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|Atomoxetine|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -8587,6 +8440,82 @@
                   "EndTime": 264,
                   "TimeUnit": "h"
                 }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17006,
+                "SimulationControl": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4, DD(G)I clarithromycin",
+                  "StartTime": 96,
+                  "EndTime": 264,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17014,
+                "SimulationControl": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2, DD(G)I clarithromycin",
+                  "StartTime": 96,
+                  "EndTime": 264,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17022,
+                "SimulationControl": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3, DD(G)I clarithromycin",
+                  "StartTime": 96,
+                  "EndTime": 264,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17030,
+                "SimulationControl": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=3) - (E)-clomiphene, 42 mg, po, sd, n=3",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=3) - (E)-clomiphene, 42 mg, po, sd, n=3, DD(G)I clarithromycin",
+                  "StartTime": 96,
+                  "EndTime": 264,
+                  "TimeUnit": "h"
+                }
               }
             ]
           },
@@ -8609,6 +8538,82 @@
                 "SimulationDDI": {
                   "Project": "Clarithromycin-Clomiphene-DDGI",
                   "Simulation": "IKP (AS=0) - (E)-clomiphene, 42 mg, po, sd, n=5, DD(G)I clarithromycin",
+                  "StartTime": 96,
+                  "EndTime": 264,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17008,
+                "SimulationControl": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4, DD(G)I clarithromycin",
+                  "StartTime": 96,
+                  "EndTime": 264,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17016,
+                "SimulationControl": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2, DD(G)I clarithromycin",
+                  "StartTime": 96,
+                  "EndTime": 264,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17024,
+                "SimulationControl": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3, DD(G)I clarithromycin",
+                  "StartTime": 96,
+                  "EndTime": 264,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17032,
+                "SimulationControl": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=3) - (E)-clomiphene, 42 mg, po, sd, n=3",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=3) - (E)-clomiphene, 42 mg, po, sd, n=3, DD(G)I clarithromycin",
                   "StartTime": 96,
                   "EndTime": 264,
                   "TimeUnit": "h"
@@ -8639,92 +8644,7 @@
                   "EndTime": 264,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-4-hydroxy-N-desethylclomiphene + Clarithromycin",
-            "Color": "#D55E00",
-            "Symbol": "Diamond",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17004,
-                "SimulationControl": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=0) - (E)-clomiphene, 42 mg, po, sd, n=5",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=0) - (E)-clomiphene, 42 mg, po, sd, n=5, DD(G)I clarithromycin",
-                  "StartTime": 96,
-                  "EndTime": 264,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-clomiphene + Clarithromycin",
-            "Color": "#D55E00",
-            "Symbol": "Circle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17006,
-                "SimulationControl": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4, DD(G)I clarithromycin",
-                  "StartTime": 96,
-                  "EndTime": 264,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-4-hydroxyclomiphene + Clarithromycin",
-            "Color": "#56B4E9",
-            "Symbol": "Triangle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17008,
-                "SimulationControl": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4, DD(G)I clarithromycin",
-                  "StartTime": 96,
-                  "EndTime": 264,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-N-desethylclomiphene + Clarithromycin",
-            "Color": "#56B4E9",
-            "Symbol": "Square",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -8743,92 +8663,7 @@
                   "EndTime": 264,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-4-hydroxy-N-desethylclomiphene + Clarithromycin",
-            "Color": "#D55E00",
-            "Symbol": "Diamond",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17012,
-                "SimulationControl": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4, DD(G)I clarithromycin",
-                  "StartTime": 96,
-                  "EndTime": 264,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-clomiphene + Clarithromycin",
-            "Color": "#D55E00",
-            "Symbol": "Circle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17014,
-                "SimulationControl": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2, DD(G)I clarithromycin",
-                  "StartTime": 96,
-                  "EndTime": 264,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-4-hydroxyclomiphene + Clarithromycin",
-            "Color": "#56B4E9",
-            "Symbol": "Triangle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17016,
-                "SimulationControl": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2, DD(G)I clarithromycin",
-                  "StartTime": 96,
-                  "EndTime": 264,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-N-desethylclomiphene + Clarithromycin",
-            "Color": "#56B4E9",
-            "Symbol": "Square",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -8847,92 +8682,7 @@
                   "EndTime": 264,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-4-hydroxy-N-desethylclomiphene + Clarithromycin",
-            "Color": "#D55E00",
-            "Symbol": "Diamond",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17020,
-                "SimulationControl": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2, DD(G)I clarithromycin",
-                  "StartTime": 96,
-                  "EndTime": 264,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-clomiphene + Clarithromycin",
-            "Color": "#D55E00",
-            "Symbol": "Circle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17022,
-                "SimulationControl": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3, DD(G)I clarithromycin",
-                  "StartTime": 96,
-                  "EndTime": 264,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-4-hydroxyclomiphene + Clarithromycin",
-            "Color": "#56B4E9",
-            "Symbol": "Triangle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17024,
-                "SimulationControl": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3, DD(G)I clarithromycin",
-                  "StartTime": 96,
-                  "EndTime": 264,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-N-desethylclomiphene + Clarithromycin",
-            "Color": "#56B4E9",
-            "Symbol": "Square",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -8951,92 +8701,7 @@
                   "EndTime": 264,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-4-hydroxy-N-desethylclomiphene + Clarithromycin",
-            "Color": "#D55E00",
-            "Symbol": "Diamond",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17028,
-                "SimulationControl": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3, DD(G)I clarithromycin",
-                  "StartTime": 96,
-                  "EndTime": 264,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-clomiphene + Clarithromycin",
-            "Color": "#D55E00",
-            "Symbol": "Circle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17030,
-                "SimulationControl": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=3) - (E)-clomiphene, 42 mg, po, sd, n=3",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=3) - (E)-clomiphene, 42 mg, po, sd, n=3, DD(G)I clarithromycin",
-                  "StartTime": 96,
-                  "EndTime": 264,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-4-hydroxyclomiphene + Clarithromycin",
-            "Color": "#56B4E9",
-            "Symbol": "Triangle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17032,
-                "SimulationControl": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=3) - (E)-clomiphene, 42 mg, po, sd, n=3",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Clarithromycin-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=3) - (E)-clomiphene, 42 mg, po, sd, n=3, DD(G)I clarithromycin",
-                  "StartTime": 96,
-                  "EndTime": 264,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-N-desethylclomiphene + Clarithromycin",
-            "Color": "#56B4E9",
-            "Symbol": "Square",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -9063,6 +8728,82 @@
             "Color": "#D55E00",
             "Symbol": "Diamond",
             "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17004,
+                "SimulationControl": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=0) - (E)-clomiphene, 42 mg, po, sd, n=5",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=0) - (E)-clomiphene, 42 mg, po, sd, n=5, DD(G)I clarithromycin",
+                  "StartTime": 96,
+                  "EndTime": 264,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17012,
+                "SimulationControl": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4, DD(G)I clarithromycin",
+                  "StartTime": 96,
+                  "EndTime": 264,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17020,
+                "SimulationControl": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2, DD(G)I clarithromycin",
+                  "StartTime": 96,
+                  "EndTime": 264,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17028,
+                "SimulationControl": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Clarithromycin-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3, DD(G)I clarithromycin",
+                  "StartTime": 96,
+                  "EndTime": 264,
+                  "TimeUnit": "h"
+                }
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -9107,6 +8848,82 @@
                   "EndTime": 216,
                   "TimeUnit": "h"
                 }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17046,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4, DD(G)I paroxetine",
+                  "StartTime": 48,
+                  "EndTime": 216,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17054,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2, DD(G)I paroxetine",
+                  "StartTime": 48,
+                  "EndTime": 216,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17062,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3, DD(G)I paroxetine",
+                  "StartTime": 48,
+                  "EndTime": 216,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17070,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=3) - (E)-clomiphene, 42 mg, po, sd, n=3",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=3) - (E)-clomiphene, 42 mg, po, sd, n=3, DD(G)I paroxetine",
+                  "StartTime": 48,
+                  "EndTime": 216,
+                  "TimeUnit": "h"
+                }
               }
             ]
           },
@@ -9129,6 +8946,82 @@
                 "SimulationDDI": {
                   "Project": "Paroxetine-Clomiphene-DDGI",
                   "Simulation": "IKP (AS=0) - (E)-clomiphene, 42 mg, po, sd, n=4, DD(G)I paroxetine",
+                  "StartTime": 48,
+                  "EndTime": 216,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17048,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4, DD(G)I paroxetine",
+                  "StartTime": 48,
+                  "EndTime": 216,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17056,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2, DD(G)I paroxetine",
+                  "StartTime": 48,
+                  "EndTime": 216,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17064,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3, DD(G)I paroxetine",
+                  "StartTime": 48,
+                  "EndTime": 216,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17072,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=3) - (E)-clomiphene, 42 mg, po, sd, n=3",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=3) - (E)-clomiphene, 42 mg, po, sd, n=3, DD(G)I paroxetine",
                   "StartTime": 48,
                   "EndTime": 216,
                   "TimeUnit": "h"
@@ -9159,92 +9052,7 @@
                   "EndTime": 216,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-4-hydroxy-N-desethylclomiphene + Paroxetine",
-            "Color": "#009E73",
-            "Symbol": "Diamond",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17044,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=0) - (E)-clomiphene, 42 mg, po, sd, n=4",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=0) - (E)-clomiphene, 42 mg, po, sd, n=4, DD(G)I paroxetine",
-                  "StartTime": 48,
-                  "EndTime": 216,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-clomiphene + Paroxetine",
-            "Color": "#009E73",
-            "Symbol": "Circle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17046,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4, DD(G)I paroxetine",
-                  "StartTime": 48,
-                  "EndTime": 216,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-4-hydroxyclomiphene + Paroxetine",
-            "Color": "#E69F00",
-            "Symbol": "Triangle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17048,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4, DD(G)I paroxetine",
-                  "StartTime": 48,
-                  "EndTime": 216,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-N-desethylclomiphene + Paroxetine",
-            "Color": "#E69F00",
-            "Symbol": "Square",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -9263,92 +9071,7 @@
                   "EndTime": 216,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-4-hydroxy-N-desethylclomiphene + Paroxetine",
-            "Color": "#009E73",
-            "Symbol": "Diamond",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17052,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4, DD(G)I paroxetine",
-                  "StartTime": 48,
-                  "EndTime": 216,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-clomiphene + Paroxetine",
-            "Color": "#009E73",
-            "Symbol": "Circle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17054,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2, DD(G)I paroxetine",
-                  "StartTime": 48,
-                  "EndTime": 216,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-4-hydroxyclomiphene + Paroxetine",
-            "Color": "#E69F00",
-            "Symbol": "Triangle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17056,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2, DD(G)I paroxetine",
-                  "StartTime": 48,
-                  "EndTime": 216,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-N-desethylclomiphene + Paroxetine",
-            "Color": "#E69F00",
-            "Symbol": "Square",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -9367,92 +9090,7 @@
                   "EndTime": 216,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-4-hydroxy-N-desethylclomiphene + Paroxetine",
-            "Color": "#009E73",
-            "Symbol": "Diamond",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17060,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2, DD(G)I paroxetine",
-                  "StartTime": 48,
-                  "EndTime": 216,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-clomiphene + Paroxetine",
-            "Color": "#009E73",
-            "Symbol": "Circle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17062,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3, DD(G)I paroxetine",
-                  "StartTime": 48,
-                  "EndTime": 216,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-4-hydroxyclomiphene + Paroxetine",
-            "Color": "#E69F00",
-            "Symbol": "Triangle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17064,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3, DD(G)I paroxetine",
-                  "StartTime": 48,
-                  "EndTime": 216,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-N-desethylclomiphene + Paroxetine",
-            "Color": "#E69F00",
-            "Symbol": "Square",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -9471,92 +9109,7 @@
                   "EndTime": 216,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-4-hydroxy-N-desethylclomiphene + Paroxetine",
-            "Color": "#009E73",
-            "Symbol": "Diamond",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17068,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3, DD(G)I paroxetine",
-                  "StartTime": 48,
-                  "EndTime": 216,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-clomiphene + Paroxetine",
-            "Color": "#009E73",
-            "Symbol": "Circle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17070,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=3) - (E)-clomiphene, 42 mg, po, sd, n=3",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=3) - (E)-clomiphene, 42 mg, po, sd, n=3, DD(G)I paroxetine",
-                  "StartTime": 48,
-                  "EndTime": 216,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-4-hydroxyclomiphene + Paroxetine",
-            "Color": "#E69F00",
-            "Symbol": "Triangle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17072,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=3) - (E)-clomiphene, 42 mg, po, sd, n=3",
-                  "StartTime": 0,
-                  "EndTime": 168,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Clomiphene-DDGI",
-                  "Simulation": "IKP (AS=3) - (E)-clomiphene, 42 mg, po, sd, n=3, DD(G)I paroxetine",
-                  "StartTime": 48,
-                  "EndTime": 216,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "(E)-N-desethylclomiphene + Paroxetine",
-            "Color": "#E69F00",
-            "Symbol": "Square",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -9583,6 +9136,82 @@
             "Color": "#009E73",
             "Symbol": "Diamond",
             "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17044,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=0) - (E)-clomiphene, 42 mg, po, sd, n=4",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=0) - (E)-clomiphene, 42 mg, po, sd, n=4, DD(G)I paroxetine",
+                  "StartTime": 48,
+                  "EndTime": 216,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17052,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=0.5) - (E)-clomiphene, 42 mg, po, sd, n=4, DD(G)I paroxetine",
+                  "StartTime": 48,
+                  "EndTime": 216,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17060,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=1) - (E)-clomiphene, 42 mg, po, sd, n=2, DD(G)I paroxetine",
+                  "StartTime": 48,
+                  "EndTime": 216,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17068,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3",
+                  "StartTime": 0,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Clomiphene-DDGI",
+                  "Simulation": "IKP (AS=2) - (E)-clomiphene, 42 mg, po, sd, n=3, DD(G)I paroxetine",
+                  "StartTime": 48,
+                  "EndTime": 216,
+                  "TimeUnit": "h"
+                }
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -9627,6 +9256,120 @@
                   "EndTime": 215,
                   "TimeUnit": "h"
                 }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17086,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Desipramine-DDGI",
+                  "Simulation": "Brosen (1993) - desipramine hydrochloride, po, 100 mg, n=8 (PM)",
+                  "StartTime": 0,
+                  "EndTime": 240,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Desipramine-DDGI",
+                  "Simulation": "Brosen (1993) - DDI - paroxetine-desipramine, po, 20/100 mg, n=8 (PM)",
+                  "StartTime": 240,
+                  "EndTime": 480,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17088,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Desipramine-DDGI",
+                  "Simulation": "Brosen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM)",
+                  "StartTime": 0,
+                  "EndTime": 240,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Desipramine-DDGI",
+                  "Simulation": "Brosen (1993) - DDI - paroxetine-desipramine, po, 20/100 mg, n=5 (EM)",
+                  "StartTime": 240,
+                  "EndTime": 480,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17090,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Desipramine-DDGI",
+                  "Simulation": "Brosen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM)",
+                  "StartTime": 0,
+                  "EndTime": 240,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Desipramine-DDGI",
+                  "Simulation": "Brosen (1993) - DDI - paroxetine-desipramine, po, 20/100 mg, n=4 (fast EM)",
+                  "StartTime": 240,
+                  "EndTime": 480,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17092,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Desipramine-DDGI",
+                  "Simulation": "Alderman (1997) - paroxetine-desipramine, po md, 20/30/50 mg, n=6",
+                  "StartTime": 0,
+                  "EndTime": 624,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Desipramine-DDGI",
+                  "Simulation": "Alderman (1997) - DDI - paroxetine-desipramine, po md, 20/30/50 mg, n=6",
+                  "StartTime": 0,
+                  "EndTime": 624,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17093,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Desipramine-DDGI",
+                  "Simulation": "Alderman (1997) - paroxetine-desipramine, po md, 20/30/50 mg, n=6",
+                  "StartTime": 0,
+                  "EndTime": 624,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Desipramine-DDGI",
+                  "Simulation": "Alderman (1997) - DDI - paroxetine-desipramine, po md, 20/30/50 mg, n=6",
+                  "StartTime": 0,
+                  "EndTime": 624,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17094,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Desipramine-DDGI",
+                  "Simulation": "Alderman (1997) - paroxetine-desipramine, po md, 20/30/50 mg, n=6",
+                  "StartTime": 0,
+                  "EndTime": 624,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Desipramine-DDGI",
+                  "Simulation": "Alderman (1997) - DDI - paroxetine-desipramine, po md, 20/30/50 mg, n=6",
+                  "StartTime": 0,
+                  "EndTime": 624,
+                  "TimeUnit": "h"
+                }
               }
             ]
           },
@@ -9657,162 +9400,6 @@
             ]
           },
           {
-            "Caption": "Desipramine + Paroxetine",
-            "Color": "#56B4E9",
-            "Symbol": "Circle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17086,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Desipramine-DDGI",
-                  "Simulation": "Brosen (1993) - desipramine hydrochloride, po, 100 mg, n=8 (PM)",
-                  "StartTime": 0,
-                  "EndTime": 240,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Desipramine-DDGI",
-                  "Simulation": "Brosen (1993) - DDI - paroxetine-desipramine, po, 20/100 mg, n=8 (PM)",
-                  "StartTime": 240,
-                  "EndTime": 480,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "Desipramine + Paroxetine",
-            "Color": "#56B4E9",
-            "Symbol": "Circle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17088,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Desipramine-DDGI",
-                  "Simulation": "Brosen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM)",
-                  "StartTime": 0,
-                  "EndTime": 240,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Desipramine-DDGI",
-                  "Simulation": "Brosen (1993) - DDI - paroxetine-desipramine, po, 20/100 mg, n=5 (EM)",
-                  "StartTime": 240,
-                  "EndTime": 480,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "Desipramine + Paroxetine",
-            "Color": "#56B4E9",
-            "Symbol": "Circle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17090,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Desipramine-DDGI",
-                  "Simulation": "Brosen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM)",
-                  "StartTime": 0,
-                  "EndTime": 240,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Desipramine-DDGI",
-                  "Simulation": "Brosen (1993) - DDI - paroxetine-desipramine, po, 20/100 mg, n=4 (fast EM)",
-                  "StartTime": 240,
-                  "EndTime": 480,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "Desipramine + Paroxetine",
-            "Color": "#56B4E9",
-            "Symbol": "Circle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17092,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Desipramine-DDGI",
-                  "Simulation": "Alderman (1997) - paroxetine-desipramine, po md, 20/30/50 mg, n=6",
-                  "StartTime": 0,
-                  "EndTime": 624,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Desipramine-DDGI",
-                  "Simulation": "Alderman (1997) - DDI - paroxetine-desipramine, po md, 20/30/50 mg, n=6",
-                  "StartTime": 0,
-                  "EndTime": 624,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "Desipramine + Paroxetine",
-            "Color": "#56B4E9",
-            "Symbol": "Circle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17093,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Desipramine-DDGI",
-                  "Simulation": "Alderman (1997) - paroxetine-desipramine, po md, 20/30/50 mg, n=6",
-                  "StartTime": 0,
-                  "EndTime": 624,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Desipramine-DDGI",
-                  "Simulation": "Alderman (1997) - DDI - paroxetine-desipramine, po md, 20/30/50 mg, n=6",
-                  "StartTime": 0,
-                  "EndTime": 624,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "Desipramine + Paroxetine",
-            "Color": "#56B4E9",
-            "Symbol": "Circle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17094,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Desipramine-DDGI",
-                  "Simulation": "Alderman (1997) - paroxetine-desipramine, po md, 20/30/50 mg, n=6",
-                  "StartTime": 0,
-                  "EndTime": 624,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Desipramine-DDGI",
-                  "Simulation": "Alderman (1997) - DDI - paroxetine-desipramine, po md, 20/30/50 mg, n=6",
-                  "StartTime": 0,
-                  "EndTime": 624,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
             "Caption": "Dextromethorphan + Paroxetine",
             "Color": "#D55E00",
             "Symbol": "Circle",
@@ -9833,6 +9420,44 @@
                   "Simulation": "Storelli 2018 IM - DDI - Paroxetine-Dextromethorphan, 20/5 mg, n=16, AS=1",
                   "StartTime": 12,
                   "EndTime": 37,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17102,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Dextromethorphan-DDGI",
+                  "Simulation": "Storelli 2018 NM - Dextromethorphan, po, 5 mg, sd, n=17, AS=2",
+                  "StartTime": 0,
+                  "EndTime": 24,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Dextromethorphan-DDGI",
+                  "Simulation": "Storelli 2018 NM - DDI - Paroxetine-Dextromethorphan, 20/5 mg, n=17, AS=2",
+                  "StartTime": 12,
+                  "EndTime": 37,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17106,
+                "SimulationControl": {
+                  "Project": "Paroxetine-Dextromethorphan-DDGI",
+                  "Simulation": "Schoedel",
+                  "StartTime": 0,
+                  "EndTime": 468,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Paroxetine-Dextromethorphan-DDGI",
+                  "Simulation": "Schoedel",
+                  "StartTime": 0,
+                  "EndTime": 468,
                   "TimeUnit": "h"
                 }
               }
@@ -9861,40 +9486,7 @@
                   "EndTime": 37,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "Dextromethorphan + Paroxetine",
-            "Color": "#D55E00",
-            "Symbol": "Circle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17102,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Dextromethorphan-DDGI",
-                  "Simulation": "Storelli 2018 NM - Dextromethorphan, po, 5 mg, sd, n=17, AS=2",
-                  "StartTime": 0,
-                  "EndTime": 24,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Dextromethorphan-DDGI",
-                  "Simulation": "Storelli 2018 NM - DDI - Paroxetine-Dextromethorphan, 20/5 mg, n=17, AS=2",
-                  "StartTime": 12,
-                  "EndTime": 37,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "Dextrorphan + Paroxetine",
-            "Color": "#56B4E9",
-            "Symbol": "Triangle",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -9911,32 +9503,6 @@
                   "Simulation": "Storelli 2018 NM - DDI - Paroxetine-Dextromethorphan, 20/5 mg, n=17, AS=2",
                   "StartTime": 12,
                   "EndTime": 37,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "Dextromethorphan + Paroxetine",
-            "Color": "#D55E00",
-            "Symbol": "Circle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17106,
-                "SimulationControl": {
-                  "Project": "Paroxetine-Dextromethorphan-DDGI",
-                  "Simulation": "Schoedel",
-                  "StartTime": 0,
-                  "EndTime": 468,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Paroxetine-Dextromethorphan-DDGI",
-                  "Simulation": "Schoedel",
-                  "StartTime": 0,
-                  "EndTime": 468,
                   "TimeUnit": "h"
                 }
               }
@@ -9965,14 +9531,7 @@
                   "EndTime": 16,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "Metoprolol racemate + Quinidine",
-            "Color": "#CC79A7",
-            "Symbol": "Circle",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
                 "ObservedData": "DDI Ratios",
@@ -9991,14 +9550,7 @@
                   "EndTime": 16,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "Metoprolol racemate + Quinidine",
-            "Color": "#CC79A7",
-            "Symbol": "Circle",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
                 "ObservedData": "DDI Ratios",
@@ -10017,14 +9569,7 @@
                   "EndTime": 56,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "Metoprolol racemate + Quinidine",
-            "Color": "#CC79A7",
-            "Symbol": "Circle",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|Metoprolol racemate|Metoprolol racemate Observer",
                 "ObservedData": "DDI Ratios",
@@ -10069,40 +9614,7 @@
                   "EndTime": 98,
                   "TimeUnit": "h"
                 }
-              }
-            ]
-          },
-          {
-            "Caption": "S-Metoprolol + Quinidine",
-            "Color": "#56B4E9",
-            "Symbol": "Circle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 17146,
-                "SimulationControl": {
-                  "Project": "Quinidine-Metoprolol-DDGI",
-                  "Simulation": "Johnson (1996) - metoprolol tartrate, po, 200 mg, n=10 (black)",
-                  "StartTime": 0,
-                  "EndTime": 12,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Quinidine-Metoprolol-DDGI",
-                  "Simulation": "Johnson (1996) - DDI - metoprolol-quinidine, po, 200/100 mg, n=10 (black)",
-                  "StartTime": 74,
-                  "EndTime": 98,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "R-Metoprolol + Quinidine",
-            "Color": "#CC79A7",
-            "Symbol": "Circle",
-            "DDIRatios": [
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|R-Metoprolol|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -10129,6 +9641,25 @@
             "Color": "#56B4E9",
             "Symbol": "Circle",
             "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 17146,
+                "SimulationControl": {
+                  "Project": "Quinidine-Metoprolol-DDGI",
+                  "Simulation": "Johnson (1996) - metoprolol tartrate, po, 200 mg, n=10 (black)",
+                  "StartTime": 0,
+                  "EndTime": 12,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Quinidine-Metoprolol-DDGI",
+                  "Simulation": "Johnson (1996) - DDI - metoprolol-quinidine, po, 200/100 mg, n=10 (black)",
+                  "StartTime": 74,
+                  "EndTime": 98,
+                  "TimeUnit": "h"
+                }
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|S-Metoprolol|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
