@@ -3663,7 +3663,7 @@
             "Simulation": "Storelli 2018 IM - Dextromethorphan, po, 5 mg, sd, n=16, AS=1",
             "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
             "ObservedData": "Storelli 2018 IM - Dextromethorphan, po, 5 mg, sd AS=1",
-            "StartTime": 0,
+            "StartTime": 144,
             "TimeUnit": "h",
             "Color": "#1F78B4",
             "Caption": "Storelli 2018, DEX (5 mg s.d. po), n = 17 IM",
@@ -3674,7 +3674,7 @@
             "Simulation": "Storelli 2018 IM - DDI - Paroxetine-Dextromethorphan, 20/5 mg, n=16, AS=1",
             "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
             "ObservedData": "Storelli 2018 IM - DDI - Dextromethorphan, po, 5 mg, sd AS=1",
-            "StartTime": 12,
+            "StartTime": 456,
             "TimeUnit": "h",
             "Color": "#E31A1C",
             "Caption": "Storelli 2018, DEX (+ PAR, 20 mg b.i.d. po), n = 17 IM",
@@ -3715,7 +3715,7 @@
             "Simulation": "Storelli 2018 NM - Dextromethorphan, po, 5 mg, sd, n=17, AS=2",
             "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
             "ObservedData": "Storelli 2018 NM - Dextromethorphan, po, 5 mg, sd AS=2",
-            "StartTime": 0,
+            "StartTime": 144,
             "TimeUnit": "h",
             "Color": "#1F78B4",
             "Caption": "Storelli 2018, DEX (5 mg s.d. po), n = 16 NM",
@@ -3726,7 +3726,7 @@
             "Simulation": "Storelli 2018 NM - DDI - Paroxetine-Dextromethorphan, 20/5 mg, n=17, AS=2",
             "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
             "ObservedData": "Storelli 2018 NM - DDI - Detromethorphan, po, 5 mg, sd AS=2",
-            "StartTime": 12,
+            "StartTime": 456,
             "TimeUnit": "h",
             "Color": "#E31A1C",
             "Caption": "Storelli 2018, DEX (+ PAR, 20 mg b.i.d. po), n = 16 NM",
@@ -3767,7 +3767,7 @@
             "Simulation": "Schoedel",
             "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
             "ObservedData": "Schoedel (2012) - DDI - paroxetine-quinidine-dextromethorphan, 20/30/30 mg, po, n=13 (EM), dextromethorphan (control)",
-            "StartTime": 0,
+            "StartTime": 144,
             "TimeUnit": "h",
             "Color": "#1F78B4",
             "Caption": "Schoedel 2012, DEX (30 mg b.i.d. po, + QUI, 30 mg b.i.d. po), n = 13",
@@ -3778,7 +3778,7 @@
             "Simulation": "Schoedel",
             "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
             "ObservedData": "Schoedel (2012) - DDI - paroxetine-quinidine-dextromethorphan, 20/30/30 mg, po, n=13 (EM), dextromethorphan (DDI)",
-            "StartTime": 0,
+            "StartTime": 456,
             "TimeUnit": "h",
             "Color": "#E31A1C",
             "Caption": "Schoedel 2012, DEX (+ QUI, + PAR, 20 mg q.d. po), n = 13",
@@ -4832,7 +4832,7 @@
             "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#1F78B4",
             "Caption": "Damkier 1999, QUI (200 mg s.d. po), n = 6",
             "Symbol": "Circle"
           },
@@ -4924,7 +4924,7 @@
             "Output": "Organism|PeripheralVenousBlood|Quinidine|Plasma (Peripheral Venous Blood)",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#1F78B4",
             "Caption": "Damkier 1999, QUI (200 mg s.d. po), n = 6",
             "Symbol": "Circle"
           },
@@ -5212,7 +5212,7 @@
             "ObservedData": "IKP AS=0, (E)-clomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#1F78B4",
             "Caption": "Mürdter 2016, AS=0, n=6",
             "Symbol": "Square"
           },
@@ -5234,7 +5234,7 @@
             "ObservedData": "IKP AS=0.75, (E)-clomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#FF7F00",
             "Caption": "Mürdter 2016, AS=0.75, n=1",
             "Symbol": "Square"
           },
@@ -5245,7 +5245,7 @@
             "ObservedData": "IKP AS=1, (E)-clomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#6A3D9A",
             "Caption": "Mürdter 2016, AS=1, n=2",
             "Symbol": "Circle"
           },
@@ -5267,7 +5267,7 @@
             "ObservedData": "IKP AS=3, (E)-clomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#B15928",
             "Caption": "Mürdter 2016, AS=3, n=3",
             "Symbol": "Diamond"
           }
@@ -5303,7 +5303,7 @@
             "ObservedData": "IKP AS=0, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#1F78B4",
             "Caption": "Mürdter 2016, AS=0, n=6",
             "Symbol": "Square"
           },
@@ -5325,7 +5325,7 @@
             "ObservedData": "IKP AS=0.75, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#FF7F00",
             "Caption": "Mürdter 2016, AS=0.75, n=1",
             "Symbol": "Square"
           },
@@ -5336,7 +5336,7 @@
             "ObservedData": "IKP AS=1, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#6A3D9A",
             "Caption": "Mürdter 2016, AS=1, n=2",
             "Symbol": "Circle"
           },
@@ -5358,7 +5358,7 @@
             "ObservedData": "IKP AS=3, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#B15928",
             "Caption": "Mürdter 2016, AS=3, n=3",
             "Symbol": "Diamond"
           }
@@ -5394,7 +5394,7 @@
             "ObservedData": "IKP AS=0, (E)-N-desethylclomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#1F78B4",
             "Caption": "Mürdter 2016, AS=0, n=6",
             "Symbol": "Square"
           },
@@ -5416,7 +5416,7 @@
             "ObservedData": "IKP AS=0.75, (E)-N-desethylclomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#FF7F00",
             "Caption": "Mürdter 2016, AS=0.75, n=1",
             "Symbol": "Square"
           },
@@ -5427,7 +5427,7 @@
             "ObservedData": "IKP AS=1, (E)-N-desethylclomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#6A3D9A",
             "Caption": "Mürdter 2016, AS=1, n=2",
             "Symbol": "Circle"
           },
@@ -5449,7 +5449,7 @@
             "ObservedData": "IKP AS=3, (E)-N-desethylclomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#B15928",
             "Caption": "Mürdter 2016, AS=3, n=3",
             "Symbol": "Diamond"
           }
@@ -5485,7 +5485,7 @@
             "ObservedData": "IKP AS=0, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#1F78B4",
             "Caption": "Mürdter 2016, AS=0, n=6",
             "Symbol": "Square"
           },
@@ -5507,7 +5507,7 @@
             "ObservedData": "IKP AS=0.75, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#FF7F00",
             "Caption": "Mürdter 2016, AS=0.75, n=1",
             "Symbol": "Square"
           },
@@ -5518,7 +5518,7 @@
             "ObservedData": "IKP AS=1, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#6A3D9A",
             "Caption": "Mürdter 2016, AS=1, n=2",
             "Symbol": "Circle"
           },
@@ -5540,7 +5540,7 @@
             "ObservedData": "IKP AS=3, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#B15928",
             "Caption": "Mürdter 2016, AS=3, n=3",
             "Symbol": "Diamond"
           }
@@ -5576,7 +5576,7 @@
             "ObservedData": "Byeon (2015) - atomoxetine, 40 mg (dose normalized), po, n=18 (AS=0.5), atomoxetine",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#1F78B4",
             "Caption": "Byeon 2015, AS=0.5, n=18",
             "Symbol": "Square"
           },
@@ -5587,7 +5587,7 @@
             "ObservedData": "Byeon (2015) - atomoxetine, 40 mg (dose normalized), po, n=22 (AS=1.25), atomoxetine",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#E31A1C",
             "Caption": "Byeon 2015, AS=1.25, n=22",
             "Symbol": "Circle"
           },
@@ -5598,7 +5598,7 @@
             "ObservedData": "Byeon (2015) - atomoxetine, 40 mg (dose normalized), n=22 (AS=2), atomoxetine",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#FF7F00",
             "Caption": "Byeon 2015, AS=2, n=22",
             "Symbol": "Circle"
           }
@@ -5617,7 +5617,7 @@
             "ObservedData": "Kim (2018) - atomoxetine, 20 mg, po, n=8 (AS=0.5), atomoxetine",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#1F78B4",
             "Caption": "Kim 2018, AS=0.5, n=8",
             "Symbol": "Square"
           },
@@ -5628,7 +5628,7 @@
             "ObservedData": "Kim (2018) - atomoxetine, 20 mg, po, n=11 (AS=2), atomoxetine",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#E31A1C",
             "Caption": "Kim 2018, AS=2, n=11",
             "Symbol": "Circle"
           }
@@ -5647,7 +5647,7 @@
             "ObservedData": "Novalbos (2010) - risperidone, 1 mg, po, n=6 (AS=0), risperidone",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#1F78B4",
             "Caption": "Novalbos 2010, AS=0, n=6",
             "Symbol": "Square"
           },
@@ -5658,7 +5658,7 @@
             "ObservedData": "Novalbos (2010) - risperidone, 1 mg, po, n=26 (AS=1), risperidone",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#E31A1C",
             "Caption": "Novalbos 2010, AS=1, n=26",
             "Symbol": "Circle"
           },
@@ -5669,7 +5669,7 @@
             "ObservedData": "Novalbos (2010) - risperidone, 1 mg, po, n=33 (AS=2), risperidone",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#FF7F00",
             "Caption": "Novalbos 2010, AS=2, n=33",
             "Symbol": "Circle"
           },
@@ -5680,7 +5680,7 @@
             "ObservedData": "Novalbos (2010) - risperidone, 1 mg, po, n=6 (AS=3), risperidone",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#6A3D9A",
             "Caption": "Novalbos 2010, AS=3, n=6",
             "Symbol": "Diamond"
           }
@@ -5699,7 +5699,7 @@
             "ObservedData": "Novalbos (2010) - risperidone, 1 mg, po, n=6 (AS=0), 9-hydroxyrisperidone",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#1F78B4",
             "Caption": "Novalbos 2010, AS=0, n=6",
             "Symbol": "Square"
           },
@@ -5710,7 +5710,7 @@
             "ObservedData": "Novalbos (2010) - risperidone, 1 mg, po, n=26 (AS=1), 9-hydroxyrisperidone",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#E31A1C",
             "Caption": "Novalbos 2010, AS=1, n=26",
             "Symbol": "Circle"
           },
@@ -5721,7 +5721,7 @@
             "ObservedData": "Novalbos (2010) - risperidone, 1 mg, po, n=33 (AS=2), 9-hydroxyrisperidone",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#FF7F00",
             "Caption": "Novalbos 2010, AS=2, n=33",
             "Symbol": "Circle"
           },
@@ -5732,7 +5732,7 @@
             "ObservedData": "Novalbos (2010) - risperidone, 1 mg, po, n=6 (AS=3), 9-hydroxyrisperidone",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#6A3D9A",
             "Caption": "Novalbos 2010, AS=3, n=6",
             "Symbol": "Diamond"
           }
@@ -5856,7 +5856,7 @@
             "ObservedData": "Qiu2016_NM_15mg_DexHBr_AS=1.25",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#E31A1C",
             "Caption": "Qiu 2016 NM, AS=1.25, n=6",
             "Symbol": "Circle"
           }
@@ -6119,7 +6119,7 @@
             "ObservedData": "Jin 2008 NM, metoprolol, 100 mg tartrate IR, n=7, AS=1.25",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#E31A1C",
             "Caption": "Jin 2008 NM, AS=1.25, n=7",
             "Symbol": "Circle"
           }
@@ -6349,7 +6349,7 @@
             "ObservedData": "Jin 2008 NM, alpha-hydroxymetoprolol, 100 mg tartrate IR, n=7, AS=1.25",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#E31A1C",
             "Caption": "Jin 2008 NM, AS=1.25, n=7",
             "Symbol": "Circle"
           }
@@ -6487,7 +6487,7 @@
             "ObservedData": "Huang 1999 NM, (R)-metoprolol, 100 mg tartrate IR, n=12, AS=1.25",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#E31A1C",
             "Caption": "Huang 1999 NM, AS=1.25, n=12",
             "Symbol": "Circle"
           }
@@ -6717,7 +6717,7 @@
             "ObservedData": "Huang 1999 NM, (S)-metoprolol, 100 mg tartrate IR, n=12, AS=1.25",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#E31A1C",
             "Caption": "Huang 1999 NM, AS=1.25, n=12",
             "Symbol": "Circle"
           }
@@ -6931,7 +6931,7 @@
             "ObservedData": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (PM), desipramine",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#1F78B4",
             "Caption": "Brøsen 1986, PM",
             "Symbol": "Square"
           },
@@ -6942,7 +6942,7 @@
             "ObservedData": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM), desipramine",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#E31A1C",
             "Caption": "Brøsen 1986, NM",
             "Symbol": "Circle"
           },
@@ -6953,7 +6953,7 @@
             "ObservedData": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM), desipramine",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#FF7F00",
             "Caption": "Brøsen 1986, fast NM",
             "Symbol": "Diamond"
           }
@@ -6988,7 +6988,7 @@
             "ObservedData": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=3 (PM), desipramine",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#1F78B4",
             "Caption": "Brøsen 1988, PM",
             "Symbol": "Square"
           },
@@ -6999,7 +6999,7 @@
             "ObservedData": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (EM), desipramine",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#E31A1C",
             "Caption": "Brøsen 1988, NM",
             "Symbol": "Circle"
           },
@@ -7010,7 +7010,7 @@
             "ObservedData": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (fast EM), desipramine",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#FF7F00",
             "Caption": "Brøsen 1988, fast NM",
             "Symbol": "Diamond"
           }
@@ -7045,7 +7045,7 @@
             "ObservedData": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=6 (PM), desipramine",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#E31A1C",
+            "Color": "#1F78B4",
             "Caption": "Spina 1987, PM",
             "Symbol": "Square"
           },
@@ -7056,7 +7056,7 @@
             "ObservedData": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM), desipramine",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#E31A1C",
             "Caption": "Spina 1987, NM",
             "Symbol": "Circle"
           }
