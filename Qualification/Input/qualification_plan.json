@@ -5234,7 +5234,7 @@
             "ObservedData": "IKP AS=0.75, (E)-clomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#FF7F00",
+            "Color": "#33A02C",
             "Caption": "Mürdter 2016, AS=0.75, n=1",
             "Symbol": "Square"
           },
@@ -5256,7 +5256,7 @@
             "ObservedData": "IKP AS=2, (E)-clomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#FF7F00",
             "Caption": "Mürdter 2016, AS=2, n=3",
             "Symbol": "Circle"
           },
@@ -5325,7 +5325,7 @@
             "ObservedData": "IKP AS=0.75, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#FF7F00",
+            "Color": "#33A02C",
             "Caption": "Mürdter 2016, AS=0.75, n=1",
             "Symbol": "Square"
           },
@@ -5347,7 +5347,7 @@
             "ObservedData": "IKP AS=2, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#FF7F00",
             "Caption": "Mürdter 2016, AS=2, n=3",
             "Symbol": "Circle"
           },
@@ -5416,7 +5416,7 @@
             "ObservedData": "IKP AS=0.75, (E)-N-desethylclomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#FF7F00",
+            "Color": "#33A02C",
             "Caption": "Mürdter 2016, AS=0.75, n=1",
             "Symbol": "Square"
           },
@@ -5438,7 +5438,7 @@
             "ObservedData": "IKP AS=2, (E)-N-desethylclomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#FF7F00",
             "Caption": "Mürdter 2016, AS=2, n=3",
             "Symbol": "Circle"
           },
@@ -5507,7 +5507,7 @@
             "ObservedData": "IKP AS=0.75, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#FF7F00",
+            "Color": "#33A02C",
             "Caption": "Mürdter 2016, AS=0.75, n=1",
             "Symbol": "Square"
           },
@@ -5529,7 +5529,7 @@
             "ObservedData": "IKP AS=2, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#1F78B4",
+            "Color": "#FF7F00",
             "Caption": "Mürdter 2016, AS=2, n=3",
             "Symbol": "Circle"
           },
@@ -5598,7 +5598,7 @@
             "ObservedData": "Byeon (2015) - atomoxetine, 40 mg (dose normalized), n=22 (AS=2), atomoxetine",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#FF7F00",
+            "Color": "#33A02C",
             "Caption": "Byeon 2015, AS=2, n=22",
             "Symbol": "Circle"
           }
@@ -5669,7 +5669,7 @@
             "ObservedData": "Novalbos (2010) - risperidone, 1 mg, po, n=33 (AS=2), risperidone",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#FF7F00",
+            "Color": "#33A02C",
             "Caption": "Novalbos 2010, AS=2, n=33",
             "Symbol": "Circle"
           },
@@ -5721,7 +5721,7 @@
             "ObservedData": "Novalbos (2010) - risperidone, 1 mg, po, n=33 (AS=2), 9-hydroxyrisperidone",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#FF7F00",
+            "Color": "#33A02C",
             "Caption": "Novalbos 2010, AS=2, n=33",
             "Symbol": "Circle"
           },
@@ -6953,7 +6953,7 @@
             "ObservedData": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM), desipramine",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#FF7F00",
+            "Color": "#33A02C",
             "Caption": "Brøsen 1986, fast NM",
             "Symbol": "Diamond"
           }
@@ -7010,7 +7010,7 @@
             "ObservedData": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (fast EM), desipramine",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#FF7F00",
+            "Color": "#33A02C",
             "Caption": "Brøsen 1988, fast NM",
             "Symbol": "Diamond"
           }
