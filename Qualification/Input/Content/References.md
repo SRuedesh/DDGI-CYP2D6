@@ -54,7 +54,7 @@
 
 [28] W. Mahatthanatrakul, S. Sriwiriyajan, W. Ridtitid, J. Boonleang, M. Wongnawa, N. Rujimamahasan, and W. Pipatrattanaseree. Effect of cytochrome P450 3A4 inhibitor ketoconazole on risperidone pharmacokinetics in healthy volunteers. Journal of clinical pharmacy and therapeutics, 37(2):221–5, 2012. doi: [10.1111/j.1365-2710.2011.01271.x](https://doi.org/10.1111/j.1365-2710.2011.01271.x).
 
-[29] T. Mürdter. Impact of CYP2D6 genotype and co-medication with paroxetine and clarithromycin on clomiphene metabolism in vivo. Abstracts of the 82nd Annual Meeting of the German Society for Experimental and Clinical Pharmacology and Toxicology (DGPT) in Naunyn-Schmiedeberg Archives of Pharmacology, 2016.
+[29] T. Murdter. Impact of CYP2D6 genotype and co-medication with paroxetine and clarithromycin on clomiphene metabolism in vivo. Abstracts of the 82nd Annual Meeting of the German Society for Experimental and Clinical Pharmacology and Toxicology (DGPT) in Naunyn-Schmiedeberg Archives of Pharmacology, 2016.
 
 [30] T. E. Murdter, R. Kerb, M. Turpeinen, W. Schroth, B. Ganchev, G. M. Boehmer, S. Igel, E. Schaeffeler, U. Zanger, H. Brauch, and M. Schwab. Genetic polymorphism of cytochrome P450 2D6 determines oestrogen receptor activity of the major infertility drug clomiphene via its active metabolites. Human Molecular Genetics, 21:1145-1154, 2012. doi: [10.1093/hmg/ddr543](https://doi.org/10.1093/hmg/ddr543).
 
