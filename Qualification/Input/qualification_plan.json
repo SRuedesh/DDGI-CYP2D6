@@ -207,7 +207,7 @@
     },
     {
       "Id": "Paroxetine-DGI",
-      "Path": "https://raw.githubusercontent.com/SRuedesh/Paroxetine-Model/42e7f0eeb22588afbff74fdf1b5c27f744aabb0c/Paroxetine-Model.json"
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Paroxetine-Model/900025e20f5c0cf97ad653b0cf458e452f9b356e/Paroxetine-Model.json"
     },
     {
       "Id": "Risperidone-DGI",
@@ -1112,7 +1112,7 @@
       {
         "SectionReference": "fluvoxamine-atomoxetine-ddi-timeprofile",
         "Title": "Todor 2017: atomoxetine with and without fluvoxamine",
-        "SimulationDuration": 39,
+        "SimulationDuration": 36,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -1146,7 +1146,7 @@
             "GridLines": false,
             "Scaling": "Linear",
             "Min": 0,
-            "Max": 39
+            "Max": 36
           },
           {
             "Type": "Y",
@@ -1298,7 +1298,7 @@
       {
         "SectionReference": "paroxetine-atomoxetine-ddgi-timeprofile",
         "Title": "Todor 2015: Paroxetine - Atomoxetine DDI",
-        "SimulationDuration": 168,
+        "SimulationDuration": 48,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -1330,7 +1330,9 @@
             "Dimension": "Time",
             "Unit": "h",
             "GridLines": false,
-            "Scaling": "Linear"
+            "Scaling": "Linear",
+            "Min": 0,
+            "Max": 48
           },
           {
             "Type": "Y",
@@ -1344,7 +1346,7 @@
       {
         "SectionReference": "paroxetine-atomoxetine-ddgi-timeprofile",
         "Title": "Belle 2002: Paroxetine - Atomoxetine DDI",
-        "SimulationDuration": 480,
+        "SimulationDuration": 225,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -1376,7 +1378,9 @@
             "Dimension": "Time",
             "Unit": "h",
             "GridLines": false,
-            "Scaling": "Linear"
+            "Scaling": "Linear",
+            "Min": 63,
+            "Max": 225
           },
           {
             "Type": "Y",
@@ -5602,6 +5606,22 @@
             "Caption": "Byeon 2015, AS=2, n=22",
             "Symbol": "Circle"
           }
+        ],
+        "Axes": [
+          {
+            "Type": "X",
+            "Dimension": "Time",
+            "Unit": "h",
+            "GridLines": false,
+            "Scaling": "Linear"
+          },
+          {
+            "Type": "Y",
+            "Dimension": "Concentration (mass)",
+            "Unit": "µg/l",
+            "GridLines": false,
+            "Scaling": "Linear"
+          }
         ]
       },
       {
@@ -5631,6 +5651,22 @@
             "Color": "#E31A1C",
             "Caption": "Kim 2018, AS=2, n=11",
             "Symbol": "Circle"
+          }
+        ],
+        "Axes": [
+          {
+            "Type": "X",
+            "Dimension": "Time",
+            "Unit": "h",
+            "GridLines": false,
+            "Scaling": "Linear"
+          },
+          {
+            "Type": "Y",
+            "Dimension": "Concentration (mass)",
+            "Unit": "µg/l",
+            "GridLines": false,
+            "Scaling": "Linear"
           }
         ]
       },
@@ -7075,6 +7111,214 @@
             "Unit": "µg/l",
             "GridLines": false,
             "Scaling": "Linear"
+          }
+        ]
+      },
+      {
+        "SectionReference": "paroxetine-dgi-timeprofile",
+        "Title": "Sindrup 1992: Paroxetine DGI",
+        "SimulationDuration": 456,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Paroxetine-DGI",
+            "Simulation": "Sindrup (1992) - paroxetine hydrochloride, 30 mg, po, md, n=8 (PM)",
+            "Output": "Organism|PeripheralVenousBlood|Paroxetine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Sindrup (1992) - paroxetine hydrochloride, 30 mg, po, md, n=8 (PM), paroxetine (last dose)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#1F78B4",
+            "Caption": "Sindrup 1992, PM, last dose",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Paroxetine-DGI",
+            "Simulation": "Sindrup (1992) - paroxetine hydrochloride, 30 mg, po, md, n=9 (EM)",
+            "Output": "Organism|PeripheralVenousBlood|Paroxetine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Sindrup (1992) - paroxetine hydrochloride, 30 mg, po, md, n=9 (EM), paroxetine (last dose)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#E31A1C",
+            "Caption": "Sindrup 1992, NM, last dose",
+            "Symbol": "Circle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "paroxetine-dgi-timeprofile",
+        "Title": "Chen 2015: Paroxetine DGI",
+        "SimulationDuration": 120,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Paroxetine-DGI",
+            "Simulation": "Chen (2015) - paroxetine hydrochloride, 25 mg, po, n=4 (AS=0.5)",
+            "Output": "Organism|PeripheralVenousBlood|Paroxetine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Chen (2015) - paroxetine hydrochloride, 25 mg, po, n=4 (AS=0.5), paroxetine",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#1F78B4",
+            "Caption": "Chen 2015, AS=0.5, n=4",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Paroxetine-DGI",
+            "Simulation": "Chen (2015) - paroxetine hydrochloride, 25 mg, po, n=11 (AS=1)",
+            "Output": "Organism|PeripheralVenousBlood|Paroxetine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Chen (2015) - paroxetine hydrochloride, 25 mg, po, n=11 (AS=1), paroxetine",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#E31A1C",
+            "Caption": "Chen 2015, AS=1, n=11",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Paroxetine-DGI",
+            "Simulation": "Chen (2015) - paroxetine hydrochloride, 25 mg, po, n=5 (AS=1.5)",
+            "Output": "Organism|PeripheralVenousBlood|Paroxetine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Chen (2015) - paroxetine hydrochloride, 25 mg, po, n=5 (AS=1.5), paroxetine",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#33A02C",
+            "Caption": "Chen 2015, AS=1.5, n=5",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Paroxetine-DGI",
+            "Simulation": "Chen (2015) - paroxetine hydrochloride, 25 mg, po, n=4 (AS=2)",
+            "Output": "Organism|PeripheralVenousBlood|Paroxetine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Chen (2015) - paroxetine hydrochloride, 25 mg, po, n=4 (AS=2), paroxetine",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#6A3D9A",
+            "Caption": "Chen 2015, AS=2, n=4",
+            "Symbol": "Circle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "paroxetine-dgi-timeprofile",
+        "Title": "Mürdter 2016: Paroxetine DGI",
+        "SimulationDuration": 270,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Paroxetine-DGI",
+            "Simulation": "Mürdter (2016) - paroxetine hydrochloride, 40 mg, po, md, n=3 (AS=0)",
+            "Output": "Organism|PeripheralVenousBlood|Paroxetine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Mürdter (2016) - paroxetine hydrochloride, 40 mg, po, md, n=3 (AS=0), paroxetine",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#1F78B4",
+            "Caption": "Mürdter 2016, AS=0, n=3",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Paroxetine-DGI",
+            "Simulation": "Mürdter (2016) - paroxetine hydrochloride, 40 mg, po, md, n=4 (AS=0.5)",
+            "Output": "Organism|PeripheralVenousBlood|Paroxetine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Mürdter (2016) - paroxetine hydrochloride, 40 mg, po, md, n=4 (AS=0.5), paroxetine",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#E31A1C",
+            "Caption": "Mürdter 2016, AS=0.5, n=4",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Paroxetine-DGI",
+            "Simulation": "Mürdter (2016) - paroxetine hydrochloride, 40 mg, po, md, n=1 (AS=0.75)",
+            "Output": "Organism|PeripheralVenousBlood|Paroxetine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Mürdter (2016) - paroxetine hydrochloride, 40 mg, po, md, n=1 (AS=0.75), paroxetine",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#33A02C",
+            "Caption": "Mürdter 2016, AS=0.75, n=1",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Paroxetine-DGI",
+            "Simulation": "Mürdter (2016) - paroxetine hydrochloride, 40 mg, po, md, n=2 (AS=1)",
+            "Output": "Organism|PeripheralVenousBlood|Paroxetine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Mürdter (2016) - paroxetine hydrochloride, 40 mg, po, md, n=2 (AS=1), paroxetine",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#6A3D9A",
+            "Caption": "Mürdter 2016, AS=1, n=2",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Paroxetine-DGI",
+            "Simulation": "Mürdter (2016) - paroxetine hydrochloride, 40 mg, po, md, n=3 (AS=2)",
+            "Output": "Organism|PeripheralVenousBlood|Paroxetine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Mürdter (2016) - paroxetine hydrochloride, 40 mg, po, md, n=3 (AS=2), paroxetine",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#FF7F00",
+            "Caption": "Mürdter 2016, AS=2, n=3",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Paroxetine-DGI",
+            "Simulation": "Mürdter (2016) - paroxetine hydrochloride, 40 mg, po, md, n=3 (AS=3)",
+            "Output": "Organism|PeripheralVenousBlood|Paroxetine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Mürdter (2016) - paroxetine hydrochloride, 40 mg, po, md, n=3 (AS=3), paroxetine",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#B15928",
+            "Caption": "Mürdter 2016, AS=3, n=3",
+            "Symbol": "Diamond"
+          }
+        ]
+      },
+      {
+        "SectionReference": "paroxetine-dgi-timeprofile",
+        "Title": "Yoon 2000: Paroxetine DGI",
+        "SimulationDuration": 300,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Paroxetine-DGI",
+            "Simulation": "Yoon (2000) - paroxetine hydrochloride, 40 mg, po, n=1 (AS=0)",
+            "Output": "Organism|PeripheralVenousBlood|Paroxetine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Yoon (2000) - paroxetine hydrochloride, 40 mg, po, n=1 (AS=0), paroxetine",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#1F78B4",
+            "Caption": "Yoon 2000, AS=0, n=1",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Paroxetine-DGI",
+            "Simulation": "Yoon (2000) - paroxetine hydrochloride, 40 mg, po, n=3 (AS=0.5)",
+            "Output": "Organism|PeripheralVenousBlood|Paroxetine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Yoon (2000) - paroxetine hydrochloride, 40 mg, po, n=3 (AS=0.5), paroxetine",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#E31A1C",
+            "Caption": "Yoon 2000, AS=0.5, n=3",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Paroxetine-DGI",
+            "Simulation": "Yoon (2000) - paroxetine hydrochloride, 40 mg, po, n=6 (AS=1.25)",
+            "Output": "Organism|PeripheralVenousBlood|Paroxetine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Yoon (2000) - paroxetine hydrochloride, 40 mg, po, n=6 (AS=1.25), paroxetine",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#33A02C",
+            "Caption": "Yoon 2000, AS=1.25, n=6",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Paroxetine-DGI",
+            "Simulation": "Yoon (2000) - paroxetine hydrochloride, 40 mg, po, n=6 (AS=2)",
+            "Output": "Organism|PeripheralVenousBlood|Paroxetine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Yoon (2000) - paroxetine hydrochloride, 40 mg, po, n=6 (AS=2), paroxetine",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#6A3D9A",
+            "Caption": "Yoon 2000, AS=2, n=6",
+            "Symbol": "Circle"
           }
         ]
       }
@@ -11613,6 +11857,10 @@
               "Content": "Content/Mexiletine-DGI.md"
             },
             {
+              "Reference": "paroxetine-dgi",
+              "Title": "Paroxetine DGI"
+            },
+            {
               "Reference": "risperidone-dgi",
               "Title": "Risperidone DGI",
               "Content": "Content/Risperidone-DGI.md"
@@ -11834,6 +12082,10 @@
             {
               "Reference": "mexiletine-dgi-timeprofile",
               "Title": "Mexiletine DGI"
+            },
+            {
+              "Reference": "paroxetine-dgi-timeprofile",
+              "Title": "Paroxetine DGI"
             },
             {
               "Reference": "risperidone-dgi-timeprofile",
