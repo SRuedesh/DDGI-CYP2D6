@@ -1,4 +1,4 @@
 /justfile
-/scripts/
+/scripts/normalize-qualification-identifiers.ps1
 /Qualification/report/
 /Qualification/tmp/

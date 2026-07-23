@@ -17,27 +17,30 @@ This repository contains:
 
 ## Local report workflow
 
-The local workflow is intended for fast structural checks and report-only iterations against the sibling repositories under `../` and `../ddi`.
+The local workflow creates the full qualification report against the sibling repositories under `../` and `../ddi`.
 
 Prerequisites:
 
 1. OSP Qualification Runner 12.2.232 is available at `../../tools/Qualification-Runner.12.2.232`.
 2. The adjusted parent and interaction repositories are available as local siblings, for example `../Atomoxetine-Model`, `../Paroxetine-Model`, and `../ddi/<interaction-repository>`.
 3. R can load `ospsuite.reportingengine`.
-4. `just` is available on `PATH`.
+4. PowerShell 7 (`pwsh.exe`) and `just` are available on `PATH`.
+
+Set `DDI_OBSERVED_DATA` to a local `DDI.csv` file when an offline render is required. Otherwise, the observed-data URL
+from the qualification plan is retained.
 
 Useful recipes:
 
 1. `just preflight`: checks that all simulations and observed-data references in `Qualification/Input/qualification_plan.json` resolve against the local sibling snapshots.
 2. `just local-plan`: writes `Qualification/tmp/qualification_plan.local.json` with local snapshot and content paths.
 3. `just check-render-inputs`: checks the exported `re_input/report-configuration-plan.json` and runner mappings before rendering.
-4. `just render`: assembles `Qualification/report/report.md` from existing reporting-engine outputs. This recipe intentionally inactivates simulation, PK calculation, and plot-generation tasks.
-5. `just run`: runs `preflight`, creates the local plan, exports runner input with `--norun`, checks render mappings, and then runs the report-only render.
+4. `just render`: runs simulations, calculates PK parameters, generates all configured plots, and creates `Qualification/report/report.md`.
+5. `just run`: runs `preflight`, creates the local plan, exports runner input, checks every render mapping, and then runs the full render.
 6. `just actions`: runs the local equivalents of the input-file checks, including UTF-8, plan validation, and spellcheck.
 
-The local workflow uses a temporary `Q:` drive during `just run` to avoid Windows path-length problems in exported runner files.
+The local workflow uses `C:\tmp\osp` as its physical working directory. The short path prevents deeply nested figure filenames from exceeding the Windows path limit. A substituted drive is insufficient because some R graphics operations resolve it back to the longer physical path. After rendering, the validated report is copied to `Qualification/report` with long-path-capable Windows tooling.
 
-If model simulations, PK parameters, or plots must be regenerated locally, do not rely on `just render` alone. Run the full reporting workflow with the relevant reporting-engine tasks enabled, or use the remote workflow described below.
+Missing PKML mappings or rendered figures stop the local workflow instead of producing an incomplete report.
 
 ## Remote report workflow
 

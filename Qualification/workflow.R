@@ -14,27 +14,60 @@
 #' @examples
 #' # Create a Qualification Report without any option and running v9.1.1 of Qualification Runner
 #' createQualificationReport("C:/Software/QualificationRunner9.1.1")
-#' 
+#'
 #' # Create a Qualification Report and turn off the creation of a doc version
 #' createQualificationReport("C:/Software/QualificationRunner9.1.1", createWordReport = FALSE)
-#' 
+#'
 #' # Create a Qualification Report and set the number of simulations to be run per core
 #' createQualificationReport("C:/Software/QualificationRunner9.1.1", maxSimulationsPerCore = 8)
-#' 
+#'
 #' # Create a Qualification Report and update Qualification Version Information on title page
 #' versionInfo <- QualificationVersionInfo$new("1.1", "2.2","3.3")
 #' createQualificationReport("C:/Software/QualificationRunner9.1.1", versionInfo = versionInfo)
-#' 
-createQualificationReport <- function(qualificationRunnerFolder,
-                                      pkSimPortableFolder = NULL,
-                                      createWordReport = TRUE,
-                                      maxSimulationsPerCore = NULL,
-                                      versionInfo = NULL,
-                                      wordConversionTemplate = NULL) {
+#'
+createQualificationReport <- function(
+  qualificationRunnerFolder,
+  pkSimPortableFolder = NULL,
+  createWordReport = TRUE,
+  maxSimulationsPerCore = NULL,
+  versionInfo = NULL,
+  wordConversionTemplate = NULL
+) {
   library(ospsuite.reportingengine)
+
+  formatAxisProperties <- ospsuite.reportingengine:::formatAxisProperties
+  if (!isTRUE(attr(formatAxisProperties, "supportsPartialLimits"))) {
+    patchedFormatAxisProperties <- function(axisField) {
+      properties <- formatAxisProperties(axisField)
+      if (!is.null(axisField$Min) && is.null(axisField$Max)) {
+        properties$max <- NA_real_
+      }
+      if (is.null(axisField$Min) && !is.null(axisField$Max)) {
+        properties$min <- NA_real_
+      }
+      properties
+    }
+    attr(patchedFormatAxisProperties, "supportsPartialLimits") <- TRUE
+    assignInNamespace(
+      "formatAxisProperties",
+      patchedFormatAxisProperties,
+      ns = "ospsuite.reportingengine"
+    )
+  }
+
   # Reset settings such as plot theme or format of numeric in tables
   # to Reporting Engine default values
   resetRESettingsToDefault()
+
+  reportThemeFile <- file.path(
+    getwd(),
+    "Input",
+    "report-theme.json"
+  )
+  if (!file.exists(reportThemeFile)) {
+    stop("The centralized report theme is missing: ", reportThemeFile)
+  }
+  setDefaultThemeFromJson(reportThemeFile)
 
   #-------- STEP 1: Define workflow settings --------#
   #' replace `workingDirectory` and `qualificationPlanName` with your paths
@@ -61,7 +94,11 @@ createQualificationReport <- function(qualificationRunnerFolder,
   workingDirectory <- getwd()
 
   qualificationPlanName <- "qualification_plan.json"
-  qualificationPlanFile <- file.path(workingDirectory, "Input", qualificationPlanName)
+  qualificationPlanFile <- file.path(
+    workingDirectory,
+    "Input",
+    qualificationPlanName
+  )
 
   #' The default outputs of qualification runner should be generated under `<workingDirectory>/re_input`
   reInputFolder <- file.path(workingDirectory, "re_input")
@@ -70,7 +107,10 @@ createQualificationReport <- function(qualificationRunnerFolder,
 
   #' Configuration Plan created from the Qualification Plan by the Qualification Runner
   configurationPlanName <- "report-configuration-plan"
-  configurationPlanFile <- file.path(reInputFolder, paste0(configurationPlanName, ".json"))
+  configurationPlanFile <- file.path(
+    reInputFolder,
+    paste0(configurationPlanName, ".json")
+  )
 
   #' Option to record the time require to run the workflow.
   #' The timer will calculate calculation time from internal `Sys.time()` function
@@ -83,7 +123,7 @@ createQualificationReport <- function(qualificationRunnerFolder,
   #' If not set, report created will be named `report.md` and located in the worflow folder namely `reOutputFolder`
   reportFolder <- file.path(workingDirectory, "report")
   reportPath <- file.path(reportFolder, "report.md")
-  
+
   #----- Optional parameters for the Qualification Runner -----#
   #' If not null, `logFile` is passed internally via the `-l` option
   logFile <- NULL
@@ -113,20 +153,24 @@ createQualificationReport <- function(qualificationRunnerFolder,
   #' Print timer tracked time if option `recordWorkflowTime` is set to TRUE
   if (recordWorkflowTime) {
     toc <- as.numeric(Sys.time())
-    print(paste0("Qualification Runner Duration: ", round((toc - tic) / 60, 1), " minutes"))
+    print(paste0(
+      "Qualification Runner Duration: ",
+      round((toc - tic) / 60, 1),
+      " minutes"
+    ))
   }
 
   #-------- STEP 3: Run Qualification Workflow  --------#
   # If version info is provided update title page
-  titlePageFile <- file.path(reInputFolder, "Intro/titlepage.md") 
+  titlePageFile <- file.path(reInputFolder, "Intro/titlepage.md")
   addTitlePage <- all(
     !is.null(versionInfo),
     file.exists(titlePageFile)
   )
-  if(addTitlePage){
+  if (addTitlePage) {
     adjustTitlePage(titlePageFile, qualificationVersionInfo = versionInfo)
   }
-  
+
   #' Load `QualificationWorkflow` object from configuration plan
   workflow <- loadQualificationWorkflow(
     workflowFolder = reOutputFolder,
@@ -142,10 +186,10 @@ createQualificationReport <- function(qualificationRunnerFolder,
   workflow$setWatermark(watermark)
 
   #' Set the maximum number of simulations per core if defined
-  if(!is.null(maxSimulationsPerCore)){
+  if (!is.null(maxSimulationsPerCore)) {
     workflow$simulate$settings$maxSimulationsPerCore <- maxSimulationsPerCore
   }
-  
+
   #' @note Activate/Inactivate tasks of qualification workflow prior running
   #' workflow$inactivateTasks("simulate")
   #' workflow$inactivateTasks("calculatePKParameters")
@@ -154,14 +198,18 @@ createQualificationReport <- function(qualificationRunnerFolder,
   #' workflow$inactivateTasks("plotGOFMerged")
   #' workflow$inactivateTasks("plotPKRatio")
   #' workflow$inactivateTasks("plotDDIRatio")
-  
+
   #' Run the `QualificationWorkflow`
   workflow$runWorkflow()
 
   #' Print timer tracked time if option `recordWorkflowTime` is set to TRUE
   if (recordWorkflowTime) {
     toc <- as.numeric(Sys.time())
-    print(paste0("Qualification Workflow Total Duration: ", round((toc - tic) / 60, 1), " minutes"))
+    print(paste0(
+      "Qualification Workflow Total Duration: ",
+      round((toc - tic) / 60, 1),
+      " minutes"
+    ))
   }
   return(invisible())
 }

@@ -11,7 +11,7 @@ The following victim and/or perpetrator PBPK models were applied:
 - **Alprazolam**
   Model snapshot: https://github.com/Open-Systems-Pharmacology/Alprazolam-Model/blob/master/Alprazolam-Model.json
 - **Atomoxetine**
-  Model snapshot: https://github.com/Open-Systems-Pharmacology/Atomoxetine-Model/blob/main/atomoxetine-model.json 
+  Model snapshot: https://github.com/SRuedesh/Atomoxetine-Model/blob/bd042057586321df679d53ac1ef006dfcfeaa88a/Atomoxetine-model.json
 - **Bupropion**
   Model snapshot: https://github.com/Open-Systems-Pharmacology/Bupropion-Model/blob/main/Bupropion-Model.json 
 - **Carbamazepine**
@@ -21,9 +21,9 @@ The following victim and/or perpetrator PBPK models were applied:
 - **Clarithromycin**
   Model snapshot: https://github.com/Open-Systems-Pharmacology/Clarithromycin-Model/blob/master/Clarithromycin-Model.json
 - **(E)-Clomiphene** 
-  Model snapshot:https://github.com/Open-Systems-Pharmacology/Clomiphene-Model/blob/main/(E)-clomiphene-DGI-Model.json 
+  Model snapshot: https://github.com/SRuedesh/Clomiphene-Model/blob/86cc674554c1b2fa6470e35c1afe19a0d01938bb/Clomiphene-Model.json
 - **Desipramine** 
-  Model snapshot: https://github.com/Open-Systems-Pharmacology/Desipramine-Model/blob/main/Desipramine-Model.json
+  Model snapshot: https://github.com/SRuedesh/Desipramine-Model/blob/5c3286b6d4f1aeb764488710e18aa5beeaabd4d8/Desipramine-Model.json
 - **Dextromethorphan** 
   Model snapshot: https://github.com/Open-Systems-Pharmacology/Dextromethorphan-Model/blob/main/dextromethorphan_aggregated_simulations.json
 - **Digoxin** 
@@ -35,21 +35,21 @@ The following victim and/or perpetrator PBPK models were applied:
 - **Itraconazole**
   Model snapshot: https://github.com/Open-Systems-Pharmacology/Itraconazole-Model/blob/master/Itraconazole-Model.json
 - **Ketoconazole**
-  Model snapshot: https://github.com/Open-Systems-Pharmacology/Ketoconazole-Model/blob/main/Ketoconazole-Model.json
+  Model snapshot: https://github.com/SRuedesh/Ketoconazole-Model/blob/91d24c1075a17d122039fe37dadc893d9e1af987/Ketoconazole-Model.json
 - **Metoprolol**
-  Model snapshot: https://github.com/SRuedesh/Metoprolol-Model/blob/ad2a8b70e40d102f540af845e5f42aa909c3708c/Metoprolol-Model.json
+  Model snapshot: https://github.com/SRuedesh/Metoprolol-Model/blob/c16fb746829e4e38707947bedbfe489048c2bc38/Metoprolol-Model.json
 - **Mexiletine** 
   Model snapshot: https://github.com/Open-Systems-Pharmacology/Mexiletine-Model/blob/main/Mexiletine-Model.json
 - **Omeprazole**
   Model snapshot: https://github.com/Open-Systems-Pharmacology/Omeprazole-Model/blob/main/Omeprazole-Model.json
 - **Paroxetine** 
-  Model snapshot: https://github.com/Open-Systems-Pharmacology/Paroxetine-Model/blob/main/paroxetine-model.json
+  Model snapshot: https://github.com/SRuedesh/Paroxetine-Model/blob/42e7f0eeb22588afbff74fdf1b5c27f744aabb0c/Paroxetine-Model.json
 - **Quinidine** 
-  Model snapshot: https://github.com/Open-Systems-Pharmacology/Quinidine-Model/blob/main/Quinidine-Model.json
+  Model snapshot: https://github.com/SRuedesh/Quinidine-Model/blob/10e7e31a07e906b9cde38fedf37d75fd6992fb1c/Quinidine-Model.json
 - **Rifampicin**
   Model snapshot: https://github.com/Open-Systems-Pharmacology/Rifampicin-Model/blob/master/Rifampicin-Model.json
 - **Risperidone**
-  Model snapshot: https://github.com/Open-Systems-Pharmacology/Risperidone-Model/blob/main/risperidone-model.json
+  Model snapshot: https://github.com/SRuedesh/Risperidone-Model/blob/b2c802af803ee0fcf76af56f19dd9ff6df7ddae9/Risperidone-model.json
 - **Verapamil**
   Model snapshot: https://github.com/Open-Systems-Pharmacology/Verapamil-Model/blob/master/Verapamil-Model.json
 

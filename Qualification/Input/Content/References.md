@@ -95,3 +95,9 @@
 [48] N. Yasui-Furukori, M. Saito, T. Niioka, Y. Inoue, Y. Sato, and S. Kaneko. Effect of itraconazole on pharmacokinetics of paroxetine: the role of gut transporters. Therapeutic drug monitoring, 29(1):45–8, 2007. doi: [10.1097/FTD.0b013e31802bb20d](https://doi.org/10.1097/FTD.0b013e31802bb20d).
 
 [49] U.S. Food and Drug Administration. For Healthcare Professionals: FDA's Examples of Drugs that Interact with CYP Enzymes and Transporter Systems. Accessed July 22, 2026. [FDA website](https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems).
+
+[50] K. Brøsen, S. V. Otton, and L. F. Gram. Imipramine demethylation and hydroxylation: impact of the sparteine oxidation phenotype. Clinical Pharmacology & Therapeutics, 40:543–549, 1986. doi: [10.1038/clpt.1986.221](https://doi.org/10.1038/clpt.1986.221).
+
+[51] K. Brøsen and L. F. Gram. First-pass metabolism of imipramine and desipramine: impact of the sparteine oxidation phenotype. Clinical Pharmacology & Therapeutics, 43:400–406, 1988. doi: [10.1038/clpt.1988.50](https://doi.org/10.1038/clpt.1988.50).
+
+[52] E. Spina, E. Steiner, Ö. Ericsson, and F. Sjöqvist. Hydroxylation of desmethylimipramine: dependence on the debrisoquin hydroxylation phenotype. Clinical Pharmacology & Therapeutics, 41:314–319, 1987. doi: [10.1038/clpt.1987.33](https://doi.org/10.1038/clpt.1987.33).
