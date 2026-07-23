@@ -1,11 +1,12 @@
-The Metoprolol DGI evaluation uses the `Metoprolol-Model` parent model source. It includes activity-score comparisons from Bae 2014, Hamelin 2000, Huang 1999, Jin 2008, Kirchheiner and Seeringer 2008, and Sharma 2005.
+Metoprolol DGI profiles assess CYP2D6-dependent exposure of metoprolol and alpha-hydroxymetoprolol. Racemate and enantiomer-specific endpoints are interpreted within study and are not pooled.
 
-The available DGI ratio mappings include 18 study-specific comparisons across the following endpoints:
+| **Study** | **Route and dose** | **CYP2D6 groups** | **Analyte(s)** |
+| --- | --- | --- | --- |
+| [Bae 2014](#references) | Oral metoprolol tartrate immediate-release, 100 mg single dose | AS 0.5 and 2 | Metoprolol racemate and alpha-hydroxymetoprolol |
+| [Hamelin 2000](#references) | Oral metoprolol tartrate immediate-release, 100 mg single dose | PM and NM | Metoprolol racemate |
+| [Huang 1999](#references) | Oral metoprolol tartrate immediate-release, 100 mg single dose | IM and NM | R- and S-metoprolol |
+| [Jin 2008](#references) | Oral metoprolol tartrate immediate-release, 100 mg single dose | AS 0.5, 1.25, and 2 | Metoprolol racemate and alpha-hydroxymetoprolol |
+| [Kirchheiner 2004](#references) and [Seeringer 2008](#references) | Oral metoprolol tartrate immediate-release, 100 mg single dose | PM, NM, and UM | R- and S-metoprolol |
+| [Sharma 2005](#references) | Oral metoprolol tartrate, 100 mg single dose | PM and NM | R- and S-metoprolol |
 
-| Endpoint | Interpretation |
-| --- | --- |
-| Metoprolol racemate | Parent-drug exposure |
-| R-Metoprolol and S-Metoprolol | Enantiomer-specific parent-drug exposure |
-| alpha-Hydroxymetoprolol | Formation-dependent metabolite exposure |
-
-The scientific check is evaluated within study and analyte. Higher CYP2D6 activity is expected to lower parent metoprolol exposure, while alpha-hydroxymetoprolol provides complementary evidence of CYP2D6-mediated formation. Racemate and enantiomer-specific endpoints are not pooled.
+AS: CYP2D6 activity score. IM: intermediate metabolizer. NM: normal metabolizer. PM: poor metabolizer. UM: ultrarapid metabolizer.

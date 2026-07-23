@@ -101,3 +101,33 @@
 [51] K. Brøsen and L. F. Gram. First-pass metabolism of imipramine and desipramine: impact of the sparteine oxidation phenotype. Clinical Pharmacology & Therapeutics, 43:400–406, 1988. doi: [10.1038/clpt.1988.50](https://doi.org/10.1038/clpt.1988.50).
 
 [52] E. Spina, E. Steiner, Ö. Ericsson, and F. Sjöqvist. Hydroxylation of desmethylimipramine: dependence on the debrisoquin hydroxylation phenotype. Clinical Pharmacology & Therapeutics, 41:314–319, 1987. doi: [10.1038/clpt.1987.33](https://doi.org/10.1038/clpt.1987.33).
+
+[53] J. Y. Byeon, S. H. Kim, M. K. Lee, J. G. Shin, and K. A. Kim. Effects of the CYP2D6*10 allele on the pharmacokinetics of atomoxetine and its metabolites. Archives of Pharmacal Research, 38:2083–2091, 2015.
+
+[54] S. H. Kim, K. A. Kim, and J. G. Shin. Physiologically based pharmacokinetic modelling of atomoxetine with regard to CYP2D6 genotypes. Scientific Reports, 8:1–9, 2018.
+
+[55] J. C. Gorski, S.-M. Huang, A. Pinto, et al. The effect of echinacea on cytochrome P450 activity in vivo. Clinical Pharmacology and Therapeutics, 75(1):89–100, 2004. doi: [10.1016/j.clpt.2003.09.013](https://doi.org/10.1016/j.clpt.2003.09.013).
+
+[56] F. Qiu, S. Liu, P. Miao, et al. Effects of the Chinese herbal formula Zuojin Pill on the pharmacokinetics of dextromethorphan in healthy Chinese volunteers with CYP2D6*10 genotype. European Journal of Clinical Pharmacology, 72(6):689–695, 2016. doi: [10.1007/s00228-016-2048-7](https://doi.org/10.1007/s00228-016-2048-7).
+
+[57] S. H. Bae, J. K. Lee, D.-Y. Cho, and S. K. Bae. Pharmacokinetics of metoprolol and its metabolites associated with CYP2D6 genotype. Journal of Separation Science, 37:1256–1264, 2014. doi: [10.1002/jssc.201301353](https://doi.org/10.1002/jssc.201301353).
+
+[58] B. A. Hamelin, et al. Significant interaction between diphenhydramine and metoprolol in healthy men with high or low CYP2D6 activity. Clinical Pharmacology and Therapeutics, 67:466–477, 2000. doi: [10.1067/mcp.2000.106464](https://doi.org/10.1067/mcp.2000.106464).
+
+[59] J. Huang, S. K. Chuang, C. L. Cheng, and M. L. Lai. Pharmacokinetics of metoprolol enantiomers in Chinese subjects of major CYP2D6 genotypes. Clinical Pharmacology and Therapeutics, 65:402–407, 1999. doi: [10.1016/S0009-9236(99)70134-7](https://doi.org/10.1016/S0009-9236(99)70134-7).
+
+[60] S. K. Jin, et al. Influence of CYP2D6*10 on the pharmacokinetics of metoprolol in healthy Korean volunteers. Journal of Clinical Pharmacy and Therapeutics, 33:567–573, 2008. doi: [10.1111/j.1365-2710.2008.00945.x](https://doi.org/10.1111/j.1365-2710.2008.00945.x).
+
+[61] J. Kirchheiner, et al. Impact of the ultrarapid metabolizer genotype of CYP2D6 on metoprolol pharmacokinetics and pharmacodynamics. Clinical Pharmacology and Therapeutics, 76:302–312, 2004. doi: [10.1016/j.clpt.2004.07.002](https://doi.org/10.1016/j.clpt.2004.07.002).
+
+[62] A. Seeringer, J. Brockmöller, S. Bauer, and J. Kirchheiner. Enantiospecific pharmacokinetics of metoprolol in CYP2D6 ultrarapid metabolizers. European Journal of Clinical Pharmacology, 64:883–888, 2008. doi: [10.1007/s00228-008-0504-8](https://doi.org/10.1007/s00228-008-0504-8).
+
+[63] A. Sharma, et al. Modulation of metoprolol pharmacokinetics and hemodynamics by diphenhydramine coadministration. Journal of Pharmacology and Experimental Therapeutics, 313:1172–1181, 2005. doi: [10.1124/jpet.104.081109](https://doi.org/10.1124/jpet.104.081109).
+
+[64] L. Labbé, G. O'Hara, M. Lefebvre, et al. Pharmacokinetic and pharmacodynamic interaction between mexiletine and propafenone in human beings. Clinical Pharmacology and Therapeutics, 68(1):44–57, 2000.
+
+[65] R. Chen, H. Wang, J. Shi, K. Shen, and P. Hu. CYP2D6 genotype affects controlled-release paroxetine pharmacokinetics in healthy Chinese subjects. European Journal of Clinical Pharmacology, 71:835–841, 2015.
+
+[66] S. H. Sindrup, et al. The relationship between paroxetine and the sparteine oxidation polymorphism. Clinical Pharmacology and Therapeutics, 51:278–287, 1992.
+
+[67] Y. R. Yoon, et al. Relationship of paroxetine disposition to metoprolol metabolic ratio and CYP2D6*10 genotype. Clinical Pharmacology and Therapeutics, 67:567–576, 2000.

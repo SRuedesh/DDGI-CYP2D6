@@ -1,4 +1,4 @@
-The desipramine DGI evaluation uses phenotype-stratified parent-model studies to assess CYP2D6-dependent desipramine exposure. Comparisons are made within each study because dose, route, and sampling duration differ.
+Desipramine DGI profiles assess CYP2D6-dependent desipramine exposure. Comparisons are made within each study because dose, route, and sampling duration differ.
 
 | **Study** | **Route and dose** | **CYP2D6 groups** |
 | --- | --- | --- |

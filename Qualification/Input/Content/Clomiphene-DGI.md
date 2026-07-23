@@ -1,14 +1,7 @@
-The Clomiphene DGI evaluation uses the `Clomiphene-Model` parent model source. It documents a CYP2D6 activity-score panel after oral single-dose clomiphene citrate administration in healthy adult premenopausal women and links the dataset to Kovar et al. 2022 and the supporting CYP2D6 clomiphene metabolism publication by Murdter et al. 2012.
+Clomiphene DGI profiles compare plasma concentrations of (E)-clomiphene and its metabolites across CYP2D6 activity-score groups.
 
-The DGI simulations compare plasma concentration-time profiles for (E)-clomiphene, (E)-4-hydroxyclomiphene, (E)-N-desethylclomiphene and (E)-4-hydroxy-N-desethylclomiphene across CYP2D6 activity-score groups.
+| **Study** | **Route and dose** | **CYP2D6 groups** |
+| --- | --- | --- |
+| [Mürdter 2016](#references) | Oral clomiphene citrate, 42 mg single dose | AS 0, 0.5, 0.75, 1, 2, and 3 |
 
-| CYP2D6 activity score | Study size | Dose |
-| --- | ---: | --- |
-| 0 | 6 | 42 mg clomiphene citrate, po, single dose |
-| 0.5 | 4 | 42 mg clomiphene citrate, po, single dose |
-| 0.75 | 1 | 42 mg clomiphene citrate, po, single dose |
-| 1 | 2 | 42 mg clomiphene citrate, po, single dose |
-| 2 | 3 | 42 mg clomiphene citrate, po, single dose |
-| 3 | 3 | 42 mg clomiphene citrate, po, single dose |
-
-The scientific check for this section is activity-score ordering and metabolite pattern consistency, not DDI ratio agreement. Parent and metabolite profiles are kept separate because CYP2D6 activity changes parent depletion and metabolite formation in different directions.
+AS: CYP2D6 activity score.
