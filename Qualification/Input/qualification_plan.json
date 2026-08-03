@@ -187,31 +187,31 @@
     },
     {
       "Id": "Atomoxetine-DGI",
-      "Path": "https://raw.githubusercontent.com/SRuedesh/Atomoxetine-Model/bd042057586321df679d53ac1ef006dfcfeaa88a/Atomoxetine-model.json"
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Atomoxetine-Model/49e74b781a9ccd21421889ea6c0188655e60864c/Atomoxetine-model.json"
     },
     {
       "Id": "Desipramine-DGI",
-      "Path": "https://raw.githubusercontent.com/SRuedesh/Desipramine-Model/5c3286b6d4f1aeb764488710e18aa5beeaabd4d8/Desipramine-Model.json"
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Desipramine-Model/f6091e53d52e7da49baa42a7b238dc1ee7a55fc4/Desipramine-Model.json"
     },
     {
       "Id": "Dextromethorphan-DGI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Dextromethorphan-Model/main/Dextromethorphan-model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Dextromethorphan-Model/3434c87ae86bd12bcf6242cf5bfa5d9021825bf2/Dextromethorphan-model.json"
     },
     {
       "Id": "Metoprolol-DGI",
-      "Path": "https://raw.githubusercontent.com/SRuedesh/Metoprolol-Model/c16fb746829e4e38707947bedbfe489048c2bc38/Metoprolol-Model.json"
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Metoprolol-Model/4656e978f33d3ab583d1b96b9a88611454e56d7c/Metoprolol-Model.json"
     },
     {
       "Id": "Mexiletine-DGI",
-      "Path": "https://raw.githubusercontent.com/SRuedesh/Mexiletine-Model/23d4d2b1d71b3cdabe72b40dc12f90b05dcbd31c/Mexiletine-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Mexiletine-Model/fe9371155d52080d3f27734bf11804a82fbfeade/Mexiletine-Model.json"
     },
     {
       "Id": "Paroxetine-DGI",
-      "Path": "https://raw.githubusercontent.com/SRuedesh/Paroxetine-Model/900025e20f5c0cf97ad653b0cf458e452f9b356e/Paroxetine-Model.json"
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Paroxetine-Model/27ded16e5a4aca32dbbd90704a13e94e4eb54531/Paroxetine-Model.json"
     },
     {
       "Id": "Risperidone-DGI",
-      "Path": "https://raw.githubusercontent.com/SRuedesh/Risperidone-Model/b2c802af803ee0fcf76af56f19dd9ff6df7ddae9/Risperidone-model.json"
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Risperidone-Model/c2e31e374cb9eaefc32440fa9d170f7a57df43ba/Risperidone-model.json"
     }
   ],
   "ObservedDataSets": [
