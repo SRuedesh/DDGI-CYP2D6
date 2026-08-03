@@ -35,26 +35,6 @@ createQualificationReport <- function(
 ) {
   library(ospsuite.reportingengine)
 
-  formatAxisProperties <- ospsuite.reportingengine:::formatAxisProperties
-  if (!isTRUE(attr(formatAxisProperties, "supportsPartialLimits"))) {
-    patchedFormatAxisProperties <- function(axisField) {
-      properties <- formatAxisProperties(axisField)
-      if (!is.null(axisField$Min) && is.null(axisField$Max)) {
-        properties$max <- NA_real_
-      }
-      if (is.null(axisField$Min) && !is.null(axisField$Max)) {
-        properties$min <- NA_real_
-      }
-      properties
-    }
-    attr(patchedFormatAxisProperties, "supportsPartialLimits") <- TRUE
-    assignInNamespace(
-      "formatAxisProperties",
-      patchedFormatAxisProperties,
-      ns = "ospsuite.reportingengine"
-    )
-  }
-
   # Reset settings such as plot theme or format of numeric in tables
   # to Reporting Engine default values
   resetRESettingsToDefault()
@@ -92,6 +72,20 @@ createQualificationReport <- function(
 
   #' `workingDirectory`: current directory is used as default working directory
   workingDirectory <- getwd()
+
+  reportingOverrides <- file.path(
+    workingDirectory,
+    "..",
+    "scripts",
+    "configure-ddi-ratio-reporting.R"
+  )
+  if (!file.exists(reportingOverrides)) {
+    stop(
+      "The CYP2D6 ratio reporting configuration is missing: ",
+      reportingOverrides
+    )
+  }
+  source(reportingOverrides, local = TRUE)
 
   qualificationPlanName <- "qualification_plan.json"
   qualificationPlanFile <- file.path(

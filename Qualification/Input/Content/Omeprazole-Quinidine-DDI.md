@@ -1,8 +1,9 @@
 The omeprazole-quinidine interaction was evaluated using clinical DDI studies listed in [Table 2-22](#table-2-22).
 
-| **Source**                    | **Route** | **Schedule** | **Pop.** | **Sex** | **N** | **Perpetrator**         |
-| ----------------------------- | --------- | ------------ | -------- | ------- | ----- | ----------------------- |
-| [Ching 1991](#references)   | po        | 400 mg s.d.  | European | m       | 8     | +/- OME, 40 mg q.d. po  |
+| **DataID** | **Source**                    | **Route** | **Schedule** | **Pop.** | **Sex** | **N** | **Perpetrator**         |
+| --- | ----------------------------- | --------- | ------------ | -------- | ------- | ----- | ----------------------- |
+| 16968, 16970 | [Ching 1991](#references)   | po        | 400 mg s.d.  | European | m       | 8     | +/- OME, 40 mg q.d. po  |
 
 **Table 2-22: Clinical studies included for omeprazole-quinidine DDI**<a id="table-2-22"></a> m: male, N: number of study participants, OME: omeprazole, po: oral, pop.: population used in simulations, q.d.: once daily, s.d.: single dose. If perpetrator or victim drugs were applied in form of salts, the respective dose of base was calculated and incorporated in simulations.
 
+Source project: [Omeprazole-Quinidine-DDI](https://github.com/Open-Systems-Pharmacology/Omeprazole-Quinidine-DDI).

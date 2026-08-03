@@ -1,24 +1,24 @@
 [1] Z. Abolfathi, C. Fiset, M. Gilbert, K. Moerike, P. M. Belanger, and J. Turgeon. Role of polymorphic debrisoquin 4-hydroxylase activity in the stereoselective disposition of mexiletine in humans. Journal of Pharmacology and Experimental Therapeutics, 266(3):1196–1201, 1993.
 
-[2] J. Alderman, S. H. Preskorn, D. J. Greenblatt, W. Harrison, D. Penenberg, J. Allison, and M. Chung. Desipramine pharmacokinetics when coadministered with paroxetine or sertraline in extensive metabolizers. Journal of clinical psychopharmacology, 17(4):284–91, 1997. doi: [10.1097/00004714-199708000-00008](https://doi.org/10.1097/00004714-199708000-00008).
+[2] J. Alderman, S. H. Preskorn, D. J. Greenblatt, W. Harrison, D. Penenberg, J. Allison, and M. Chung. Desipramine pharmacokinetics when coadministered with paroxetine or sertraline in extensive metabolizers. Journal of Clinical Psychopharmacology, 17(4):284–91, 1997. doi: [10.1097/00004714-199708000-00008](https://doi.org/10.1097/00004714-199708000-00008).
 
 [3] A. H. Andreasen, K. Brøsen, and P. Damkier. A comparative pharmacokinetic study in healthy volunteers of the effect of carbamazepine and oxcarbazepine on CYP3A4. Epilepsia, 48(3):490–496, 2007. doi: [10.1111/j.1528-1167.2007.00924.x](https://doi.org/10.1111/j.1528-1167.2007.00924.x).
 
-[4] D. J. Belle, C. S. Ernest, J.-M. Sauer, B. P. Smith, H. R. Thomasson, and J. W. Witcher. Effect of potent CYP2D6 inhibition by paroxetine on atomoxetine pharmacokinetics. Journal of clinical pharmacology, 42(11):1219–27, 2002. doi: [10.1177/009127002762491307](https://doi.org/10.1177/009127002762491307).
+[4] D. J. Belle, C. S. Ernest, J.-M. Sauer, B. P. Smith, H. R. Thomasson, and J. W. Witcher. Effect of potent CYP2D6 inhibition by paroxetine on atomoxetine pharmacokinetics. Journal of Clinical Pharmacology, 42(11):1219–27, 2002. doi: [10.1177/009127002762491307](https://doi.org/10.1177/009127002762491307).
 
-[5] P. N. Bennett, V. A. John, and V. B. Whitmarsh. Effect of rifampicin on metoprolol and antipyrine kinetics. British journal of clinical pharmacology, 13(3):387–91, 1982. doi: [10.1111/j.1365-2125.1982.tb01390.x](https://doi.org/10.1111/j.1365-2125.1982.tb01390.x).
+[5] P. N. Bennett, V. A. John, and V. B. Whitmarsh. Effect of rifampicin on metoprolol and antipyrine kinetics. British Journal of Clinical Pharmacology, 13(3):387–91, 1982. doi: [10.1111/j.1365-2125.1982.tb01390.x](https://doi.org/10.1111/j.1365-2125.1982.tb01390.x).
 
 [6] K. Brøsen and L. F. Gram. Quinidine inhibits the 2-hydroxylation of imipramine and desipramine but not the demethylation of imipramine. European Journal of Clinical Pharmacology, 37(2):155–160, 1989. doi: [10.1007/BF00558224](https://doi.org/10.1007/BF00558224).
 
-[7] K. Brøsen, J. G. Hansen, K. K. Nielsen, S. H. Sindrup, and L. F. Gram. Inhibition by paroxetine of desipramine metabolism in extensive but not in poor metabolizers of sparteine. European journal of clinical pharmacology, 44 (4):349–55, 1993. doi: [10.1007/BF00316471](https://doi.org/10.1007/BF00316471).
+[7] K. Brøsen, J. G. Hansen, K. K. Nielsen, S. H. Sindrup, and L. F. Gram. Inhibition by paroxetine of desipramine metabolism in extensive but not in poor metabolizers of sparteine. European Journal of Clinical Pharmacology, 44(4):349–55, 1993. doi: [10.1007/BF00316471](https://doi.org/10.1007/BF00316471).
 
-[8] G. Calvo, C. García-Gea, A. Luque, A. Morte, R. Dal-Ré, and M. Barbanoj. Lack of pharmacologic interaction between paroxetine and alprazolam at steady state in healthy volunteers. Journal of clinical psychopharmacology, 24(3):268–76, 2004. doi: [10.1097/01.jcp.0000125689.05091.c6](https://doi.org/10.1097/01.jcp.0000125689.05091.c6).
+[8] G. Calvo, C. García-Gea, A. Luque, A. Morte, R. Dal-Ré, and M. Barbanoj. Lack of pharmacologic interaction between paroxetine and alprazolam at steady state in healthy volunteers. Journal of Clinical Psychopharmacology, 24(3):268–76, 2004. doi: [10.1097/01.jcp.0000125689.05091.c6](https://doi.org/10.1097/01.jcp.0000125689.05091.c6).
 
 [9] D. A. Capon, F. Bochner, N. Kerry, G. Mikus, C. Danz, and A. A. Somogyi. The influence of CYP2D6 polymorphism and quinidine on the disposition and antitussive effect of dextromethorphan in humans. Clinical Pharmacology and Therapeutics, 60(3):295–307, 1996. doi: [10.1016/S0009-9236(96)90056-9](https://doi.org/10.1016/S0009-9236(96)90056-9).
 
-[10] M. C. Chellingsworth, S. Laugher, S. Akhlaghi, D. B. Jack, and M. J. Kendall. The effects of ranitidine and cimetidine on the pharmacokinetics and pharmacodynamics of metoprolol. Alimentary pharmacology & therapeutics, 2(6):521–7, 1988. doi: [10.1111/j.1365-2036.1988.tb00726.x](https://doi.org/10.1111/j.1365-2036.1988.tb00726.x).
+[10] M. C. Chellingsworth, S. Laugher, S. Akhlaghi, D. B. Jack, and M. J. Kendall. The effects of ranitidine and cimetidine on the pharmacokinetics and pharmacodynamics of metoprolol. Alimentary Pharmacology & Therapeutics, 2(6):521–7, 1988. doi: [10.1111/j.1365-2036.1988.tb00726.x](https://doi.org/10.1111/j.1365-2036.1988.tb00726.x).
 
-[11] M. S. Ching, S. L. Elliott, C. K. Stead, R. T. Murdoch, S. Devenish-Meares, D. J. Morgan, and R. A. Smallwood. Quinidine single dose pharmacokinetics and pharmacodynamics are unaltered by omeprazole. Alimentary pharmacology & therapeutics, 5(5):523–31, 1991. doi: [10.1111/j.1365-2036.1991.tb00521.x](https://doi.org/10.1111/j.1365-2036.1991.tb00521.x).
+[11] M. S. Ching, S. L. Elliott, C. K. Stead, R. T. Murdoch, S. Devenish-Meares, D. J. Morgan, and R. A. Smallwood. Quinidine single dose pharmacokinetics and pharmacodynamics are unaltered by omeprazole. Alimentary Pharmacology & Therapeutics, 5(5):523–31, 1991. doi: [10.1111/j.1365-2036.1991.tb00521.x](https://doi.org/10.1111/j.1365-2036.1991.tb00521.x).
 
 [12] P. Damkier, L. L. Hansen, and K. Brøsen. Rifampicin treatment greatly increases the apparent oral clearance of quinidine. Pharmacology and Toxicology, 85(6):257–262, 1999. doi: [10.1111/j.1600-0773.1999.tb02019.x](https://doi.org/10.1111/j.1600-0773.1999.tb02019.x).
 
@@ -28,19 +28,19 @@
 
 [15] D. J. Edwards, R. Lavoie, H. Beckman, R. Blevins, and M. Rubenfire. The effect of coadministration of verapamil on the pharmacokinetics and metabolism of quinidine. Clinical Pharmacology and Therapeutics, 41(1):68–73, 1987. doi: [10.1038/clpt.1987.11](https://doi.org/10.1038/clpt.1987.11).
 
-[16] Guest EJ, Aarons L, Houston JB, Rostami-Hodjegan A, Galetin A. Critique of the two-fold measure of prediction success for ratios: application for the assessment of drug-drug interactions. Drug Metab Dispos. 2011 Feb;39(2):170-3.
+[16] E. J. Guest, L. Aarons, J. B. Houston, A. Rostami-Hodjegan, and A. Galetin. Critique of the two-fold measure of prediction success for ratios: application for the assessment of drug-drug interactions. Drug Metabolism and Disposition, 39(2):170–173, 2011. doi: [10.1124/dmd.110.036103](https://doi.org/10.1124/dmd.110.036103).
 
-[17] B. G. Hardy and J. J. Schentag. Lack of effect of cimetidine on the metabolism of quinidine: effect on renal clearance. International journal of clinical pharmacology, therapy, and toxicology, 26(8):388-391, 1988.
+[17] B. G. Hardy and J. J. Schentag. Lack of effect of cimetidine on the metabolism of quinidine: effect on renal clearance. International Journal of Clinical Pharmacology, Therapy, and Toxicology, 26(8):388–391, 1988.
 
-[18] A. Hemeryck, R. A. Lefebvre, C. De Vriendt, and F. M. Belpaire. Paroxetine affects metoprolol pharmacokinetics and pharmacodynamics in healthy volunteers. Clinical pharmacology and therapeutics, 67(3):283–91, 2000. doi: [10.1067/mcp.2000.104788](https://doi.org/10.1067/mcp.2000.104788).
+[18] A. Hemeryck, R. A. Lefebvre, C. De Vriendt, and F. M. Belpaire. Paroxetine affects metoprolol pharmacokinetics and pharmacodynamics in healthy volunteers. Clinical Pharmacology and Therapeutics, 67(3):283–91, 2000. doi: [10.1067/mcp.2000.104788](https://doi.org/10.1067/mcp.2000.104788).
 
-[19] J. A. Johnson and B. S. Burlew. Metoprolol metabolism via cytochrome P4502D6 in ethnic populations. Drug metabolism and disposition: the biological fate of chemicals, 24(3):350–5, 1996.
+[19] J. A. Johnson and B. S. Burlew. Metoprolol metabolism via cytochrome P4502D6 in ethnic populations. Drug Metabolism and Disposition, 24(3):350–5, 1996.
 
-[20] E. H. Jung, Y. J. Lee, D.-H. Kim, P. Kang, C. W. Lim, C.-K. Cho, C.-G. Jang, S.-Y. Lee, and J.-W. Bae. Effects of paroxetine on the pharmacokinetics of atomoxetine and its metabolites in different CYP2D6 genotypes. Archives of pharmacal research, 43(12):1356–1363, 2020. doi: [10.1007/s12272-020-01300-8](https://doi.org/10.1007/s12272-020-01300-8).
+[20] E. H. Jung, Y. J. Lee, D.-H. Kim, P. Kang, C. W. Lim, C.-K. Cho, C.-G. Jang, S.-Y. Lee, and J.-W. Bae. Effects of paroxetine on the pharmacokinetics of atomoxetine and its metabolites in different CYP2D6 genotypes. Archives of Pharmacal Research, 43(12):1356–1363, 2020. doi: [10.1007/s12272-020-01300-8](https://doi.org/10.1007/s12272-020-01300-8).
 
-[21] K. M. Kaukonen, K. T. Olkkola, and P. J. Neuvonen. Itraconazole increases plasma concentrations of quinidine. Clinical pharmacology and therapeutics, 62(5):510–7, 1997. doi: [10.1016/S0009-9236(97)90046-1](https://doi.org/10.1016/S0009-9236(97)90046-1).
+[21] K. M. Kaukonen, K. T. Olkkola, and P. J. Neuvonen. Itraconazole increases plasma concentrations of quinidine. Clinical Pharmacology and Therapeutics, 62(5):510–7, 1997. doi: [10.1016/S0009-9236(97)90046-1](https://doi.org/10.1016/S0009-9236(97)90046-1).
 
-[22] K.-A. Kim, P.-W. Park, K.-H. Liu, K.-B. Kim, H.-J. Lee, J.-G. Shin, and J.-Y. Park. Effect of rifampin, an inducer of CYP3A and P-glycoprotein, on the pharmacokinetics of risperidone. Journal of clinical pharmacology, 48(1):66–72, 2008. doi: [10.1177/0091270007309888](https://doi.org/10.1177/0091270007309888).
+[22] K.-A. Kim, P.-W. Park, K.-H. Liu, K.-B. Kim, H.-J. Lee, J.-G. Shin, and J.-Y. Park. Effect of rifampin, an inducer of CYP3A and P-glycoprotein, on the pharmacokinetics of risperidone. Journal of Clinical Pharmacology, 48(1):66–72, 2008. doi: [10.1177/0091270007309888](https://doi.org/10.1177/0091270007309888).
 
 [23] W. Kirch, H. Spahn, H. Köhler, E. E. Ohnhaus, and E. Mutschler. Interaction of metoprolol, propranolol and atenolol with concurrent administration of cimetidine. Klinische Wochenschrift, 60(22):1401–7, 1982. doi: [10.1007/BF01716245](https://doi.org/10.1007/BF01716245).
 
@@ -48,59 +48,59 @@
 
 [25] C. Kovar, L. Kovar, S. Rüdesheim, D. Selzer, B. Ganchev, P. Kroener, S. Igel, R. Kerb, E. Schaeffeler, T. E. Mürdter, M. Schwab, and T. Lehr. Prediction of Drug-Drug-Gene Interaction Scenarios of (E)-Clomiphene and Its Metabolites Using Physiologically Based Pharmacokinetic Modeling. Pharmaceutics, 14:2604, 2022. doi: [10.3390/pharmaceutics14122604](https://doi.org/10.3390/pharmaceutics14122604).
 
-[26] T. D. Leemann, K. P. Devi, and P. Dayer. Similar effect of oxidation deficiency (debrisoquine polymorphism) and quinidine on the apparent volume of distribution of (+/-)-metoprolol. European journal of clinical pharmacology, 45(1):65–71, 1993. doi: [10.1007/BF00315352](https://doi.org/10.1007/BF00315352).
+[26] T. D. Leemann, K. P. Devi, and P. Dayer. Similar effect of oxidation deficiency (debrisoquine polymorphism) and quinidine on the apparent volume of distribution of (+/-)-metoprolol. European Journal of Clinical Pharmacology, 45(1):65–71, 1993. doi: [10.1007/BF00315352](https://doi.org/10.1007/BF00315352).
 
-[27] W. Mahatthanatrakul, T. Nontaput, W. Ridtitid, M. Wongnawa, and M. Sunbhanich. Rifampin, a cytochrome P4503A inducer, decreases plasma concentrations of antipsychotic risperidone in healthy volunteers. Journal of clinical pharmacy and therapeutics, 32(2):161–7, 2007. doi: [10.1111/j.1365-2710.2007.00811.x](https://doi.org/10.1111/j.1365-2710.2007.00811.x).
+[27] W. Mahatthanatrakul, T. Nontaput, W. Ridtitid, M. Wongnawa, and M. Sunbhanich. Rifampin, a cytochrome P4503A inducer, decreases plasma concentrations of antipsychotic risperidone in healthy volunteers. Journal of Clinical Pharmacy and Therapeutics, 32(2):161–7, 2007. doi: [10.1111/j.1365-2710.2007.00811.x](https://doi.org/10.1111/j.1365-2710.2007.00811.x).
 
-[28] W. Mahatthanatrakul, S. Sriwiriyajan, W. Ridtitid, J. Boonleang, M. Wongnawa, N. Rujimamahasan, and W. Pipatrattanaseree. Effect of cytochrome P450 3A4 inhibitor ketoconazole on risperidone pharmacokinetics in healthy volunteers. Journal of clinical pharmacy and therapeutics, 37(2):221–5, 2012. doi: [10.1111/j.1365-2710.2011.01271.x](https://doi.org/10.1111/j.1365-2710.2011.01271.x).
+[28] W. Mahatthanatrakul, S. Sriwiriyajan, W. Ridtitid, J. Boonleang, M. Wongnawa, N. Rujimamahasan, and W. Pipatrattanaseree. Effect of cytochrome P450 3A4 inhibitor ketoconazole on risperidone pharmacokinetics in healthy volunteers. Journal of Clinical Pharmacy and Therapeutics, 37(2):221–5, 2012. doi: [10.1111/j.1365-2710.2011.01271.x](https://doi.org/10.1111/j.1365-2710.2011.01271.x).
 
 [29] T. Mürdter. Impact of CYP2D6 genotype and co-medication with paroxetine and clarithromycin on clomiphene metabolism in vivo. Abstracts of the 82nd Annual Meeting of the German Society for Experimental and Clinical Pharmacology and Toxicology (DGPT) in Naunyn-Schmiedeberg Archives of Pharmacology, 2016.
 
-[30] T. E. Mürdter, R. Kerb, M. Turpeinen, W. Schroth, B. Ganchev, G. M. Boehmer, S. Igel, E. Schaeffeler, U. Zanger, H. Brauch, and M. Schwab. Genetic polymorphism of cytochrome P450 2D6 determines oestrogen receptor activity of the major infertility drug clomiphene via its active metabolites. Human Molecular Genetics, 21:1145-1154, 2012. doi: [10.1093/hmg/ddr543](https://doi.org/10.1093/hmg/ddr543).
+[30] T. E. Mürdter, R. Kerb, M. Turpeinen, W. Schroth, B. Ganchev, G. M. Boehmer, S. Igel, E. Schaeffeler, U. Zanger, H. Brauch, and M. Schwab. Genetic polymorphism of cytochrome P450 2D6 determines oestrogen receptor activity of the major infertility drug clomiphene via its active metabolites. Human Molecular Genetics, 21:1145–1154, 2012. doi: [10.1093/hmg/ddr543](https://doi.org/10.1093/hmg/ddr543).
 
-[31] T. Nakagami, N. Yasui-Furukori, M. Saito, T. Tateishi, and S. Kaneo. Effect of verapamil on pharmacokinetics and pharmacodynamics of risperidone: in vivo evidence of involvement of P-glycoprotein in risperidone disposition. Clinical pharmacology and therapeutics, 78(1):43–51, 2005. doi: [10.1016/j.clpt.2005.03.009](https://doi.org/10.1016/j.clpt.2005.03.009).
+[31] T. Nakagami, N. Yasui-Furukori, M. Saito, T. Tateishi, and S. Kaneo. Effect of verapamil on pharmacokinetics and pharmacodynamics of risperidone: in vivo evidence of involvement of P-glycoprotein in risperidone disposition. Clinical Pharmacology and Therapeutics, 78(1):43–51, 2005. doi: [10.1016/j.clpt.2005.03.009](https://doi.org/10.1016/j.clpt.2005.03.009).
 
-[32] A. I. Nichols, P. Fatato, M. Shenouda, J. Paul, J. A. Isler, R. D. Pedersen, Q. Jiang, S. Ahmed, and A. Patroneva. The effects of desvenlafaxine and paroxetine on the pharmacokinetics of the cytochrome P450 2D6 substrate desipramine in healthy adults. Journal of clinical pharmacology, 49(2):219–28, 2009. doi: [10.1177/0091270008326716](https://doi.org/10.1177/0091270008326716).
+[32] A. I. Nichols, P. Fatato, M. Shenouda, J. Paul, J. A. Isler, R. D. Pedersen, Q. Jiang, S. Ahmed, and A. Patroneva. The effects of desvenlafaxine and paroxetine on the pharmacokinetics of the cytochrome P450 2D6 substrate desipramine in healthy adults. Journal of Clinical Pharmacology, 49(2):219–28, 2009. doi: [10.1177/0091270008326716](https://doi.org/10.1177/0091270008326716).
 
-[33] J. Novalbos, F. Lopez-Rodriguez, E. Roman, B. Gallego-Sandin, A. Ochoa, J. Abad-Santos. Effects of CYP2D6 genotype on the pharmacokinetics, pharmacodynamics, and safety of risperidone in healthy volunteers. Journal of Clinical Psychopharmacology, 30(5):504-511, 2010. doi: [10.1097/JCP.0b013e3181f0c704](https://doi.org/10.1097/JCP.0b013e3181f0c704).
+[33] J. Novalbos, F. Lopez-Rodriguez, E. Roman, B. Gallego-Sandin, A. Ochoa, J. Abad-Santos. Effects of CYP2D6 genotype on the pharmacokinetics, pharmacodynamics, and safety of risperidone in healthy volunteers. Journal of Clinical Psychopharmacology, 30(5):504–511, 2010. doi: [10.1097/JCP.0b013e3181f0c704](https://doi.org/10.1097/JCP.0b013e3181f0c704).
 
-[34] H. R. Ochs, G. Bodem, and D. J. Greenblatt. Impairment of digoxin clearance by coadministration of quinidine. Journal of clinical pharmacology, 21(10):396–400, 1981. doi: [10.1002/j.1552-4604.1981.tb01739.x](https://doi.org/10.1002/j.1552-4604.1981.tb01739.x).
+[34] H. R. Ochs, G. Bodem, and D. J. Greenblatt. Impairment of digoxin clearance by coadministration of quinidine. Journal of Clinical Pharmacology, 21(10):396–400, 1981. doi: [10.1002/j.1552-4604.1981.tb01739.x](https://doi.org/10.1002/j.1552-4604.1981.tb01739.x).
 
 [35] R. B. Parker and J. E. Soberman. Effects of paroxetine on the pharmacokinetics and pharmacodynamics of immediate-release and extended-release metoprolol. Pharmacotherapy, 31(7):630–41, 2011. doi: [10.1592/phco.31.7.630](https://doi.org/10.1592/phco.31.7.630).
 
-[36] M. J. Reese, R. M. Wurm, K. T. Muir, G. T. Generaux, L. St John-Williams, and D. J. McConn. An in vitro mechanistic study to elucidate the desipramine/bupropion clinical drug-drug interaction. Drug metabolism and disposition: the biological fate of chemicals, 36(7):1198–201, 2008. doi: [10.1124/dmd.107.020198](https://doi.org/10.1124/dmd.107.020198).
+[36] M. J. Reese, R. M. Wurm, K. T. Muir, G. T. Generaux, L. St John-Williams, and D. J. McConn. An in vitro mechanistic study to elucidate the desipramine/bupropion clinical drug-drug interaction. Drug Metabolism and Disposition, 36(7):1198–201, 2008. doi: [10.1124/dmd.107.020198](https://doi.org/10.1124/dmd.107.020198).
 
 [37] S. Rüdesheim, D. Selzer, T. Mürdter, S. Igel, R. Kerb, M. Schwab, and T. Lehr. Physiologically Based Pharmacokinetic Modeling to Describe the CYP2D6 Activity Score-Dependent Metabolism of Paroxetine, Atomoxetine and Risperidone. Pharmaceutics, 14:1734, 2022. doi: [10.3390/pharmaceutics14081734](https://doi.org/10.3390/pharmaceutics14081734).
 
-[38] J.-M. Sauer, A. J. Long, B. Ring, J. S. Gillespie, N. P. Sanburn, K. A. DeSante, D. Petullo, M. R. VandenBranden, C. B. Jensen, S. A. Wrighton, B. P. Smith, H. A. Read, and J. W. Witcher. Atomoxetine Hydrochloride: Clinical Drug-Drug Interaction Prediction and Outcome. Journal of Pharmacology and Experimental Therapeutics, 308(2):410–418, 2004. doi: [10.1124/jpet.103.058727](https://doi.org/10.1124/jpet.103.058727).
+[38] J.-M. Sauer, A. J. Long, B. Ring, J. S. Gillespie, N. P. Sanburn, K. A. DeSante, D. Petullo, M. R. VandenBranden, C. B. Jensen, S. A. Wrighton, B. P. Smith, H. A. Read, and J. W. Witcher. Atomoxetine hydrochloride: clinical drug-drug interaction prediction and outcome. Journal of Pharmacology and Experimental Therapeutics, 308(2):410–418, 2004. doi: [10.1124/jpet.103.058727](https://doi.org/10.1124/jpet.103.058727).
 
 [39] M. Schadel, D. Wu, S. V. Otton, W. Kalow, and E. M. Sellers. Pharmacokinetics of dextromethorphan and metabolites in humans. Journal of Clinical Psychopharmacology, 15(4):263–269, 1995. doi: [10.1097/00004714-199508000-00005](https://doi.org/10.1097/00004714-199508000-00005).
 
-[40] K. A. Schoedel, L. E. Pope, and E. M. Sellers. Randomized Open-Label Drug-Drug Interaction Trial of Dextromethorphan/Quinidine and Paroxetine in Healthy Volunteers. Clinical Drug Investigation, 32(3):157–169, 2012. doi: [10.2165/11599870-000000000-00000](https://doi.org/10.2165/11599870-000000000-00000).
+[40] K. A. Schoedel, L. E. Pope, and E. M. Sellers. Randomized open-label drug-drug interaction trial of dextromethorphan/quinidine and paroxetine in healthy volunteers. Clinical Drug Investigation, 32(3):157–169, 2012. doi: [10.2165/11599870-000000000-00000](https://doi.org/10.2165/11599870-000000000-00000).
 
 [41] E. Steiness, S. Waldorff, P. B. Hansen, H. Egebald, J. Buch, and H. Egeblad. Reduction of digoxin-induced inotropism during quinidine administration. Clinical Pharmacology and Therapeutics, 27(6):791–795, 1980. doi: [10.1038/clpt.1980.112](https://doi.org/10.1038/clpt.1980.112).
 
-[42] F. Storelli, A. Matthey, S. Lenglet, A. Thomas, J. Desmeules, and Y. Daali. Impact of CYP2D6 Functional Allelic Variations on Phenoconversion and Drug–Drug Interactions. Clinical Pharmacology and Therapeutics, 104(1):148–157, 2018. doi: [10.1002/cpt.889](https://doi.org/10.1002/cpt.889).
+[42] F. Storelli, A. Matthey, S. Lenglet, A. Thomas, J. Desmeules, and Y. Daali. Impact of CYP2D6 functional allelic variations on phenoconversion and drug–drug interactions. Clinical Pharmacology and Therapeutics, 104(1):148–157, 2018. doi: [10.1002/cpt.889](https://doi.org/10.1002/cpt.889).
 
-[43] S. M. Stout, J. Nielsen, L. S. Welage, M. Shea, R. Brook, K. Kerber, and B. E. Bleske. Influence of metoprolol dosage release formulation on the pharmacokinetic drug interaction with paroxetine. Journal of clinical pharmacology, 51(3):389–96, 2011. doi: [10.1177/0091270010365559](https://doi.org/10.1177/0091270010365559).
+[43] S. M. Stout, J. Nielsen, L. S. Welage, M. Shea, R. Brook, K. Kerber, and B. E. Bleske. Influence of metoprolol dosage release formulation on the pharmacokinetic drug interaction with paroxetine. Journal of Clinical Pharmacology, 51(3):389–96, 2011. doi: [10.1177/0091270010365559](https://doi.org/10.1177/0091270010365559).
 
-[44] I. Todor, A. Popa, M. Neag, D. Muntean, C. Bocsan, A. Buzoianu, L. Vlase, A. M. Gheldiu, R. Chira, and C. Briciu. The influence of paroxetine on the pharmacokinetics of atomoxetine and its main metabolite. Clujul Medical, 88(4): 513–520, 2015. doi: [10.15386/cjmed-488](https://doi.org/10.15386/cjmed-488).
+[44] I. Todor, A. Popa, M. Neag, D. Muntean, C. Bocsan, A. Buzoianu, L. Vlase, A. M. Gheldiu, R. Chira, and C. Briciu. The influence of paroxetine on the pharmacokinetics of atomoxetine and its main metabolite. Clujul Medical, 88(4):513–520, 2015. doi: [10.15386/cjmed-488](https://doi.org/10.15386/cjmed-488).
 
 [45] I. Todor, A. Popa, M. Neag, D. Muntean, C. Bocsan, A. Buzoianu, L. Vlase, A. M. Gheldiu, and C. Briciu. Evaluation of a potential metabolism-mediated drug-drug interaction between atomoxetine and bupropion in healthy volunteers. Journal of Pharmacy and Pharmaceutical Sciences, 19(2):198–207, 2016. doi: [10.18433/J3H03R](https://doi.org/10.18433/J3H03R).
 
 [46] I. Todor, A. Popa, M. Neag, D. Muntean, C. Bocsan, A. Buzoianu, L. Vlase, A. M. Gheldiu, and C. Briciu. Evaluation of the potential pharmacokinetic interaction between atomoxetine and fluvoxamine in healthy volunteers. Pharmacology, 99(1-2):84–88, 2017. doi: [10.1159/000452223](https://doi.org/10.1159/000452223).
 
-[47] S. Toon, E. M. Davidson, F. M. Garstang, H. Batra, R. J. Bowes, and M. Rowland. The racemic metoprolol H2-antagonist interaction. Clinical pharmacology and therapeutics, 43(3):283–9, 1988. doi: [10.1038/clpt.1988.34](https://doi.org/10.1038/clpt.1988.34).
+[47] S. Toon, E. M. Davidson, F. M. Garstang, H. Batra, R. J. Bowes, and M. Rowland. The racemic metoprolol H2-antagonist interaction. Clinical Pharmacology and Therapeutics, 43(3):283–9, 1988. doi: [10.1038/clpt.1988.34](https://doi.org/10.1038/clpt.1988.34).
 
-[48] N. Yasui-Furukori, M. Saito, T. Niioka, Y. Inoue, Y. Sato, and S. Kaneko. Effect of itraconazole on pharmacokinetics of paroxetine: the role of gut transporters. Therapeutic drug monitoring, 29(1):45–8, 2007. doi: [10.1097/FTD.0b013e31802bb20d](https://doi.org/10.1097/FTD.0b013e31802bb20d).
+[48] N. Yasui-Furukori, M. Saito, T. Niioka, Y. Inoue, Y. Sato, and S. Kaneko. Effect of itraconazole on pharmacokinetics of paroxetine: the role of gut transporters. Therapeutic Drug Monitoring, 29(1):45–8, 2007. doi: [10.1097/FTD.0b013e31802bb20d](https://doi.org/10.1097/FTD.0b013e31802bb20d).
 
 [49] U.S. Food and Drug Administration. For Healthcare Professionals: FDA's Examples of Drugs that Interact with CYP Enzymes and Transporter Systems. Accessed July 22, 2026. [FDA website](https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems).
 
-[50] K. Brøsen, S. V. Otton, and L. F. Gram. Imipramine demethylation and hydroxylation: impact of the sparteine oxidation phenotype. Clinical Pharmacology & Therapeutics, 40:543–549, 1986. doi: [10.1038/clpt.1986.221](https://doi.org/10.1038/clpt.1986.221).
+[50] K. Brøsen, S. V. Otton, and L. F. Gram. Imipramine demethylation and hydroxylation: impact of the sparteine oxidation phenotype. Clinical Pharmacology and Therapeutics, 40:543–549, 1986. doi: [10.1038/clpt.1986.221](https://doi.org/10.1038/clpt.1986.221).
 
-[51] K. Brøsen and L. F. Gram. First-pass metabolism of imipramine and desipramine: impact of the sparteine oxidation phenotype. Clinical Pharmacology & Therapeutics, 43:400–406, 1988. doi: [10.1038/clpt.1988.50](https://doi.org/10.1038/clpt.1988.50).
+[51] K. Brøsen and L. F. Gram. First-pass metabolism of imipramine and desipramine: impact of the sparteine oxidation phenotype. Clinical Pharmacology and Therapeutics, 43:400–406, 1988. doi: [10.1038/clpt.1988.50](https://doi.org/10.1038/clpt.1988.50).
 
-[52] E. Spina, E. Steiner, Ö. Ericsson, and F. Sjöqvist. Hydroxylation of desmethylimipramine: dependence on the debrisoquin hydroxylation phenotype. Clinical Pharmacology & Therapeutics, 41:314–319, 1987. doi: [10.1038/clpt.1987.33](https://doi.org/10.1038/clpt.1987.33).
+[52] E. Spina, E. Steiner, Ö. Ericsson, and F. Sjöqvist. Hydroxylation of desmethylimipramine: dependence on the debrisoquin hydroxylation phenotype. Clinical Pharmacology and Therapeutics, 41:314–319, 1987. doi: [10.1038/clpt.1987.33](https://doi.org/10.1038/clpt.1987.33).
 
 [53] J. Y. Byeon, S. H. Kim, M. K. Lee, J. G. Shin, and K. A. Kim. Effects of the CYP2D6*10 allele on the pharmacokinetics of atomoxetine and its metabolites. Archives of Pharmacal Research, 38:2083–2091, 2015.
 
@@ -131,3 +131,7 @@
 [66] S. H. Sindrup, et al. The relationship between paroxetine and the sparteine oxidation polymorphism. Clinical Pharmacology and Therapeutics, 51:278–287, 1992.
 
 [67] Y. R. Yoon, et al. Relationship of paroxetine disposition to metoprolol metabolic ratio and CYP2D6*10 genotype. Clinical Pharmacology and Therapeutics, 67:567–576, 2000.
+
+[68] S. Rüdesheim, H. L. H. Loer, D. Feick, F. Z. Marok, L. M. Fuhr, D. Selzer, D. Teutonico, A. R. P. Schneider, J. Solodenko, S. Frechen, M. van der Lee, D. J. A. R. Moes, J. J. Swen, M. Schwab, and T. Lehr. A comprehensive CYP2D6 drug-drug-gene interaction network for application in precision dosing and drug development. Clinical Pharmacology and Therapeutics, 117(6):1718–1731, 2025. doi: [10.1002/cpt.3604](https://doi.org/10.1002/cpt.3604).
+
+[69] D. Feick, S. Rüdesheim, F. Z. Marok, D. Selzer, H. L. H. Loer, D. Teutonico, S. Frechen, M. van der Lee, D. J. A. R. Moes, J. J. Swen, M. Schwab, and T. Lehr. Physiologically based pharmacokinetic modeling of quinidine to establish a CYP3A4, P-gp, and CYP2D6 drug-drug-gene interaction network. CPT: Pharmacometrics and Systems Pharmacology, 12:1143–1156, 2023. doi: [10.1002/psp4.12981](https://doi.org/10.1002/psp4.12981).

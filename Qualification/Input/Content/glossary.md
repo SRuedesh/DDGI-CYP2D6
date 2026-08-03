@@ -10,11 +10,11 @@
 | CIM     | cimetidine                                                      |
 | CLA     | clarithromycin                                                  |
 | CLO     | (E)-clomiphene                                                  |
-| Cmax    | maximum plasma concentration                                    |
+| C<sub>max</sub> | maximum plasma concentration                           |
 | C<sub>max</sub>R | C<sub>max</sub> ratio                                  |
 | CYP     | cytochrome P450                                                 |
 | DDI     | drug-drug interaction                                           |
-| DDGI    | Drug-drug-gene interaction                                      |
+| DDGI    | drug-drug-gene interaction                                      |
 | DGI     | drug-gene interaction                                           |
 | DES     | desipramine                                                     |
 | DEX     | dextromethorphan                                                |

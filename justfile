@@ -1,34 +1,44 @@
-set shell := ["powershell.exe", "-NoProfile", "-Command"]
+set shell := ["pwsh.exe", "-NoProfile", "-Command"]
 
 root := justfile_directory()
 runner := root / "../../tools/Qualification-Runner.12.2.232"
-workdir := root / "../../runs/ddgi-cyp2d6-local"
+workdir := "C:/tmp/osp"
 
 default:
     just --list
 
 run:
-    just --justfile "{{root}}/justfile" preflight
     just --justfile "{{root}}/justfile" local-plan
-    $ErrorActionPreference='Stop'; $runner=(Resolve-Path -LiteralPath '{{runner}}/QualificationRunner.exe').Path; $plan=(Resolve-Path -LiteralPath '{{root}}/Qualification/tmp/qualification_plan.local.json').Path; New-Item -ItemType Directory -Force -Path '{{workdir}}' | Out-Null; $work=(Resolve-Path -LiteralPath '{{workdir}}').Path; $drive='Q:'; if (Test-Path -LiteralPath "$drive\") { throw "Drive $drive is already in use" }; subst $drive $work; try { $short="$drive\"; $output=Join-Path $short 're_input'; & $runner -i $plan -o $output --norun -n report-configuration-plan -f; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }; $env:QUALIFICATION_REFERENCE_FOLDER=$output; just --justfile "{{root}}/justfile" check-render-inputs; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }; $env:QUALIFICATION_WORK_DIR=$short; just --justfile "{{root}}/justfile" render; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE } } finally { subst $drive /D }
+    just --justfile "{{root}}/justfile" preflight
+    $ErrorActionPreference='Stop'; pwsh.exe -NoProfile -ExecutionPolicy Bypass -File '{{root}}/scripts/prepare-local-work-folder.ps1' -WorkFolder '{{workdir}}'; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }; $runner=(Resolve-Path -LiteralPath '{{runner}}/QualificationRunner.exe').Path; $plan=(Resolve-Path -LiteralPath '{{root}}/Qualification/tmp/qualification_plan.local.json').Path; $work=(Resolve-Path -LiteralPath '{{workdir}}').Path; $output=Join-Path $work 're_input'; & $runner -i $plan -o $output --norun -n report-configuration-plan -f; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }; pwsh.exe -NoProfile -ExecutionPolicy Bypass -File '{{root}}/scripts/remove-iv-cmax-ratios.ps1' -ReferenceFolder $output; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }; $env:QUALIFICATION_REFERENCE_FOLDER=$output; just --justfile "{{root}}/justfile" check-render-inputs; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }; $env:QUALIFICATION_WORK_DIR=$work; just --justfile "{{root}}/justfile" render; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 
 preflight:
-    powershell.exe -NoProfile -ExecutionPolicy Bypass -File "{{root}}/scripts/check-qualification-references.ps1" -Root "{{root}}"
+    pwsh.exe -NoProfile -ExecutionPolicy Bypass -File "{{root}}/scripts/check-qualification-references.ps1" -Root "{{root}}"
+
+check-report-consistency:
+    pwsh.exe -NoProfile -ExecutionPolicy Bypass -File "{{root}}/scripts/check-report-consistency.ps1" -Root "{{root}}"
+
+check-release-readiness:
+    pwsh.exe -NoProfile -ExecutionPolicy Bypass -File "{{root}}/scripts/check-report-consistency.ps1" -Root "{{root}}" -ReleaseReady
 
 check-render-inputs:
-    $ErrorActionPreference='Stop'; $referenceFolder=$env:QUALIFICATION_REFERENCE_FOLDER; if (-not $referenceFolder) { $referenceFolder=Join-Path (Resolve-Path -LiteralPath '{{workdir}}').Path 're_input' }; powershell.exe -NoProfile -ExecutionPolicy Bypass -File "{{root}}/scripts/check-render-mappings.ps1" -ReferenceFolder $referenceFolder
+    $ErrorActionPreference='Stop'; $referenceFolder=$env:QUALIFICATION_REFERENCE_FOLDER; if (-not $referenceFolder) { $referenceFolder=Join-Path (Resolve-Path -LiteralPath '{{workdir}}').Path 're_input' }; pwsh.exe -NoProfile -ExecutionPolicy Bypass -File "{{root}}/scripts/check-render-mappings.ps1" -ReferenceFolder $referenceFolder
 
 local-plan:
-    powershell.exe -NoProfile -ExecutionPolicy Bypass -File "{{root}}/scripts/create-local-plan.ps1" -Root "{{root}}"
+    just --justfile "{{root}}/justfile" harmonize-plan
+    pwsh.exe -NoProfile -ExecutionPolicy Bypass -File "{{root}}/scripts/create-local-plan.ps1" -Root "{{root}}"
+
+harmonize-plan:
+    pwsh.exe -NoProfile -ExecutionPolicy Bypass -File "{{root}}/scripts/harmonize-qualification-plan.ps1" -Root "{{root}}"
 
 render:
-    $ErrorActionPreference='Stop'; $env:REPO_ROOT='{{root}}'; $createdDrive=$false; if (-not $env:QUALIFICATION_WORK_DIR) { $work=(Resolve-Path -LiteralPath '{{workdir}}').Path; $drive='Q:'; if (Test-Path -LiteralPath "$drive\") { throw "Drive $drive is already in use" }; subst $drive $work; $env:QUALIFICATION_WORK_DIR="$drive\"; $createdDrive=$true }; if (-not $env:QUALIFICATION_REFERENCE_FOLDER) { $env:QUALIFICATION_REFERENCE_FOLDER=(Join-Path $env:QUALIFICATION_WORK_DIR 're_input') }; try { & Rscript '{{root}}/scripts/render-local-report.R'; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE } } finally { if ($createdDrive) { subst Q: /D } }
+    $ErrorActionPreference='Stop'; $env:REPO_ROOT='{{root}}'; $env:LC_ALL=$null; $env:LC_CTYPE=$null; $env:LANG=$null; if (-not $env:QUALIFICATION_WORK_DIR) { $env:QUALIFICATION_WORK_DIR=(Resolve-Path -LiteralPath '{{workdir}}').Path }; if (-not $env:QUALIFICATION_REFERENCE_FOLDER) { $env:QUALIFICATION_REFERENCE_FOLDER=(Join-Path $env:QUALIFICATION_WORK_DIR 're_input') }; pwsh.exe -NoProfile -ExecutionPolicy Bypass -File '{{root}}/scripts/remove-iv-cmax-ratios.ps1' -ReferenceFolder $env:QUALIFICATION_REFERENCE_FOLDER; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }; & Rscript '{{root}}/scripts/render-local-report.R'; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }; pwsh.exe -NoProfile -ExecutionPolicy Bypass -File '{{root}}/scripts/copy-local-report.ps1' -SourceFolder (Join-Path $env:QUALIFICATION_WORK_DIR 'report') -DestinationFolder '{{root}}/Qualification/report' -RepositoryRoot '{{root}}'; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 
-render-inline:
-    $ErrorActionPreference='Stop'; $env:REPO_ROOT='{{root}}'; $createdDrive=$false; if (-not $env:QUALIFICATION_WORK_DIR) { $work=(Resolve-Path -LiteralPath '{{workdir}}').Path; $drive='Q:'; if (Test-Path -LiteralPath "$drive\") { throw "Drive $drive is already in use" }; subst $drive $work; $env:QUALIFICATION_WORK_DIR="$drive\"; $createdDrive=$true }; if (-not $env:QUALIFICATION_REFERENCE_FOLDER) { $env:QUALIFICATION_REFERENCE_FOLDER=(Join-Path $env:QUALIFICATION_WORK_DIR 're_input') }; try { Rscript -e "library(ospsuite.reportingengine); originalLoadConfigurationPlan <- ospsuite.reportingengine:::loadConfigurationPlan; patchedLoadConfigurationPlan <- function(configurationPlanFile, workflowFolder) { plan <- originalLoadConfigurationPlan(configurationPlanFile, workflowFolder); plan`$referenceFolder <- gsub('\\\\', '/', Sys.getenv('QUALIFICATION_REFERENCE_FOLDER')); mappings <- plan`$.__enclos_env__`$private`$.simulationMappings; mappings`$path <- sub('[/\\\\]+$', '', mappings`$path); simulationFiles <- file.path(plan`$referenceFolder, mappings`$path, paste0(mappings`$simulationFile, '.pkml')); fileSizes <- file.info(simulationFiles)`$size; validMappings <- file.exists(simulationFiles) & !is.na(fileSizes) & fileSizes > 0; if (any(!validMappings)) { warning(sprintf('Excluding %d simulation mapping(s) with missing or empty PKML files.', sum(!validMappings))) }; plan`$.__enclos_env__`$private`$.simulationMappings <- mappings[validMappings, , drop = FALSE]; plan }; assignInNamespace('loadConfigurationPlan', patchedLoadConfigurationPlan, ns='ospsuite.reportingengine'); root <- normalizePath(Sys.getenv('REPO_ROOT'), winslash='/', mustWork=TRUE); workDir <- gsub('\\\\', '/', Sys.getenv('QUALIFICATION_WORK_DIR')); w <- loadQualificationWorkflow(workflowFolder=file.path(workDir, 're_output'), configurationPlanFile=file.path(workDir, 're_input', 'report-configuration-plan.json')); w`$reportFilePath <- file.path(root, 'Qualification', 'report', 'report.md'); w`$createWordReport <- FALSE; w`$inactivateTasks(c('simulate', 'calculatePKParameters', 'plotTimeProfiles', 'plotComparisonTimeProfile', 'plotGOFMerged', 'plotPKRatio', 'plotDDIRatio')); w`$runWorkflow()"; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE } } finally { if ($createdDrive) { subst Q: /D } }
+render-ratios:
+    $ErrorActionPreference='Stop'; $env:REPO_ROOT='{{root}}'; $env:LC_ALL=$null; $env:LC_CTYPE=$null; $env:LANG=$null; if (-not $env:QUALIFICATION_WORK_DIR) { $env:QUALIFICATION_WORK_DIR=(Resolve-Path -LiteralPath '{{workdir}}').Path }; if (-not $env:QUALIFICATION_REFERENCE_FOLDER) { $env:QUALIFICATION_REFERENCE_FOLDER=(Join-Path $env:QUALIFICATION_WORK_DIR 're_input') }; & Rscript '{{root}}/scripts/render-ratio-plots.R'; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 
 render-pdf:
-    $ErrorActionPreference='Stop'; $workspace=(Resolve-Path -LiteralPath '{{root}}/../..').Path; $reportDir=(Resolve-Path -LiteralPath '{{root}}/Qualification/report').Path; Push-Location $workspace; try { & Rscript 'tmp/pdfs/render-manual-dgi-timeprofile-plots.R'; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }; Push-Location $reportDir; try { & pandoc 'report.md' '--embed-resources' '--standalone' '--mathjax' '--quiet' '-c' 'osp.css' '-f' 'gfm+tex_math_dollars' '-t' 'html' '-o' 'report.html'; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE } } finally { Pop-Location }; $chrome=(Get-ChildItem -LiteralPath 'tmp/pdfs/chromehtml2pdf/node_modules/puppeteer/.local-chromium' -Recurse -Filter chrome.exe | Select-Object -First 1).FullName; if (-not $chrome) { throw 'Local Chromium executable was not found.' }; & node 'tmp/pdfs/render-osp-pdf.js' (Join-Path $reportDir 'report.html') (Join-Path $reportDir 'report.pdf') $chrome; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE } } finally { Pop-Location }
+    $ErrorActionPreference='Stop'; $env:LC_ALL=$null; $env:LC_CTYPE=$null; $env:LANG=$null; $workspace=(Resolve-Path -LiteralPath '{{root}}/../..').Path; $reportDir=(Resolve-Path -LiteralPath '{{root}}/Qualification/report').Path; Push-Location $workspace; try { & Rscript 'tmp/pdfs/render-manual-dgi-timeprofile-plots.R'; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }; Push-Location $reportDir; try { & pandoc 'report.md' '--embed-resources' '--standalone' '--mathml' '--quiet' '-f' 'gfm+tex_math_dollars' '-t' 'html' '-o' 'report.html'; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE } } finally { Pop-Location }; $edgeCandidates=@('C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe','C:/Program Files/Microsoft/Edge/Application/msedge.exe'); $browser=($edgeCandidates | Where-Object { Test-Path -LiteralPath $_ } | Select-Object -First 1); if (-not $browser) { throw 'Microsoft Edge is required for offline MathML rendering.' }; & node 'tmp/pdfs/render-osp-pdf.js' (Join-Path $reportDir 'report.html') (Join-Path $reportDir 'report.pdf') $browser; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE } } finally { Pop-Location }
 
 clean:
     $paths = @('{{workdir}}', '{{root}}/Qualification/re_input', '{{root}}/Qualification/re_output', '{{root}}/Qualification/report', '{{root}}/Qualification/tmp', '{{root}}/Qualification/runner.log', '{{root}}/Qualification/Rplots.pdf', '{{root}}/Rplots.pdf', '{{root}}/.spellcheck.yml', '{{root}}/wordlist_osp_global.txt', '{{root}}/OSP_Qualification_Plan_Schema.json', '{{root}}/mlc_config.json'); foreach ($path in $paths) { if (Test-Path -LiteralPath $path) { Remove-Item -LiteralPath $path -Recurse -Force } }
@@ -44,7 +54,9 @@ spellcheck:
 
 actions:
     just clean
+    just harmonize-plan
     just check-utf8
+    just check-report-consistency
     just preflight
     just check-plan
     just spellcheck

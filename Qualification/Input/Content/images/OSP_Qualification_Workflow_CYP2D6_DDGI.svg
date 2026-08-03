@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820" role="img" aria-labelledby="title desc">
+  <title id="title">OSP automatic requalification workflow</title>
+  <desc id="desc">Versioned models and observed DDI, DGI, and DDGI data flow through a qualification plan, Qualification Runner, and Reporting Engine to a qualification report.</desc>
+  <defs>
+    <marker id="arrow-blue" markerWidth="24" markerHeight="24" refX="22" refY="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L24,12 L0,24 Z" fill="#00A7E1"/></marker>
+    <marker id="arrow-pink" markerWidth="24" markerHeight="24" refX="22" refY="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L24,12 L0,24 Z" fill="#E40046"/></marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-opacity="0.2"/></filter>
+    <style>
+      .title{font:700 42px Arial,sans-serif;fill:#153C52}.heading{font:700 31px Arial,sans-serif;fill:#153C52}.boxheading{font:700 24px Arial,sans-serif;fill:#153C52}.body{font:22px Arial,sans-serif;fill:#153C52}.small{font:21px Arial,sans-serif;fill:#153C52}.white{fill:#fff}.box{stroke:#153C52;stroke-width:4;rx:18;filter:url(#shadow)}
+    </style>
+  </defs>
+  <rect width="1600" height="820" fill="#F4FAFC"/>
+  <text x="70" y="70" class="title">USE CASE <tspan fill="#E40046">CYP2D6 DDGI</tspan></text>
+
+  <rect x="70" y="145" width="360" height="205" fill="#7FD100" class="box"/>
+  <text x="250" y="205" text-anchor="middle" class="boxheading">Versioned model snapshots</text>
+  <text x="250" y="255" text-anchor="middle" class="body">Parent-drug models</text>
+  <text x="250" y="295" text-anchor="middle" class="body">DDI and DDGI projects</text>
+  <text x="250" y="335" text-anchor="middle" class="body">DGI simulations</text>
+
+  <rect x="70" y="455" width="360" height="215" fill="#00A7E1" class="box"/>
+  <text x="250" y="515" text-anchor="middle" class="heading white">Observed clinical data</text>
+  <text x="250" y="565" text-anchor="middle" class="body white">DDI ratios and profiles</text>
+  <text x="250" y="605" text-anchor="middle" class="body white">DGI ratios and profiles</text>
+  <text x="250" y="645" text-anchor="middle" class="body white">DDGI supporting DDI ratios</text>
+
+  <path d="M430 245 H570" fill="none" stroke="#00A7E1" stroke-width="12" marker-end="url(#arrow-blue)"/>
+  <path d="M430 560 H520 Q570 560 570 510 V420" fill="none" stroke="#00A7E1" stroke-width="12" marker-end="url(#arrow-blue)"/>
+
+  <rect x="600" y="120" width="370" height="570" fill="#FFFFFF" class="box"/>
+  <rect x="600" y="120" width="370" height="82" fill="#153C52" rx="16"/>
+  <text x="785" y="173" text-anchor="middle" class="heading white">Qualification plan</text>
+  <text x="650" y="250" class="heading">Inputs</text>
+  <text x="680" y="295" class="body">• Model and data references</text>
+  <text x="680" y="335" class="body">• Simulation mappings</text>
+  <text x="680" y="375" class="body">• Comparison windows</text>
+  <text x="650" y="445" class="heading">Report specification</text>
+  <text x="680" y="490" class="body">• Sections and narrative</text>
+  <text x="680" y="530" class="body">• Figures and tables</text>
+  <text x="680" y="570" class="body">• Qualification measures</text>
+  <text x="680" y="610" class="body">• Plot and style settings</text>
+
+  <path d="M970 275 H1080" fill="none" stroke="#E40046" stroke-width="12" marker-end="url(#arrow-pink)"/>
+  <rect x="1110" y="170" width="410" height="210" fill="#FFFFFF" class="box"/>
+  <text x="1315" y="235" text-anchor="middle" class="heading">Qualification Runner</text>
+  <text x="1315" y="285" text-anchor="middle" class="body">Resolve inputs and simulations</text>
+  <text x="1315" y="325" text-anchor="middle" class="body">Prepare reporting inputs</text>
+
+  <path d="M1315 380 V445" fill="none" stroke="#E40046" stroke-width="12" marker-end="url(#arrow-pink)"/>
+  <rect x="1110" y="475" width="410" height="120" fill="#FFFFFF" class="box"/>
+  <text x="1315" y="545" text-anchor="middle" class="heading">Reporting Engine</text>
+
+  <path d="M1315 595 V650" fill="none" stroke="#E40046" stroke-width="12" marker-end="url(#arrow-pink)"/>
+  <path d="M1110 690 H1520 V775 H1110 Z" fill="#E40046" stroke="#153C52" stroke-width="4" filter="url(#shadow)"/>
+  <text x="1315" y="735" text-anchor="middle" class="heading white">Qualification report</text>
+  <text x="1315" y="765" text-anchor="middle" class="small white">Markdown • HTML • PDF • DOCX</text>
+</svg>

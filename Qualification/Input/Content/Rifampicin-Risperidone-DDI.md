@@ -1,10 +1,11 @@
 The rifampicin-risperidone interaction was evaluated using clinical DDI studies listed in [Table 2-26](#table-2-26).
 
-| **Source**                            | **Route** | **Schedule**  | **Pop.** | **Sex** | **N** | **Perpetrator**           |
-| ------------------------------------- | --------- | ------------- | -------- | ------- | ----- | ------------------------- |
-| [Kim 2008](#references)             | po        | 1 mg s.d.     | Asian    | m       | 10    | +/- RIF, 600 mg q.d. po   |
-| [Mahatthanatrakul 2007](#references)| po        | 4 mg s.d.     | Asian    | m       | 10    | +/- RIF, 600 mg q.d. po   |
+| **DataID** | **Source**                            | **Route** | **Schedule**  | **Pop.** | **Sex** | **N** | **Perpetrator**           |
+| --- | ------------------------------------- | --------- | ------------- | -------- | ------- | ----- | ------------------------- |
+| 17170, 17172 | [Kim 2008](#references)             | po        | 1 mg s.d.     | Asian    | m       | 10    | +/- RIF, 600 mg q.d. po   |
+| 17174 | [Mahatthanatrakul 2007](#references)| po        | 4 mg s.d.     | Asian    | m       | 10    | +/- RIF, 600 mg q.d. po   |
 
 
 **Table 2-26: Clinical studies included for rifampicin-risperidone DDI**<a id="table-2-26"></a> m: male, N: number of study participants, po: oral, pop.: population used in simulations, q.d.: once daily, RIF: rifampicin, s.d.: single dose. If perpetrator or victim drugs were applied in form of salts, the respective dose of base was calculated and incorporated in simulations.
 
+Source project: [Rifampicin-Risperidone-DDI](https://github.com/Open-Systems-Pharmacology/Rifampicin-Risperidone-DDI).

@@ -1,4 +1,4 @@
-The following section shows the correlations between observed and model-predicted AUC and C<sub>max</sub> ratios.
+The following section shows comparisons between observed and model-predicted AUC and C<sub>max</sub> ratios.
 
 Specifically, PBPK model performance for the PK parameters **AUC ratio (AUCR)** and **C<sub>max</sub> ratio (C<sub>max</sub>R)** is assessed via:
 
@@ -25,7 +25,13 @@ In the plots,
 
 - the bold solid line denotes the unity line,
 
-- each color represents one combination of perpetrator and victim (parent drug or metabolite)
+- in DDI plots, each color represents an analyte and each symbol represents a perpetrator,
+
+- in DGI plots, the fill represents the analyte and the outline represents the CYP2D6 comparison, and
+
+- in DDGI plots, the fill represents the analyte, the symbol represents the perpetrator, and the outline represents the CYP2D6 comparison
 
 
 ***
+
+The value δ = 1.25 was prespecified for all DDI, DGI, and DDGI evaluations. It reflects the conventional 0.80-1.25 bioequivalence bounds. The same value is used in all generated plots, captions, and summary tables.
