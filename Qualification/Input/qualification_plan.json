@@ -3,7 +3,7 @@
   "Projects": [
     {
       "Id": "Quinidine-Dextromethorphan-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Quinidine-Dextromethorphan-DDI/main/Quinidine-Dextromethorphan-DDI.json",
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Quinidine-Dextromethorphan-DDI/130705a63d03b8131e7854bda3ea42a039fe1daf/Quinidine-Dextromethorphan-DDI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
@@ -15,85 +15,85 @@
     },
     {
       "Id": "Quinidine-Mexiletine-DDGI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Quinidine-Mexiletine-DDGI/main/Quinidine-Mexiletine-DDGI.json",
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Quinidine-Mexiletine-DDGI/ad572764185123e1bebd9505f6cdc20c6693d22b/Quinidine-Mexiletine-DDGI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Quinidine-Paroxetine-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Quinidine-Paroxetine-DDI/qualification-cyp2d6-snapshot-sync/Quinidine-Paroxetine-DDI.json",
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Quinidine-Paroxetine-DDI/f90df12a6fce389139733663bdfd6375da7e5b69/Quinidine-Paroxetine-DDI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Carbamazepine-Quinidine-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Quinidine-DDI/main/Carbamazepine-Quinidine-DDI.json",
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Carbamazepine-Quinidine-DDI/4d6a3808f09f86b363de47ea0cf499056838e8c2/Carbamazepine-Quinidine-DDI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Cimetidine-Quinidine-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Quinidine-DDI/main/Cimetidine-Quinidine-DDI.json",
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Cimetidine-Quinidine-DDI/d48911a06c30f61483dda31d1759af452024b184/Cimetidine-Quinidine-DDI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Fluvoxamine-Quinidine-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Quinidine-DDI/main/Fluvoxamine-Quinidine-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Quinidine-DDI/a1c4dbce403f9ec56785409bdf9f8923e6385b26/Fluvoxamine-Quinidine-DDI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Omeprazole-Quinidine-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Omeprazole-Quinidine-DDI/main/Omeprazole-Quinidine-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Omeprazole-Quinidine-DDI/c94744e07869170b3a9515ea65c84152aac54229/Omeprazole-Quinidine-DDI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Rifampicin-Quinidine-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Quinidine-DDI/main/Rifampicin-Quinidine-DDI.json",
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Rifampicin-Quinidine-DDI/31e7ead216d155d8d6e93dbe541f5f0b20902326/Rifampicin-Quinidine-DDI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Verapamil-Quinidine-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Quinidine-DDI/main/Verapamil-Quinidine-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Quinidine-DDI/1c639aa68e641c760ef5db2ec85485b267fd933c/Verapamil-Quinidine-DDI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Paroxetine-Alprazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Paroxetine-Alprazolam-DDI/qualification-cyp2d6-snapshot-sync/Paroxetine-Alprazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Paroxetine-Alprazolam-DDI/a5e63065b8c45457aa87be1a4e1f7916990d3614/Paroxetine-Alprazolam-DDI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Fluvoxamine-Atomoxetine-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Atomoxetine-DDI/main/Fluvoxamine-Atomoxetine-DDI.json",
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Fluvoxamine-Atomoxetine-DDI/75e0dc469b4e4bcde5bedbe83c91aa8a0579badf/Fluvoxamine-Atomoxetine-DDI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Paroxetine-Atomoxetine-DDGI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Paroxetine-Atomoxetine-DDGI/main/Paroxetine-Atomoxetine-DDGI.json",
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Paroxetine-Atomoxetine-DDGI/de844358842739d4509bb8b20ce0f8b3b318c2d0/Paroxetine-Atomoxetine-DDGI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Clarithromycin-Clomiphene-DDGI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Clomiphene-DDGI/main/Clarithromycin-Clomiphene-DDGI.json",
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Clarithromycin-Clomiphene-DDGI/ecdc35a29363180b53de4000c7b7d4b3c38bcdb8/Clarithromycin-Clomiphene-DDGI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Paroxetine-Clomiphene-DDGI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Paroxetine-Clomiphene-DDGI/qualification-cyp2d6-snapshot-sync/Paroxetine-Clomiphene-DDGI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Paroxetine-Clomiphene-DDGI/ebad9136cadb5db843bf938d9e1f998d2783d454/Paroxetine-Clomiphene-DDGI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Atomoxetine-Desipramine-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Atomoxetine-Desipramine-DDI/main/Atomoxetine-Desipramine-DDI.json",
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Atomoxetine-Desipramine-DDI/ebcf7cb3d3a3f434779d0e637602379be60dd34b/Atomoxetine-Desipramine-DDI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
@@ -111,73 +111,73 @@
     },
     {
       "Id": "Paroxetine-Dextromethorphan-DDGI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Paroxetine-Dextromethorphan-DDGI/qualification-cyp2d6-snapshot-sync/Paroxetine-Dextromethorphan-DDGI.json",
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Paroxetine-Dextromethorphan-DDGI/d9e0e241e1f9d5f1a7bebad6f4c7f217f7db235f/Paroxetine-Dextromethorphan-DDGI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Cimetidine-Metoprolol-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Metoprolol-DDI/main/Cimetidine-Metoprolol-DDI-.json",
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Cimetidine-Metoprolol-DDI/fb835f356c9edcf78421e0c613298defafaee741/Cimetidine-Metoprolol-DDI-.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Paroxetine-Metoprolol-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Paroxetine-Metoprolol-DDI/main/Paroxetine-Metoprolol-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Paroxetine-Metoprolol-DDI/5031c5129c4322ac670f7d79383eb04f9b49dea6/Paroxetine-Metoprolol-DDI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Quinidine-Metoprolol-DDGI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Quinidine-Metoprolol-DDGI/main/Quinidine-Metoprolol-DDGI_v1.1.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Quinidine-Metoprolol-DDGI/e7e414f0804844bf608baeff241326ba1727c912/Quinidine-Metoprolol-DDGI_v1.1.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Rifampicin-Metoprolol-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Metoprolol-DDI/main/Rifampicin-Metoprolol-DDI.json",
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Rifampicin-Metoprolol-DDI/efaa377c6477ec4a3551eb06b459a2c3b0632b08/Rifampicin-Metoprolol-DDI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Atomoxetine-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Atomoxetine-Midazolam-DDI/main/Atomoxetine-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Atomoxetine-Midazolam-DDI/c6b15fedec9b0e15a7998bee99636315c11d2a36/Atomoxetine-Midazolam-DDI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Itraconazole-Paroxetine-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Paroxetine-DDI/main/Itraconazole-Paroxetine-DDI.json",
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Itraconazole-Paroxetine-DDI/392cdf64eb3ffd04dca680029a3ffa57ee7b1eb4/Itraconazole-Paroxetine-DDI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Erythromycin-Quinidine-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Quinidine-DDI/main/Erythromycin-Quinidine-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Quinidine-DDI/d6e6784299f796b9ded4e0a58fcdb3b37f0d8413/Erythromycin-Quinidine-DDI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Itraconazole-Quinidine-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Quinidine-DDI/main/Itraconazole-Quinidine-DDI.json",
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Itraconazole-Quinidine-DDI/a76b395f3ba9ad9661efa9661e818b8322bc177e/Itraconazole-Quinidine-DDI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Ketoconazole-Risperidone-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Ketoconazole-Risperidone-DDI/main/Ketoconazole-Risperidone-DDI.json",
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Ketoconazole-Risperidone-DDI/3785af24ae9041b3915cc31b39c48904381bbbe0/Ketoconazole-Risperidone-DDI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Rifampicin-Risperidone-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Risperidone-DDI/main/Rifampicin-Risperidone-DDI.json",
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Rifampicin-Risperidone-DDI/dc71052b8d9997792a82d753bd4082caf83e4f0e/Rifampicin-Risperidone-DDI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },
     {
       "Id": "Verapamil-Risperidone-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Risperidone-DDI/main/Verapamil-Risperidone-DDI.json",
+      "Path": "https://raw.githubusercontent.com/SRuedesh/Verapamil-Risperidone-DDI/4f2b6033442dfe9eca91fe238057079cb70c12b7/Verapamil-Risperidone-DDI.json",
       "BuildingBlocks": [],
       "SimulationParameters": []
     },

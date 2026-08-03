@@ -9,17 +9,88 @@ $rootPath = (Resolve-Path -LiteralPath $Root).Path
 $planPath = Join-Path $rootPath "Qualification/Input/qualification_plan.json"
 $themePath = Join-Path $rootPath "Qualification/Input/report-theme.json"
 $overridesPath = Join-Path $rootPath "Qualification/Input/plot-overrides.json"
+$manifestPath = Join-Path $rootPath "Qualification/Input/snapshot_manifest.csv"
+$networkPath = Join-Path $rootPath "Qualification/Input/Content/Qualification_DDI_network_description.md"
 $plan = Get-Content -Raw -LiteralPath $planPath | ConvertFrom-Json
 $theme = Get-Content -Raw -LiteralPath $themePath | ConvertFrom-Json
 $plotOverrides = Get-Content -Raw -LiteralPath $overridesPath | ConvertFrom-Json
 
-$clomipheneSnapshotCommit = "f04a04817bd199810af30a048f994d15719dce10"
-$clomipheneProject = $plan.Projects | Where-Object Id -eq "Clomiphene-DGI"
-if ($null -eq $clomipheneProject) {
-  throw "The Clomiphene-DGI project is missing from the qualification plan."
+$snapshotManifest = Import-Csv -LiteralPath $manifestPath
+foreach ($snapshot in $snapshotManifest) {
+  if (-not $snapshot.Commit -or $snapshot.Commit -eq "Pending") {
+    continue
+  }
+
+  $project = $plan.Projects | Where-Object Id -eq $snapshot.Project
+  if ($null -eq $project) {
+    throw "The $($snapshot.Project) project is missing from the qualification plan."
+  }
+  if ($snapshot.Repository -notmatch '^https://github[.]com/([^/]+)/([^/]+)$') {
+    throw "The repository URL is invalid for $($snapshot.Project)."
+  }
+
+  $owner = $Matches[1]
+  $repository = $Matches[2]
+  $project.Path =
+    "https://raw.githubusercontent.com/$owner/$repository/$($snapshot.Commit)/$($snapshot.SnapshotPath)"
 }
-$clomipheneProject.Path =
-  "https://raw.githubusercontent.com/SRuedesh/Clomiphene-Model/$clomipheneSnapshotCommit/Clomiphene-Model.json"
+
+function Update-QualificationManifestTable {
+  param(
+    [Parameter(Mandatory = $true)]
+    [object[]]$Manifest,
+    [Parameter(Mandatory = $true)]
+    [object]$QualificationPlan,
+    [Parameter(Mandatory = $true)]
+    [string]$Path
+  )
+
+  $lines = @(Get-Content -LiteralPath $Path)
+  $header = "| Project | Type | Repository | Snapshot path | Commit | Release |"
+  $headerIndex = [Array]::IndexOf($lines, $header)
+  if ($headerIndex -lt 0) {
+    throw "The qualification input manifest table is missing from $Path."
+  }
+
+  $tableEnd = $headerIndex + 2
+  while ($tableEnd -lt $lines.Count -and $lines[$tableEnd].StartsWith("|")) {
+    $tableEnd++
+  }
+
+  $rows = foreach ($snapshot in $Manifest) {
+    $project = $QualificationPlan.Projects | Where-Object Id -eq $snapshot.Project
+    if ($null -eq $project) {
+      throw "The $($snapshot.Project) project is missing from the qualification plan."
+    }
+
+    $repositoryCell = "[$($snapshot.Project)]($($snapshot.Repository))"
+    $snapshotCell = "[$($snapshot.SnapshotPath)]($($project.Path))"
+    $commitCell = "Pending"
+    if ($snapshot.Commit -and $snapshot.Commit -ne "Pending") {
+      $shortCommit = $snapshot.Commit.Substring(0, 7)
+      $commitCell = "[$shortCommit]($($snapshot.Repository)/commit/$($snapshot.Commit))"
+    }
+
+    $releaseCell = "—"
+    if ($snapshot.Release) {
+      $releaseLabel = Split-Path -Leaf $snapshot.Release
+      $releaseCell = "[$releaseLabel]($($snapshot.Release))"
+    }
+
+    "| $($snapshot.Project) | $($snapshot.Type) | $repositoryCell | $snapshotCell | $commitCell | $releaseCell |"
+  }
+
+  $updatedLines = @(
+    $lines[0..($headerIndex + 1)]
+    $rows
+    $lines[$tableEnd..($lines.Count - 1)]
+  )
+  [System.IO.File]::WriteAllText(
+    $Path,
+    ($updatedLines -join "`n") + "`n",
+    [System.Text.UTF8Encoding]::new($false)
+  )
+}
 
 $sourceNameReplacements = [ordered]@{
   "Todor (2016) - atomoxetine, 25 mg, po, n=18 (NM)" =
@@ -1564,6 +1635,11 @@ $jin125 = @($jin2008.OutputMappings | Where-Object {
 if ($jin125.Count -ne 1) {
   throw "Jin 2008 metoprolol must contain one AS=1.25 simulation and observed-data mapping."
 }
+
+Update-QualificationManifestTable `
+  -Manifest $snapshotManifest `
+  -QualificationPlan $plan `
+  -Path $networkPath
 
 $json = $plan | ConvertTo-Json -Depth 100
 $json = $json -replace "`r`n", "`n"
